@@ -29,7 +29,7 @@ OnTimer3000:
 	initnpctimer;
 	addrid(4,0,109,160,130,174);
 	if (Hp != 0 && (Hp != MaxHp || MaxSp != Sp)) {
-		areapercentheal "akasenzai",109,160,130,174,20,20;
+		percentheal 20,20;
 		specialeffect2 EF_HEAL2;
 	} 
 	detachrid();
@@ -43,7 +43,7 @@ OnTimer3000:
 	initnpctimer;
 	addrid(4,0,106,86,133,113);
 	if (Hp != 0 && (Hp != MaxHp || MaxSp != Sp)) {
-		areapercentheal "akasenzai",106,86,133,113,20,20;
+		percentheal 20,20;
 		specialeffect2 EF_HEAL2;
 	} 
 	detachrid();

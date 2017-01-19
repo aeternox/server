@@ -20,6 +20,13 @@
 //= 2.0 Moved some NPC to Pre-re path. [Capuche]
 //============================================================
 
+akasenzai,122,131,3	script	Bulletin Board#29	837,{
+	mes "[Akasenzai]"; 
+	mes "Welcome to Aeternox community area.";
+	mes "Enjoy the healing fountain or set up a stall in the vending square.";
+	close;
+}
+
 alberta,111,59,5	script	Bulletin Board#1	837,{
 	mes "[Alberta: The Port City]";
 	mes "Welcome to Alberta, the Port City.";

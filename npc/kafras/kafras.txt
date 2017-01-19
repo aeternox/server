@@ -24,6 +24,22 @@
 //= 1.1b Enabled saving in Izlude duplicates (RE). [Euphy]
 //============================================================ 
 
+// Akasenzai
+//============================================================ 
+akasenzai,117,131,5	script	Kafra Employee::kaf_akasenzai	116,{
+	cutin "kafra_02",2;
+	callfunc "F_KafSet";
+	mes "[Kafra Employee]";
+	mes "Welcome to the";
+	mes "Kafra Corporation~";
+	mes "The Kafra Services are";
+	mes "always here to support";
+	mes "you. So how can I be";
+	mes "of service today?";
+	callfunc "F_Kafra",5,9,1,40,800;
+	callfunc "F_KafEnd",0,1,"in the Akasenzai Palace";
+}
+
 // Aldebaran
 //============================================================
 aldeba_in,96,181,4	script	Kafra Service	113,{
