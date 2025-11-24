@@ -44,6 +44,7 @@ Thumbs.db
 /map-server-generator
 /mapcache
 /nbproject
+/rebuild.sh
 /web-server
 /yaml2sql
 /yamlupgrade
