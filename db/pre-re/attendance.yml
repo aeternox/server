@@ -32,3 +32,48 @@
 Header:
   Type: ATTENDANCE_DB
   Version: 1
+
+Body:
+  - Start: 20251125
+    End: 20261125
+    Rewards:
+      - Day: 1
+        ItemId: 504
+      - Day: 2
+        ItemId: 504
+      - Day: 3
+        ItemId: 504
+      - Day: 4
+        ItemId: 504
+      - Day: 5
+        ItemId: 504
+      - Day: 6
+        ItemId: 504
+      - Day: 7
+        ItemId: 504
+      - Day: 8
+        ItemId: 504
+      - Day: 9
+        ItemId: 504
+      - Day: 10
+        ItemId: 504
+      - Day: 11
+        ItemId: 504
+      - Day: 12
+        ItemId: 504
+      - Day: 13
+        ItemId: 504
+      - Day: 14
+        ItemId: 504
+      - Day: 15
+        ItemId: 504
+      - Day: 16
+        ItemId: 504
+      - Day: 17
+        ItemId: 504
+      - Day: 18
+        ItemId: 504
+      - Day: 19
+        ItemId: 504
+      - Day: 20
+        ItemId: 504
