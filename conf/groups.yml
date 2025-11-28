@@ -239,7 +239,7 @@ Body:
       Law Enforcement: true
     LogCommands: true
     Permissions:
-      can_trade: true
+      can_trade: false
       can_party: true
       command_enable: true
       all_skill: false
@@ -249,12 +249,12 @@ Body:
       use_changemaptype: true
       all_commands: true
       channel_admin: true
-      can_trade_bounded: true
+      can_trade_bounded: false
       item_unconditional: false
       bypass_stat_onclone: true
       bypass_max_stat: true
       macro_register: true
-      trade_unconditional: true
+      trade_unconditional: false
       #all_permission: true
 
 Footer:
