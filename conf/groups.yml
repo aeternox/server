@@ -48,6 +48,20 @@ Body:
     Commands:
       changedress: true
       resurrect: true
+      commands: true
+      rates: true
+      time: true
+      uptime: true
+      refresh: true
+      showexp: true
+      noask: true
+      mobinfo: true
+      whodrops: true
+      iteminfo: true
+      whereis: true
+      jailtime: true
+      autotrade: true
+      request: true
     Permissions:
       # without this basic permissions regular players could not trade or party
       can_trade: true
