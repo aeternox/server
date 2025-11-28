@@ -75,6 +75,66 @@ static inline int32 client_exp(t_exp exp) {
 }
 #endif
 
+// (^~_~^) Gepard Shield Start
+
+bool clif_gepard_process_packet(map_session_data* sd)
+{
+	int fd = sd->fd;
+	struct socket_data* s = session[fd];
+	int packet_id = RFIFOW(fd, 0);
+	long long diff_time = gettick() - session[fd]->gepard_info.sync_tick;
+
+	if (diff_time > 40000)
+	{
+		clif_authfail_fd(sd->fd, 15);
+		return true;
+	}
+
+	if (packet_id <= MAX_PACKET_DB)
+	{
+		return gepard_process_cs_packet(fd, s, packet_db[packet_id].len);
+	}
+
+	if (packet_id == CS_GEPARD_SYNC_2)
+	{
+		const unsigned int sync_packet_len = 128;
+		unsigned int control_value, info_type, info_code;
+
+		if (RFIFOREST(fd) < sync_packet_len)
+		{
+			return true;
+		}
+
+		gepard_enc_dec(RFIFOP(fd, 2), sync_packet_len - 2, &s->sync_crypt); 
+
+		control_value = control_value = RFIFOL(fd, 2); 
+
+		if (control_value != 0xDDCCBBAA)
+		{
+			RFIFOSKIP(fd, sync_packet_len);
+			return true;
+		}
+
+		s->gepard_info.sync_tick = gepard_get_tick();
+
+		info_type = RFIFOW(fd, 6);
+		info_code = RFIFOW(fd, 8);
+
+		if (info_type == 1 && info_code == 1)
+		{
+			const char* message = (const char*)RFIFOP(fd, 10);
+			chrif_gepard_save_report(sd, message);
+		}
+
+		RFIFOSKIP(fd, sync_packet_len);
+		return true;
+	}
+
+	return gepard_process_cs_packet(fd, s, 0);
+}
+
+// (^~_~^) Gepard Shield End
+
 /* for clif_clearunit_delayed */
 static struct eri *delay_clearunit_ers;
 
@@ -3914,6 +3974,20 @@ void clif_changemanner( map_session_data& sd ) {
 /// 00c3 <id>.L <type>.B <value>.B (ZC_SPRITE_CHANGE)
 /// 01d7 <id>.L <type>.B <value1>.W <value2>.W (ZC_SPRITE_CHANGE2)
 void clif_sprite_change( block_list *bl, int32 id, int32 type, int32 val, int32 val2, enum send_target target ){
+	switch( type ){
+		case LOOK_BODY2:
+#if PACKETVER < 20231220
+			if( val > JOB_SECOND_JOB_START && val < JOB_SECOND_JOB_END ){
+				val = 1;
+			}else{
+				val = 0;
+			}
+#elif PACKETVER < 20141022
+			return;
+#endif
+			break;
+	}
+
 	PACKET_ZC_SPRITE_CHANGE p = {};
 
 	p.packetType = sendLookType;
@@ -4040,13 +4114,13 @@ void clif_changelook(block_list *bl, int32 type, int32 val) {
 #if PACKETVER < 20150513
 				return;
 #else
-				if( val != 0 && sc != nullptr && sc->option&OPTION_COSTUME ){
- 					val = 0;
+				if( sc != nullptr && sc->option&OPTION_COSTUME ){
+ 					val = sd->status.class_;
 				}
 
  				vd->look[LOOK_BODY2] = val;
-#endif
 				break;
+#endif
 	}
 
 	// prevent leaking the presence of GM-hidden objects
@@ -5015,6 +5089,13 @@ void clif_getareachar_unit( map_session_data* sd,block_list *bl ){
 	if( bl->type == BL_NPC && npc_is_hidden_dynamicnpc( *( (npc_data*)bl ), *sd ) ){
 		// Do not send anything
 		return;
+	}
+
+	// Prevents visual bug where unit shadows appear when entering view range
+	if (battle_config.hide_cloaked_units & bl->type) {
+		if (status_change* sc = status_get_sc(bl); sc != nullptr && sc->option & (OPTION_HIDE | OPTION_CLOAK | OPTION_CHASEWALK | OPTION_INVISIBLE)) {
+			return; // Hide this unit type
+		}
 	}
 
 	ud = unit_bl2ud(bl);
@@ -10682,6 +10763,16 @@ void clif_parse_WantToConnection(int32 fd, map_session_data* sd)
 	sd->cryptKey = (((((clif_cryptKey[0] * clif_cryptKey[1]) + clif_cryptKey[2]) & 0xFFFFFFFF) * clif_cryptKey[1]) + clif_cryptKey[2]) & 0xFFFFFFFF;
 #endif
 	session[fd]->session_data = sd;
+
+// (^~_~^) Gepard Shield Start
+
+	if (is_gepard_active)
+	{
+		gepard_init(session[fd], fd, GEPARD_MAP);
+		session[fd]->gepard_info.sync_tick = gettick();
+	}
+
+// (^~_~^) Gepard Shield End
 
 	pc_setnewpc(sd, account_id, char_id, login_id1, client_tick, sex, fd);
 
@@ -22945,7 +23036,13 @@ void clif_parse_stylist_buy( int32 fd, map_session_data* sd ){
 		return;
 	}
 
-#if PACKETVER >= 20180516
+#if PACKETVER >= 20231220
+	if( p->BodyStyle != 0 ){
+		// TODO: Unsupported for now => This is job specific now
+		clif_stylist_response( sd, true );
+		return;
+	}
+#elif PACKETVER >= 20180516
 	if( p->BodyStyle != 0 && ( sd->class_ & JOBL_THIRD ) != 0 && ( sd->class_ & JOBL_FOURTH ) == 0 && !clif_parse_stylist_buy_sub( sd, LOOK_BODY2, p->BodyStyle ) ){
 		clif_stylist_response( sd, true );
 		return;
@@ -25642,6 +25739,15 @@ static int32 clif_parse(int32 fd)
 
 	if (RFIFOREST(fd) < 2)
 		return 0;
+
+// (^~_~^) Gepard Shield Start
+
+	if (is_gepard_active == true && sd != NULL && clif_gepard_process_packet(sd) == true)
+	{
+		return 0;
+	}
+
+// (^~_~^) Gepard Shield End
 
 	cmd = RFIFOW(fd, 0);
 

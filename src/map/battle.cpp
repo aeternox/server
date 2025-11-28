@@ -12231,8 +12231,6 @@ static const struct _battle_data {
 	{ "feature.roulette",                   &battle_config.feature_roulette,                1,      0,      1,              },
 	{ "feature.roulette_bonus_reward",      &battle_config.feature_roulette_bonus_reward,   1,      0,      1,              },
 	{ "monster_hp_bars_info",               &battle_config.monster_hp_bars_info,            1,      0,      1,              },
-	{ "min_body_style",                     &battle_config.min_body_style,                  0,      0,      SHRT_MAX,       },
-	{ "max_body_style",                     &battle_config.max_body_style,                  1,      0,      SHRT_MAX,       },
 	{ "save_body_style",                    &battle_config.save_body_style,                 1,      0,      1,              },
 	{ "monster_eye_range_bonus",            &battle_config.mob_eye_range_bonus,             0,      0,      10,             },
 	{ "monster_stuck_warning",              &battle_config.mob_stuck_warning,               0,      0,      1,              },
@@ -12380,6 +12378,7 @@ static const struct _battle_data {
 	{ "major_overweight_rate",              &battle_config.major_overweight_rate,           90,     0,      100             },
 	{ "trade_count_stackable",              &battle_config.trade_count_stackable,           1,      0,      1,              },
 	{ "enable_bonus_map_drops",             &battle_config.enable_bonus_map_drops,          1,      0,      1,              },
+	{ "hide_cloaked_units",                 &battle_config.hide_cloaked_units,              0,      0,      BL_ALL,         },
 
 #include <custom/battle_config_init.inc>
 };
