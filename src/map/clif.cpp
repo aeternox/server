@@ -10905,6 +10905,30 @@ void clif_parse_LoadEndAck(int32 fd,map_session_data *sd)
 		}
 
 		// Notify everyone that this char logged in.
+// start_disable_info_msg_login
+		clif_partyinvitationstate( *sd );
+#if PACKETVER >= 20070918
+		clif_equipcheckbox( *sd );
+#endif
+		clif_pet_autofeed_status(sd,false);
+		clif_configuration( sd, CONFIG_CALL, sd->status.disable_call );
+#if PACKETVER >= 20170920
+		if( battle_config.homunculus_autofeed_always ){
+			// Always send ON or OFF
+			if( sd->hd && battle_config.feature_homunculus_autofeed ){
+				clif_configuration( sd, CONFIG_HOMUNCULUS_AUTOFEED, sd->hd->homunculus.autofeed );
+			}else{
+				clif_configuration( sd, CONFIG_HOMUNCULUS_AUTOFEED, false );
+			}
+		}else{
+			// Only send when enabled
+			if( sd->hd && battle_config.feature_homunculus_autofeed && sd->hd->homunculus.autofeed ){
+				clif_configuration( sd, CONFIG_HOMUNCULUS_AUTOFEED, true );
+			}
+		}
+#endif
+// end_disable_info_msg_login
+
 		if( battle_config.friend_auto_add ){
 			for( const s_friend& my_friend : sd->status.friends ){
 				// Cancel early
@@ -10970,6 +10994,7 @@ void clif_parse_LoadEndAck(int32 fd,map_session_data *sd)
 	}
 
 	if( sd->state.changemap ) {// restore information that gets lost on map-change
+/* // start_disable_info_msg_mapchange
 		clif_partyinvitationstate( *sd );
 #if PACKETVER >= 20070918
 		clif_equipcheckbox( *sd );
@@ -10991,6 +11016,7 @@ void clif_parse_LoadEndAck(int32 fd,map_session_data *sd)
 			}
 		}
 #endif
+*/ // end_disable_info_msg_mapchange
 
 #if PACKETVER >= 20230419
 		clif_configuration( sd, CONFIG_DISABLE_SHOWCOSTUMES, sd->status.disable_showcostumes );
