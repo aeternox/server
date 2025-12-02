@@ -47,186 +47,51 @@ Body:
     Level: 0
     Commands:
       changedress: true
-      resurrect: true
-    Permissions:
-      # without this basic permissions regular players could not trade or party
-      can_trade: true
-      can_party: true
-      attendance: true
-  - Id: 1
-    Name: Super Player
-    # Can do everything Players can and more
-    Inherit:
-      Player: true
-    Level: 0
-    Commands:
-      # Informational commands
       commands: true
       charcommands: true
       help: true
       rates: true
       uptime: true
-      showdelay: true
       exp: true
       mobinfo: true
       iteminfo: true
       whodrops: true
-      servertime: true
       jailtime: true
       hominfo: true
       homstats: true
       showexp: true
       showzeny: true
       whereis: true
-      # Feature commands
       refresh: true
       noask: true
-      noks: true
-      autoloot: true
-      alootid: true
-      autoloottype: true
       autotrade: true
-      request: true
-      go: true
-      breakguild: true
-      channel: true
-      langtype: true
     Permissions:
-      attendance: false
-  - Id: 2
-    Name: Support
-    Inherit:
-      Super Player: true
-    Level: 1
-    Commands:
-      version: true
-      where: true
-      jumpto: true
-      who: true
-      who2: true
-      who3: true
-      whomap: true
-      whomap2: true
-      whomap3: true
-      users: true
-      broadcast: true
-      localbroadcast: true
-    LogCommands: true
-    Permissions:
-      receive_requests: true
-      view_equipment: true
-  - Id: 3
-    Name: Script Manager
-    Inherit:
-      Support: true
-    Level: 1
-    Commands:
-      tonpc: true
-      hidenpc: true
-      shownpc: true
-      loadnpc: true
-      unloadnpc: true
-      npcmove: true
-      addwarp: true
-    LogCommands: true
-    Permissions:
-      any_warp: true
-  - Id: 4
-    Name: Event Manager
-    Inherit:
-      Support: true
-    Level: 1
-    Commands:
-      monster: true
-      monstersmall: true
-      monsterbig: true
-      killmonster2: true
-      cleanarea: true
-      cleanmap: true
-      item: true
-      zeny: true
-      disguise: true
-      undisguise: true
-      size: true
-      raise: true
-      raisemap: true
-      day: true
-      night: true
-      skillon: true
-      skilloff: true
-      pvpon: true
-      pvpoff: true
-      gvgon: true
-      gvgoff: true
-      allowks: true
-      me: true
-      marry: true
-      divorce: true
-      refreshall: true
-    CharCommands:
-      item: true
-      zeny: true
-      disguise: true
-      undisguise: true
-      size: true
-    LogCommands: true
-    Permissions:
-      can_trade: false
-      any_warp: true
-  - Id: 5
-    Name: VIP
-    # Can do everything Players can
+      # without this basic permissions regular players could not trade or party
+      can_trade: true
+      can_party: true
+      attendance: true
+  - Id: 10
+    Name: Tester
     Inherit:
       Player: true
     Level: 0
-    Commands:
-      rates: true
-      who: true
-  - Id: 10
-    Name: Law Enforcement
+  - Id: 20
+    Name: Support
     Inherit:
-      Support: true
-    Level: 2
-    Commands:
-      hide: true
-      follow: true
-      kick: true
-      disguise: true
-      fakename: true
-      option: true
-      speed: true
-      mapmove: true
-      kill: true
-      recall: true
-      ban: true
-      block: true
-      jail: true
-      jailfor: true
-      mute: true
-      storagelist: true
-      cartlist: true
-      itemlist: true
-      stats: true
+      Tester: true
+    Level: 20
     LogCommands: true
     Permissions:
-      join_chat: true
-      kick_chat: true
-      hide_session: true
-      who_display_aid: true
-      hack_info: true
-      any_warp: true
-      view_hpmeter: true
-      macro_detect: true
+      attendance: false
   - Id: 99
     Name: Admin
     Level: 99
     Inherit:
       Support: true
-      Law Enforcement: true
     LogCommands: true
     Permissions:
-      can_trade: true
-      can_party: true
+      can_trade: false
+      can_party: false
       command_enable: true
       all_skill: false
       all_equipment: false
@@ -235,12 +100,12 @@ Body:
       use_changemaptype: true
       all_commands: true
       channel_admin: true
-      can_trade_bounded: true
+      can_trade_bounded: false
       item_unconditional: false
-      bypass_stat_onclone: true
-      bypass_max_stat: true
+      bypass_stat_onclone: false
+      bypass_max_stat: false
       macro_register: true
-      trade_unconditional: true
+      trade_unconditional: false
       #all_permission: true
 
 Footer:
