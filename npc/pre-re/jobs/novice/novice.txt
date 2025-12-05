@@ -1102,8 +1102,8 @@ new_1-2,115,111,3	script	Item Tutor#nv	726,{
 			mes "[Alice]";
 			mes "However, ^ff0000do not use the Fly Wing or Butterfly Wing^000000 in these Training Grounds or you could be stuck here forever. Those items are for when you graduate, okay?";
 			set nov_get_item04,15;
-			getitem 601,10; //Wing_Of_Fly
-			getitem 602,2; //Wing_Of_Butterfly
+			getitem 12323,10; //N_Fly_Wing
+			getitem 12324,2; //N_Butterfly_Wing
 			getitem 569,50; //Novice_Potion
 			next;
 			mes "[Alice]";
@@ -1354,8 +1354,8 @@ new_1-2,118,108,3	script	Kafra Employee#nv1	117,{
 				getitem 2510,1; //Novice_Hood
 				getitem 2352,1; //Novice_Plate
 				getitem 2112,1; //Novice_Guard
-				getitem 601,10; //Wing_Of_Fly
-				getitem 602,2; //Wing_Of_Butterfly
+				getitem 12323,10; //N_Fly_Wing
+				getitem 12324,2; //N_Butterfly_Wing
 				getitem 7059,5; //Cargo_Free_Ticket
 				getitem 7060,5; //Warp_Free_Ticket
 			}
@@ -2532,8 +2532,8 @@ new_1-2,38,182,3	script	Entrance Guard#nv	92,{
 			else {
 				set nov_2nd_cos,29;
 			}
-			getitem 602,1; //Wing_Of_Butterfly
-			getitem 601,9; //Wing_Of_Fly
+			getitem 12323,10; //N_Fly_Wing
+			getitem 12324,2; //N_Butterfly_Wing
 			getitem 1243,1; //Novice_Knife
 			getitem 2112,1; //Novice_Guard
 			getitem 611,2; //Spectacles
@@ -2723,28 +2723,36 @@ new_4-3,95,30,4	duplicate(NovHoffman)	Trainer#nv4	84
 new_5-3,95,30,4	duplicate(NovHoffman)	Trainer#nv5	84
 
 new_1-3,96,174,3	script	Test Examiner#nv1::NovKeyman	85,{
-	mes "[Keyman]";
-	mes "Good!!";
-	mes "Now you know how to fight";
-	mes "against monsters, don't you?";
-	mes "Would you like to move";
-	mes "to the next course?";
-	next;
-	switch(select("Yes:No")) {
-	case 1:
+	if  (JobLevel < 10) {
 		mes "[Keyman]";
-		mes "I hope you will be";
-		mes "a good fighter in the";
-		mes "future. Bon voyage.";
-		close2;
-		warp "new_1-4",99,10;
-		return
-		end;
-	case 2:
-		mes "[Keyman]";
-		mes "I see...";
-		mes "It can't hurt to practice until you're more comfortable with the basics of battle.";
+		mes "You're doing great!";
+		mes "I'll be waiting until you're Job Level 10";
 		close;
+	}
+	else {
+		mes "[Keyman]";
+		mes "Good!!";
+		mes "Now you know how to fight";
+		mes "against monsters, don't you?";
+		mes "Would you like to move";
+		mes "to the next course?";
+		next;
+		switch(select("Yes:No")) {
+		case 1:
+			mes "[Keyman]";
+			mes "I hope you will be";
+			mes "a good fighter in the";
+			mes "future. Bon voyage.";
+			close2;
+			warp "new_1-4",99,10;
+			return
+			end;
+		case 2:
+			mes "[Keyman]";
+			mes "I see...";
+			mes "It can't hurt to practice until you're more comfortable with the basics of battle.";
+			close;
+		}
 	}
 }
 
@@ -4099,13 +4107,6 @@ new_1-4,91,22,4	script	Bruce#nv	57,{
 					break;
 				case 7:
 					mes "[Bruce]";
-					mes "For more information,";
-					mes "please visit the official";
-					mes "Ragnarok Online website:";
-					mes " ";
-					mes "^0000FFiro.ragnarokonline.com^000000.";
-					next;
-					mes "[Bruce]";
 					mes "Hanson is waiting";
 					mes "for you now. Good luck";
 					mes "out there, young Novice.";
@@ -4255,13 +4256,6 @@ new_1-4,91,22,4	script	Bruce#nv	57,{
 					next;
 					break;
 				case 7:
-					mes "[Bruce]";
-					mes "For more information,";
-					mes "please visit the official";
-					mes "Ragnarok Online website:";
-					mes " ";
-					mes "^0000FFiro.ragnarokonline.com^000000.";
-					next;
 					mes "[Bruce]";
 					mes "Hanson is waiting";
 					mes "for you now. Good luck";
