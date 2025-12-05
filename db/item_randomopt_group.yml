@@ -45,6 +45,36 @@ Header:
   Type: RANDOM_OPTION_GROUP
   Version: 1
 
+Body:
+  - Id: 174
+    Group: Aeternox_1
+    MaxRandom: 2
+    Random:
+      - Option: VAR_STRAMOUNT
+        MinValue: 1
+        MaxValue: 1
+        Chance: 5000
+      - Option: VAR_INTAMOUNT
+        MinValue: 1
+        MaxValue: 1
+        Chance: 5000
+      - Option: VAR_DEXAMOUNT
+        MinValue: 1
+        MaxValue: 1
+        Chance: 5000
+      - Option: VAR_AGIAMOUNT
+        MinValue: 1
+        MaxValue: 1
+        Chance: 5000
+      - Option: VAR_VITAMOUNT
+        MinValue: 1
+        MaxValue: 1
+        Chance: 5000
+      - Option: VAR_LUKAMOUNT
+        MinValue: 1
+        MaxValue: 1
+        Chance: 5000
+
 Footer:
   Imports:
   - Path: db/pre-re/item_randomopt_group.yml
