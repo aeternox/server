@@ -162,6 +162,7 @@ Body:
         Rate: 7000
       - Item: Knife_
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Sticky_Mucus
         Rate: 400
       - Item: Apple
@@ -235,6 +236,7 @@ Body:
         Rate: 3500
       - Item: Main_Gauche_
         Rate: 15
+        RandomOptionGroup: Aeternox_1
       - Item: Green_Herb
         Rate: 350
       - Item: Honey
@@ -274,8 +276,10 @@ Body:
         Rate: 5500
       - Item: Falchion_
         Rate: 20
+        RandomOptionGroup: Aeternox_1
       - Item: Ribbon_
         Rate: 15
+        RandomOptionGroup: Aeternox_1
       - Item: Wing_Of_Fly
         Rate: 50
       - Item: Grape
@@ -345,6 +349,7 @@ Body:
         Rate: 1000
       - Item: Club
         Rate: 200
+        RandomOptionGroup: Aeternox_1
       - Item: Fabre_Card
         Rate: 1
         StealProtected: true
@@ -382,6 +387,7 @@ Body:
         Rate: 600
       - Item: Guard_
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Shell
         Rate: 1000
       - Item: Sticky_Mucus
@@ -423,6 +429,7 @@ Body:
         Rate: 9000
       - Item: Bow_
         Rate: 150
+        RandomOptionGroup: Aeternox_1
       - Item: Yellow_Gemstone
         Rate: 80
       - Item: Arrow
@@ -522,6 +529,7 @@ Body:
         Rate: 1500
       - Item: Cutter_
         Rate: 55
+        RandomOptionGroup: Aeternox_1
       - Item: Wing_Of_Fly
         Rate: 100
       - Item: Chonchon_Doll
@@ -607,6 +615,7 @@ Body:
         Rate: 9000
       - Item: Mantle_
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Meat
         Rate: 650
       - Item: Monster's_Feed
@@ -740,6 +749,7 @@ Body:
         Rate: 70
       - Item: Apple_Of_Archer
         Rate: 3
+        RandomOptionGroup: Aeternox_1
       - Item: Great_Bow_
         Rate: 35
       - Item: Fire_Arrow
@@ -748,6 +758,7 @@ Body:
         Rate: 1800
       - Item: Bow
         Rate: 150
+        RandomOptionGroup: Aeternox_1
       - Item: Archer_Skeleton_Card
         Rate: 1
         StealProtected: true
@@ -837,12 +848,14 @@ Body:
         Rate: 9000
       - Item: Silk_Robe_
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Honey
         Rate: 150
       - Item: Wing_Of_Butterfly
         Rate: 100
       - Item: Fancy_Flower
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Flower
         Rate: 500
       - Item: Wind_Scroll_1_3
@@ -882,6 +895,7 @@ Body:
         Rate: 9000
       - Item: Sandals_
         Rate: 20
+        RandomOptionGroup: Aeternox_1
       - Item: Yellow_Herb
         Rate: 200
       - Item: Red_Herb
@@ -928,6 +942,7 @@ Body:
         Rate: 9000
       - Item: Spear_
         Rate: 30
+        RandomOptionGroup: Aeternox_1
       - Item: Green_Herb
         Rate: 350
       - Item: Shoot
@@ -936,6 +951,7 @@ Body:
         Rate: 3
       - Item: Whip_Of_Earth
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Mandragora_Card
         Rate: 1
         StealProtected: true
@@ -981,12 +997,14 @@ Body:
 #        Rate: 1500
 #      - Item: Slayer_
 #        Rate: 10
+#        RandomOptionGroup: Aeternox_1
 #      - Item: Yellow_Herb
 #        Rate: 90
 #      - Item: Bluish_Green_Jewel
 #        Rate: 5
 #      - Item: Katana
 #        Rate: 50
+#        RandomOptionGroup: Aeternox_1
 #      - Item: Thief_Bug_Male_Card
 #        Rate: 1
 #        StealProtected: true
@@ -1032,6 +1050,7 @@ Body:
 #        Rate: 500
 #      - Item: Executioner's_Mitten
 #        Rate: 800
+#        RandomOptionGroup: Aeternox_1
 #      - Item: Guh_Moon_Goh_
 #        Rate: 300
   - Id: 1023
@@ -1074,12 +1093,16 @@ Body:
         Rate: 40
       - Item: Cigar
         Rate: 3
+        RandomOptionGroup: Aeternox_1
       - Item: Battle_Axe_
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Orcish_Axe
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Axe
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Orc_Warrior_Card
         Rate: 1
         StealProtected: true
@@ -1120,6 +1143,7 @@ Body:
         Rate: 5500
       - Item: Pike_
         Rate: 30
+        RandomOptionGroup: Aeternox_1
       - Item: Yellow_Herb
         Rate: 70
       - Item: Azure_Jewel
@@ -1162,6 +1186,7 @@ Body:
         Rate: 9000
       - Item: Katana_
         Rate: 15
+        RandomOptionGroup: Aeternox_1
       - Item: Red_Herb
         Rate: 900
       - Item: Emveretarcon
@@ -1209,12 +1234,15 @@ Body:
         Rate: 2
       - Item: Shoes_
         Rate: 15
+        RandomOptionGroup: Aeternox_1
       - Item: Amulet
         Rate: 20
       - Item: Ninja_Suit
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Adventure_Suit
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Girl's_Diary
         Rate: 5
       - Item: Munak_Card
@@ -1288,14 +1316,17 @@ Body:
         Rate: 60
       - Item: Dagger_
         Rate: 12
+        RandomOptionGroup: Aeternox_1
       - Item: Red_Herb
         Rate: 700
       - Item: Mementos
         Rate: 10
       - Item: Knife
         Rate: 150
+        RandomOptionGroup: Aeternox_1
       - Item: Stiletto
         Rate: 50
+        RandomOptionGroup: Aeternox_1
       - Item: Soldier_Skeleton_Card
         Rate: 1
         StealProtected: true
@@ -1336,6 +1367,7 @@ Body:
         Rate: 5335
       - Item: Circlet_
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Necklace
         Rate: 1
       - Item: Crystal_Jewel___
@@ -1383,6 +1415,7 @@ Body:
         Rate: 9000
       - Item: Glaive_
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Scale_Of_Snakes
         Rate: 1500
       - Item: Scales_Shell
@@ -1435,6 +1468,7 @@ Body:
         Rate: 5
       - Item: Main_Gauche
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Apple
         Rate: 250
       - Item: Poporing_Card
@@ -1481,6 +1515,7 @@ Body:
         Rate: 1
       - Item: Flower_Ring
         Rate: 200
+        RandomOptionGroup: Aeternox_1
       - Item: Armlet_Of_Obedience
         Rate: 20
       - Item: Verit_Card
@@ -1526,6 +1561,7 @@ Body:
         Rate: 40
       - Item: Wooden_Mail_
         Rate: 30
+        RandomOptionGroup: Aeternox_1
       - Item: Fire_Scroll_1_3
         Rate: 100
       - Item: Branch_Of_Dead_Tree
@@ -1622,8 +1658,10 @@ Body:
         Rate: 129
       - Item: Mini_Propeller
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Damascus_
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Hunter_Fly_Card
         Rate: 1
         StealProtected: true
@@ -1667,6 +1705,7 @@ Body:
         Rate: 800
       - Item: Skul_Ring
         Rate: 60
+        RandomOptionGroup: Aeternox_1
       - Item: Mementos
         Rate: 150
       - Item: Ghoul_Leg
@@ -1713,6 +1752,7 @@ Body:
         Rate: 134
       - Item: Tsurugi_
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Posionous_Canine
         Rate: 2500
       - Item: Scale_Of_Snakes
@@ -1767,16 +1807,20 @@ Body:
         Rate: 2000
       - Item: Assasin_Dagger
         Rate: 150
+        RandomOptionGroup: Aeternox_1
       - Item: Crown
         Rate: 200
+        RandomOptionGroup: Aeternox_1
       - Item: Jamadhar_
         Rate: 600
+        RandomOptionGroup: Aeternox_1
       - Item: Sacred_Marks
         Rate: 1000
       - Item: Spinx_Helm
         Rate: 150
       - Item: Cakram
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Osiris_Card
         Rate: 1
         StealProtected: true
@@ -1823,14 +1867,18 @@ Body:
     Drops:
       - Item: Crescent_Scythe
         Rate: 400
+        RandomOptionGroup: Aeternox_1
       - Item: Magestic_Goat
         Rate: 300
+        RandomOptionGroup: Aeternox_1
       - Item: Crescent_Scythe_
         Rate: 50
+        RandomOptionGroup: Aeternox_1
       - Item: Emperium
         Rate: 500
       - Item: Magestic_Goat_
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Elunium
         Rate: 5432
       - Item: Oridecon
@@ -1924,8 +1972,10 @@ Body:
         Rate: 550
       - Item: Glove
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Silver_Ring
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Panacea
         Rate: 250
       - Item: Yellow_Herb
@@ -2044,6 +2094,7 @@ Body:
         Rate: 1
       - Item: Saint_Robe_
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Skyblue_Jewel
         Rate: 10
       - Item: Fin
@@ -2142,14 +2193,19 @@ Body:
     Drops:
       - Item: Plate_Armor_
         Rate: 250
+        RandomOptionGroup: Aeternox_1
       - Item: Broad_Sword_
         Rate: 220
+        RandomOptionGroup: Aeternox_1
       - Item: Zweihander
         Rate: 150
+        RandomOptionGroup: Aeternox_1
       - Item: Sharp_Gear
         Rate: 350
+        RandomOptionGroup: Aeternox_1
       - Item: Lance_
         Rate: 550
+        RandomOptionGroup: Aeternox_1
       - Item: Elunium
         Rate: 3686
       - Item: Oridecon
@@ -2188,6 +2244,7 @@ Body:
         Rate: 1500
       - Item: Guard_
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Red_Herb
         Rate: 400
       - Item: Red_Herb
@@ -2279,6 +2336,7 @@ Body:
         Rate: 700
       - Item: Cotton_Shirt_
         Rate: 150
+        RandomOptionGroup: Aeternox_1
       - Item: Red_Herb
         Rate: 550
       - Item: Milk
@@ -2323,6 +2381,7 @@ Body:
         Rate: 700
       - Item: Egg_Shell
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Red_Herb
         Rate: 600
       - Item: Milk
@@ -2369,12 +2428,14 @@ Body:
         Rate: 2500
       - Item: Leather_Jacket_
         Rate: 80
+        RandomOptionGroup: Aeternox_1
       - Item: Red_Herb
         Rate: 350
       - Item: Jellopy
         Rate: 2000
       - Item: Leather_Jacket
         Rate: 120
+        RandomOptionGroup: Aeternox_1
       - Item: Iron_Ore
         Rate: 250
       - Item: Thief_Bug_Card
@@ -2420,6 +2481,7 @@ Body:
         Rate: 4
       - Item: Javelin_
         Rate: 80
+        RandomOptionGroup: Aeternox_1
       - Item: Leaflet_Of_Hinal
         Rate: 10
       - Item: Grasshopper_Doll
@@ -2467,6 +2529,7 @@ Body:
         Rate: 250
       - Item: Blade_
         Rate: 15
+        RandomOptionGroup: Aeternox_1
       - Item: Insect_Feeler
         Rate: 200
       - Item: Red_Herb
@@ -2518,12 +2581,14 @@ Body:
         Rate: 1500
       - Item: Slayer_
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Yellow_Herb
         Rate: 90
       - Item: Bluish_Green_Jewel
         Rate: 5
       - Item: Katana
         Rate: 50
+        RandomOptionGroup: Aeternox_1
       - Item: Thief_Bug_Male_Card
         Rate: 1
         StealProtected: true
@@ -2570,6 +2635,7 @@ Body:
         Rate: 1000
       - Item: Guisarme
         Rate: 50
+        RandomOptionGroup: Aeternox_1
       - Item: Iron_Ore
         Rate: 250
       - Item: Muka_Card
@@ -2612,6 +2678,7 @@ Body:
         Rate: 800
       - Item: Cat_Hairband
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Raccoondog_Doll
         Rate: 2
       - Item: Zargon
@@ -2712,6 +2779,7 @@ Body:
         Rate: 3000
       - Item: Guitar_Of_Passion
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Metaller_Card
         Rate: 1
         StealProtected: true
@@ -2759,6 +2827,7 @@ Body:
     Drops:
       - Item: Gungnir
         Rate: 150
+        RandomOptionGroup: Aeternox_1
       - Item: Honey
         Rate: 10000
       - Item: Coronet
@@ -2807,6 +2876,7 @@ Body:
         Rate: 9000
       - Item: Poo_Poo_Hat
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Animal's_Skin
         Rate: 5000
       - Item: Stuffed_Doll
@@ -2863,6 +2933,7 @@ Body:
         Rate: 100
       - Item: Infiltrator
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Oridecon
         Rate: 60
       - Item: Nightmare_Card
@@ -2906,6 +2977,7 @@ Body:
         Rate: 1000
       - Item: Santa's_Hat
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Apple
         Rate: 7
       - Item: Poring__Card
@@ -3041,6 +3113,7 @@ Body:
         Rate: 2
       - Item: Trident_
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Feather
         Rate: 3000
       - Item: Skyblue_Jewel
@@ -3087,6 +3160,7 @@ Body:
         Rate: 3000
       - Item: Padded_Armor_
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Solid_Shell
         Rate: 100
       - Item: Elunium_Stone
@@ -3135,6 +3209,7 @@ Body:
         Rate: 53
       - Item: Shield_
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Solid_Shell
         Rate: 1000
       - Item: Blue_Gemstone
@@ -3228,6 +3303,7 @@ Body:
         Rate: 50
       - Item: Katana_
         Rate: 25
+        RandomOptionGroup: Aeternox_1
       - Item: Gill
         Rate: 600
       - Item: Sword_Fish_Card
@@ -3320,6 +3396,7 @@ Body:
         Rate: 250
       - Item: Falchion
         Rate: 250
+        RandomOptionGroup: Aeternox_1
       - Item: Oridecon_Stone
         Rate: 43
       - Item: Well_Dried_Bone
@@ -3525,6 +3602,7 @@ Body:
         Rate: 850
       - Item: Skul_Ring
         Rate: 30
+        RandomOptionGroup: Aeternox_1
       - Item: Skeleton_Card
         Rate: 1
         StealProtected: true
@@ -3560,6 +3638,7 @@ Body:
         Rate: 9000
       - Item: Hat_
         Rate: 20
+        RandomOptionGroup: Aeternox_1
       - Item: Green_Herb
         Rate: 550
       - Item: Blue_Herb
@@ -3622,6 +3701,7 @@ Body:
         Rate: 50
       - Item: Centimental_Flower
         Rate: 2
+        RandomOptionGroup: Aeternox_1
         StealProtected: true
   - Id: 1079
     AegisName: BLUE_PLANT
@@ -3672,6 +3752,7 @@ Body:
         Rate: 1000
       - Item: Centimental_Leaf
         Rate: 2
+        RandomOptionGroup: Aeternox_1
         StealProtected: true
   - Id: 1080
     AegisName: GREEN_PLANT
@@ -3722,6 +3803,7 @@ Body:
         Rate: 50
       - Item: Centimental_Leaf
         Rate: 2
+        RandomOptionGroup: Aeternox_1
         StealProtected: true
   - Id: 1081
     AegisName: YELLOW_PLANT
@@ -3772,6 +3854,7 @@ Body:
         Rate: 500
       - Item: Centimental_Flower
         Rate: 2
+        RandomOptionGroup: Aeternox_1
         StealProtected: true
   - Id: 1082
     AegisName: WHITE_PLANT
@@ -3822,6 +3905,7 @@ Body:
         Rate: 50
       - Item: Centimental_Flower
         Rate: 2
+        RandomOptionGroup: Aeternox_1
         StealProtected: true
   - Id: 1083
     AegisName: SHINING_PLANT
@@ -4010,6 +4094,7 @@ Body:
     MvpDrops:
       - Item: Gold_Ring
         Rate: 2000
+        RandomOptionGroup: Aeternox_1
       - Item: Ora_Ora
         Rate: 1000
     Drops:
@@ -4017,8 +4102,10 @@ Body:
         Rate: 1000
       - Item: Golden_Mace
         Rate: 150
+        RandomOptionGroup: Aeternox_1
       - Item: Golden_Gear
         Rate: 250
+        RandomOptionGroup: Aeternox_1
       - Item: Golden_Bell
         Rate: 500
       - Item: Emperium
@@ -4077,14 +4164,18 @@ Body:
         Rate: 500
       - Item: Right_Epsilon
         Rate: 150
+        RandomOptionGroup: Aeternox_1
       - Item: Shield_
         Rate: 250
+        RandomOptionGroup: Aeternox_1
       - Item: Orcish_Sword
         Rate: 1000
+        RandomOptionGroup: Aeternox_1
       - Item: Elunium
         Rate: 4559
       - Item: Giant_Axe
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Orc_Hero_Card
         Rate: 1
         StealProtected: true
@@ -4123,6 +4214,7 @@ Body:
     Drops:
       - Item: Oldman's_Romance
         Rate: 50
+        RandomOptionGroup: Aeternox_1
       - Item: Grasshopper's_Leg
         Rate: 8000
       - Item: Azure_Jewel
@@ -4131,10 +4223,12 @@ Body:
         Rate: 1500
       - Item: Angel's_Arrival
         Rate: 1000
+        RandomOptionGroup: Aeternox_1
       - Item: Center_Potion
         Rate: 700
       - Item: Guitar_Of_Gentle_Breeze
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Vocal_Card
         Rate: 1
         StealProtected: true
@@ -4169,6 +4263,7 @@ Body:
     Drops:
       - Item: Big_Sis'_Ribbon
         Rate: 50
+        RandomOptionGroup: Aeternox_1
       - Item: Honey
         Rate: 2000
       - Item: Bluish_Green_Jewel
@@ -4181,6 +4276,7 @@ Body:
         Rate: 100
       - Item: Kiss_Of_Angel
         Rate: 1000
+        RandomOptionGroup: Aeternox_1
       - Item: Toad_Card
         Rate: 1
         StealProtected: true
@@ -4216,12 +4312,14 @@ Body:
     Drops:
       - Item: Snowy_Horn
         Rate: 200
+        RandomOptionGroup: Aeternox_1
       - Item: Unripe_Apple
         Rate: 50
       - Item: Scarlet_Jewel
         Rate: 1000
       - Item: Angel's_Safeguard
         Rate: 1000
+        RandomOptionGroup: Aeternox_1
       - Item: Apple
         Rate: 8000
       - Item: Apple
@@ -4263,6 +4361,7 @@ Body:
     Drops:
       - Item: Sweet_Gents
         Rate: 200
+        RandomOptionGroup: Aeternox_1
       - Item: Red_Herb
         Rate: 8000
       - Item: Violet_Jewel
@@ -4271,6 +4370,7 @@ Body:
         Rate: 2000
       - Item: Clip
         Rate: 3000
+        RandomOptionGroup: Aeternox_1
       - Item: Lusty_Iron
         Rate: 50
       - Item: Grape_Juice
@@ -4311,14 +4411,17 @@ Body:
     Drops:
       - Item: Western_Grace
         Rate: 200
+        RandomOptionGroup: Aeternox_1
       - Item: Claw_Of_Wolves
         Rate: 8000
       - Item: Golden_Jewel
         Rate: 1500
       - Item: Star_Dust_Blade
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Angel's_Warmth
         Rate: 1000
+        RandomOptionGroup: Aeternox_1
       - Item: Red_Jewel
         Rate: 10
       - Item: Monster_Juice
@@ -4358,6 +4461,7 @@ Body:
     Drops:
       - Item: Fillet
         Rate: 200
+        RandomOptionGroup: Aeternox_1
       - Item: Red_Herb
         Rate: 8000
       - Item: White_Jewel
@@ -4370,6 +4474,7 @@ Body:
         Rate: 50
       - Item: Angel's_Protection
         Rate: 1000
+        RandomOptionGroup: Aeternox_1
       - Item: Eclipse_Card
         Rate: 1
         StealProtected: true
@@ -4501,12 +4606,15 @@ Body:
     Drops:
       - Item: Angelic_Chain
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Scapulare_
         Rate: 60
+        RandomOptionGroup: Aeternox_1
       - Item: Leaf_Of_Yggdrasil
         Rate: 500
       - Item: Spirit_Chain
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: White_Herb
         Rate: 2000
       - Item: Apple
@@ -4591,6 +4699,7 @@ Body:
         Rate: 3000
       - Item: Healing_Staff
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Mementos
         Rate: 550
       - Item: Oridecon
@@ -4599,8 +4708,10 @@ Body:
         Rate: 4365
       - Item: Mitten_Of_Presbyter
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Blessed_Wand
         Rate: 3
+        RandomOptionGroup: Aeternox_1
       - Item: Anubis_Card
         Rate: 1
         StealProtected: true
@@ -4643,6 +4754,7 @@ Body:
         Rate: 175
       - Item: Boots_
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Green_Herb
         Rate: 1500
       - Item: Violet_Jewel
@@ -4735,6 +4847,7 @@ Body:
         Rate: 63
       - Item: Halberd_
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Yggdrasilberry
         Rate: 50
       - Item: Leaf_Of_Yggdrasil
@@ -4743,6 +4856,7 @@ Body:
         Rate: 1300
       - Item: Boots
         Rate: 50
+        RandomOptionGroup: Aeternox_1
       - Item: Baphomet__Card
         Rate: 1
         StealProtected: true
@@ -4783,6 +4897,7 @@ Body:
         Rate: 3
       - Item: Arc_Wand_
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Star_Crumb
         Rate: 30
       - Item: Old_Magic_Book
@@ -4831,10 +4946,13 @@ Body:
         Rate: 5500
       - Item: Glaive_
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Spear_
         Rate: 15
+        RandomOptionGroup: Aeternox_1
       - Item: Pike_
         Rate: 20
+        RandomOptionGroup: Aeternox_1
       - Item: Caramel_Card
         Rate: 1
         StealProtected: true
@@ -4871,6 +4989,7 @@ Body:
         Rate: 9000
       - Item: Hood_
         Rate: 20
+        RandomOptionGroup: Aeternox_1
       - Item: Fluff
         Rate: 3000
       - Item: Animal's_Skin
@@ -4879,6 +4998,7 @@ Body:
         Rate: 500
       - Item: Sandals_
         Rate: 25
+        RandomOptionGroup: Aeternox_1
       - Item: Strawberry
         Rate: 600
       - Item: Coco_Card
@@ -4964,10 +5084,12 @@ Body:
     Drops:
       - Item: Katar_
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Claw_Of_Desert_Wolf
         Rate: 5500
       - Item: Mink_Coat
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Meat
         Rate: 1200
       - Item: Claw_Of_Wolves
@@ -4976,6 +5098,7 @@ Body:
         Rate: 53
       - Item: Stiletto_
         Rate: 140
+        RandomOptionGroup: Aeternox_1
       - Item: Desert_Wolf_Card
         Rate: 1
         StealProtected: true
@@ -5014,12 +5137,15 @@ Body:
         Rate: 5500
       - Item: Adventurere's_Suit_
         Rate: 80
+        RandomOptionGroup: Aeternox_1
       - Item: Meat
         Rate: 600
       - Item: Cotton_Shirt
         Rate: 200
+        RandomOptionGroup: Aeternox_1
       - Item: Asura_
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Orange
         Rate: 1000
       - Item: Desert_Wolf_Babe_Card
@@ -5067,6 +5193,7 @@ Body:
         Rate: 200
       - Item: Katar_Of_Cold_Icicle
         Rate: 3
+        RandomOptionGroup: Aeternox_1
       - Item: Oridecon_Stone
         Rate: 161
       - Item: Deviace_Card
@@ -5112,6 +5239,7 @@ Body:
         Rate: 2
       - Item: Partizan_
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Sacred_Marks
         Rate: 5
       - Item: Zargon
@@ -5159,12 +5287,15 @@ Body:
         Rate: 150
       - Item: Sword_Mace_
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Mighty_Staff
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Gold
         Rate: 1
       - Item: Club
         Rate: 300
+        RandomOptionGroup: Aeternox_1
       - Item: Hammer_Of_Blacksmith
         Rate: 5
       - Item: Dokebi_Card
@@ -5257,18 +5388,24 @@ Body:
     Drops:
       - Item: Saber_
         Rate: 600
+        RandomOptionGroup: Aeternox_1
       - Item: Ring_Pommel_Saber_
         Rate: 950
+        RandomOptionGroup: Aeternox_1
       - Item: Cutlas
         Rate: 150
+        RandomOptionGroup: Aeternox_1
       - Item: Hae_Dong_Gum_
         Rate: 400
+        RandomOptionGroup: Aeternox_1
       - Item: Corsair
         Rate: 350
+        RandomOptionGroup: Aeternox_1
       - Item: Elunium
         Rate: 3200
       - Item: Krasnaya
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Drake_Card
         Rate: 1
         StealProtected: true
@@ -5304,6 +5441,7 @@ Body:
         Rate: 7500
       - Item: Rod_
         Rate: 80
+        RandomOptionGroup: Aeternox_1
       - Item: Sticky_Mucus
         Rate: 500
       - Item: Apple
@@ -5354,6 +5492,7 @@ Body:
         Rate: 500
       - Item: Masquerade
         Rate: 4
+        RandomOptionGroup: Aeternox_1
       - Item: Insect_Feeler
         Rate: 2000
       - Item: Sparkling_Dust
@@ -5409,16 +5548,19 @@ Body:
         Rate: 150
       - Item: Smoking_Pipe
         Rate: 250
+        RandomOptionGroup: Aeternox_1
       - Item: Honey
         Rate: 10000
       - Item: Katar_Of_Raging_Blaze
         Rate: 500
+        RandomOptionGroup: Aeternox_1
       - Item: Tiger_Footskin
         Rate: 250
       - Item: Elunium
         Rate: 2300
       - Item: Krieg
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Eddga_Card
         Rate: 1
         StealProtected: true
@@ -5501,12 +5643,16 @@ Body:
     Drops:
       - Item: Biretta_
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Bone_Wand
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Ragamuffin_Cape
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Bible
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Leaf_Of_Yggdrasil
         Rate: 200
       - Item: Cookbook07
@@ -5645,8 +5791,10 @@ Body:
         Rate: 5335
       - Item: Ghost_Bandana
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Thief_Clothes_
         Rate: 50
+        RandomOptionGroup: Aeternox_1
       - Item: Branch_Of_Dead_Tree
         Rate: 500
       - Item: Old_Blue_Box
@@ -5699,6 +5847,7 @@ Body:
         Rate: 5500
       - Item: Elven_Ears
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Cap_
         Rate: 10
       - Item: Sparkling_Dust
@@ -5746,10 +5895,13 @@ Body:
         Rate: 43
       - Item: Goblini_Mask
         Rate: 3
+        RandomOptionGroup: Aeternox_1
       - Item: Dirk_
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Buckler_
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Red_Herb
         Rate: 1800
       - Item: Goblin_Card
@@ -5793,14 +5945,18 @@ Body:
         Rate: 9000
       - Item: Indian_Hair_Piece
         Rate: 3
+        RandomOptionGroup: Aeternox_1
       - Item: Flail_
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Buckler_
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Red_Herb
         Rate: 1550
       - Item: Goblini_Mask
         Rate: 3
+        RandomOptionGroup: Aeternox_1
       - Item: Goblin_Card
         Rate: 1
         StealProtected: true
@@ -5844,8 +6000,10 @@ Body:
         Rate: 3
       - Item: Goblin_Mask_02
         Rate: 15
+        RandomOptionGroup: Aeternox_1
       - Item: Buckler_
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Red_Herb
         Rate: 1550
       - Item: Yellow_Herb
@@ -5891,10 +6049,13 @@ Body:
         Rate: 170
       - Item: Goblin_Mask_01
         Rate: 15
+        RandomOptionGroup: Aeternox_1
       - Item: Gangster_Patch
         Rate: 3
+        RandomOptionGroup: Aeternox_1
       - Item: Smasher_
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Buckler_
         Rate: 1
       - Item: Red_Herb
@@ -5940,10 +6101,13 @@ Body:
         Rate: 9000
       - Item: Wand_
         Rate: 15
+        RandomOptionGroup: Aeternox_1
       - Item: Buckler_
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Goblin_Mask_03
         Rate: 15
+        RandomOptionGroup: Aeternox_1
       - Item: Red_Herb
         Rate: 1500
       - Item: Yellow_Herb
@@ -5990,6 +6154,7 @@ Body:
         Rate: 3000
       - Item: Town_Sword_
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Foolishness_Of_Blind
         Rate: 1
       - Item: Fatty_Chubby_Earthworm
@@ -6037,6 +6202,7 @@ Body:
         Rate: 5500
       - Item: Guisarme_
         Rate: 15
+        RandomOptionGroup: Aeternox_1
       - Item: Shell
         Rate: 5500
       - Item: Solid_Shell
@@ -6129,6 +6295,7 @@ Body:
         Rate: 31
       - Item: Tights_
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Frozen_Heart
         Rate: 5
       - Item: Pumpkin
@@ -6176,6 +6343,7 @@ Body:
         Rate: 1000
       - Item: Katar_Of_Piercing_Wind
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Oridecon
         Rate: 100
       - Item: Ghost_Scroll_1_5
@@ -6220,14 +6388,17 @@ Body:
         Rate: 191
       - Item: Bone_Helm
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Mirror_Shield_
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Patriotism_Marks
         Rate: 10
       - Item: White_Herb
         Rate: 2000
       - Item: Saber_
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Khalitzburg_Card
         Rate: 1
         StealProtected: true
@@ -6273,8 +6444,10 @@ Body:
         Rate: 25
       - Item: Gladius_
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Buckler_
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Kobold_Card
         Rate: 1
         StealProtected: true
@@ -6318,10 +6491,12 @@ Body:
         Rate: 200
       - Item: Buckler_
         Rate: 3
+        RandomOptionGroup: Aeternox_1
       - Item: Yellow_Herb
         Rate: 100
       - Item: Guard
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Kobold_Card
         Rate: 1
         StealProtected: true
@@ -6367,8 +6542,10 @@ Body:
         Rate: 200
       - Item: Hammer_
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Buckler_
         Rate: 3
+        RandomOptionGroup: Aeternox_1
       - Item: Yellow_Herb
         Rate: 100
       - Item: Kobold_Card
@@ -6413,12 +6590,15 @@ Body:
 #        Rate: 100
 #      - Item: Hammer_
 #        Rate: 5
+#        RandomOptionGroup: Aeternox_1
 #      - Item: Buckler_
 #        Rate: 3
+#        RandomOptionGroup: Aeternox_1
 #      - Item: Yellow_Herb
 #        Rate: 100
 #      - Item: Axe
 #        Rate: 150
+#        RandomOptionGroup: Aeternox_1
 #      - Item: Kobold_Card
 #        Rate: 1
 #        StealProtected: true
@@ -6461,12 +6641,15 @@ Body:
 #        Rate: 100
 #      - Item: Morning_Star_
 #        Rate: 5
+#        RandomOptionGroup: Aeternox_1
 #      - Item: Buckler_
 #        Rate: 3
+#        RandomOptionGroup: Aeternox_1
 #      - Item: Yellow_Herb
 #        Rate: 100
 #      - Item: Club
 #        Rate: 150
+#        RandomOptionGroup: Aeternox_1
 #      - Item: Kobold_Card
 #        Rate: 1
 #        StealProtected: true
@@ -6602,10 +6785,13 @@ Body:
         Rate: 4365
       - Item: Staff_
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Mitten_Of_Presbyter
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Blessed_Wand
         Rate: 3
+        RandomOptionGroup: Aeternox_1
       - Item: Fire_Scroll_1_5
         Rate: 100
       - Item: Book_Of_Devil
@@ -6691,6 +6877,7 @@ Body:
         Rate: 2500
       - Item: Chain_
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Skyblue_Jewel
         Rate: 10
       - Item: Blue_Gemstone
@@ -6737,14 +6924,18 @@ Body:
         Rate: 5
       - Item: Brooch
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Fire_Scroll_3_5
         Rate: 100
       - Item: Chain_
         Rate: 15
+        RandomOptionGroup: Aeternox_1
       - Item: Chrystal_Pumps
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Marionette_Doll
         Rate: 3
+        RandomOptionGroup: Aeternox_1
       - Item: Marionette_Card
         Rate: 1
         StealProtected: true
@@ -6830,14 +7021,18 @@ Body:
         Rate: 500
       - Item: Jur_
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Goggle_
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Safety_Helmet
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Battered_Pot
         Rate: 10
       - Item: Goggle
         Rate: 15
+        RandomOptionGroup: Aeternox_1
       - Item: Martin_Card
         Rate: 1
         StealProtected: true
@@ -6930,8 +7125,10 @@ Body:
         Rate: 500
       - Item: Safety_Ring
         Rate: 200
+        RandomOptionGroup: Aeternox_1
       - Item: Tiara
         Rate: 200
+        RandomOptionGroup: Aeternox_1
       - Item: Armlet_Of_Obedience
         Rate: 500
       - Item: Mother's_Nightmare
@@ -6940,6 +7137,7 @@ Body:
         Rate: 3500
       - Item: Dea_Staff
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Maya_Card
         Rate: 1
         StealProtected: true
@@ -6979,10 +7177,12 @@ Body:
         Rate: 5335
       - Item: Whip_Of_Red_Flame
         Rate: 250
+        RandomOptionGroup: Aeternox_1
       - Item: Animal_Blood
         Rate: 200
       - Item: Sea_Witch_Foot
         Rate: 20
+        RandomOptionGroup: Aeternox_1
       - Item: Scarlet_Jewel
         Rate: 250
       - Item: Turtle_Shell
@@ -7029,12 +7229,14 @@ Body:
         Rate: 196
       - Item: Two_Handed_Axe_
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Hammer_Of_Blacksmith
         Rate: 10
       - Item: Sweet_Potato
         Rate: 1500
       - Item: Axe
         Rate: 200
+        RandomOptionGroup: Aeternox_1
       - Item: Lemon
         Rate: 300
       - Item: Minorous_Card
@@ -7084,10 +7286,13 @@ Body:
     Drops:
       - Item: Spectral_Spear
         Rate: 500
+        RandomOptionGroup: Aeternox_1
       - Item: Moonlight_Sword
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Long_Mace
         Rate: 150
+        RandomOptionGroup: Aeternox_1
       - Item: Punisher
         Rate: 500
       - Item: Silver_Knife_Of_Chaste
@@ -7096,6 +7301,7 @@ Body:
         Rate: 2600
       - Item: Staff_Of_Bordeaux
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Moonlight_Flower_Card
         Rate: 1
         StealProtected: true
@@ -7130,6 +7336,7 @@ Body:
     Drops:
       - Item: Gas_Mask
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Wooden_Block
         Rate: 800
       - Item: Wig
@@ -7185,8 +7392,10 @@ Body:
         Rate: 80
       - Item: Viking_Helm
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Buster_
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Green_Herb
         Rate: 50
       - Item: Orc_Skeleton_Card
@@ -7271,10 +7480,13 @@ Body:
         Rate: 20
       - Item: Falchion_
         Rate: 500
+        RandomOptionGroup: Aeternox_1
       - Item: Stiletto_
         Rate: 150
+        RandomOptionGroup: Aeternox_1
       - Item: Undershirt
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Pasana_Card
         Rate: 1
         StealProtected: true
@@ -7318,6 +7530,7 @@ Body:
         Rate: 1000
       - Item: Flail
         Rate: 150
+        RandomOptionGroup: Aeternox_1
       - Item: Zargon
         Rate: 1500
       - Item: Aloebera
@@ -7365,6 +7578,7 @@ Body:
         Rate: 1000
       - Item: Khukri
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Zargon
         Rate: 1500
       - Item: Aloebera
@@ -7419,14 +7633,19 @@ Body:
         Rate: 2500
       - Item: Solar_Sword
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Holy_Robe
         Rate: 150
+        RandomOptionGroup: Aeternox_1
       - Item: Gemmed_Crown
         Rate: 500
+        RandomOptionGroup: Aeternox_1
       - Item: Tablet
         Rate: 300
+        RandomOptionGroup: Aeternox_1
       - Item: Bazerald
         Rate: 80
+        RandomOptionGroup: Aeternox_1
       - Item: Pharaoh_Card
         Rate: 1
         StealProtected: true
@@ -7519,16 +7738,20 @@ Body:
         Rate: 9700
       - Item: Forturn_Sword
         Rate: 500
+        RandomOptionGroup: Aeternox_1
       - Item: Sucsamad
         Rate: 150
+        RandomOptionGroup: Aeternox_1
       - Item: Jaws_Of_Ant
         Rate: 5000
       - Item: Mr_Scream
         Rate: 300
+        RandomOptionGroup: Aeternox_1
       - Item: Elunium
         Rate: 2900
       - Item: Weihna
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Phreeoni_Card
         Rate: 1
         StealProtected: true
@@ -7707,12 +7930,16 @@ Body:
         Rate: 106
       - Item: Iron_Cane
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Chain_Mail_
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Two_Hand_Sword_
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Katana
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Patriotism_Marks
         Rate: 10
       - Item: Brigan
@@ -7761,6 +7988,7 @@ Body:
         Rate: 1500
       - Item: Mantle_
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Cookbook06
         Rate: 1
       - Item: Requiem_Card
@@ -7809,8 +8037,10 @@ Body:
         Rate: 200
       - Item: Katar_Of_Thornbush
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Hypnotist's_Staff_
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Sand_Man_Card
         Rate: 1
         StealProtected: true
@@ -7852,6 +8082,7 @@ Body:
         Rate: 2
       - Item: Eagle_Eyes
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Anodyne
         Rate: 10
       - Item: Elunium_Stone
@@ -7893,6 +8124,7 @@ Body:
         Rate: 9000
       - Item: Axe_
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Meat
         Rate: 500
       - Item: Arrow
@@ -7988,6 +8220,7 @@ Body:
         Rate: 90
       - Item: Safety_Helmet
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Steel
         Rate: 100
       - Item: Coal
@@ -8034,10 +8267,13 @@ Body:
         Rate: 50
       - Item: Nurse_Cap
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Muffler_
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Stiletto_
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Red_Herb
         Rate: 1000
       - Item: Inspector_Certificate
@@ -8081,6 +8317,7 @@ Body:
 #        Rate: 10
 #      - Item: Lapier_
 #        Rate: 15
+#        RandomOptionGroup: Aeternox_1
 #      - Item: Sparkling_Dust
 #        Rate: 30
 #      - Item: Solid_Shell
@@ -8124,6 +8361,7 @@ Body:
 #        Rate: 15
 #      - Item: Lapier_
 #        Rate: 20
+#        RandomOptionGroup: Aeternox_1
 #      - Item: Solid_Shell
 #        Rate: 270
 #      - Item: Sparkling_Dust
@@ -8167,6 +8405,7 @@ Body:
 #        Rate: 10
 #      - Item: Scimiter_
 #        Rate: 15
+#        RandomOptionGroup: Aeternox_1
 #      - Item: Sparkling_Dust
 #        Rate: 35
 #      - Item: Solid_Shell
@@ -8391,8 +8630,10 @@ Body:
         Rate: 190
       - Item: G_Strings
         Rate: 200
+        RandomOptionGroup: Aeternox_1
       - Item: Ganster_Mask
         Rate: 3
+        RandomOptionGroup: Aeternox_1
       - Item: Cuffs
         Rate: 10
       - Item: Iron_Ore
@@ -8439,8 +8680,10 @@ Body:
         Rate: 5335
       - Item: Spirit_Chain
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Silver_Robe_
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Whisper_Card
         Rate: 1
         StealProtected: true
@@ -8595,6 +8838,7 @@ Body:
         Rate: 1500
       - Item: Cutter_
         Rate: 55
+        RandomOptionGroup: Aeternox_1
       - Item: Wing_Of_Fly
         Rate: 100
       - Item: Chonchon_Doll
@@ -8635,6 +8879,7 @@ Body:
         Rate: 250
       - Item: Club_
         Rate: 80
+        RandomOptionGroup: Aeternox_1
       - Item: Azure_Jewel
         Rate: 2
       - Item: Green_Herb
@@ -8643,6 +8888,7 @@ Body:
         Rate: 500
       - Item: Club
         Rate: 200
+        RandomOptionGroup: Aeternox_1
   - Id: 1185
     AegisName: WHISPER_
     Name: Whisper
@@ -8677,6 +8923,7 @@ Body:
         Rate: 100
       - Item: Silver_Robe_
         Rate: 1
+        RandomOptionGroup: Aeternox_1
   - Id: 1186
     AegisName: WHISPER_BOSS
     Name: Giant Whisper
@@ -8714,8 +8961,10 @@ Body:
         Rate: 5335
       - Item: Spirit_Chain
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Silver_Robe_
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Whisper_Boss_Card
         Rate: 1
         StealProtected: true
@@ -8779,6 +9028,7 @@ Body:
         Rate: 60
       - Item: Bongun_Hat
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Amulet
         Rate: 15
       - Item: Yellow_Herb
@@ -8830,6 +9080,7 @@ Body:
         Rate: 2500
       - Item: Orc_Archer_Bow
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Red_Herb
         Rate: 1400
       - Item: White_Herb
@@ -8879,18 +9130,23 @@ Body:
     Drops:
       - Item: Brood_Axe
         Rate: 400
+        RandomOptionGroup: Aeternox_1
       - Item: Ring_
         Rate: 400
+        RandomOptionGroup: Aeternox_1
       - Item: Loard_Circlet
         Rate: 400
+        RandomOptionGroup: Aeternox_1
       - Item: Doom_Slayer_
         Rate: 400
+        RandomOptionGroup: Aeternox_1
       - Item: Old_Violet_Box
         Rate: 1000
       - Item: Elunium
         Rate: 4268
       - Item: Erde
         Rate: 3100
+        RandomOptionGroup: Aeternox_1
       - Item: Orc_Load_Card
         Rate: 1
         StealProtected: true
@@ -8937,6 +9193,7 @@ Body:
         Rate: 3
       - Item: Rosary_
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Elunium_Stone
         Rate: 270
       - Item: Mimic_Card
@@ -8976,14 +9233,17 @@ Body:
         Rate: 5820
       - Item: Wedding_Veil
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Manteau_
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Red_Gemstone
         Rate: 650
       - Item: Wing_Of_Butterfly
         Rate: 1300
       - Item: Manteau
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Crystal_Jewel_
         Rate: 5
       - Item: Wraith_Card
@@ -9023,6 +9283,7 @@ Body:
         Rate: 5335
       - Item: Clip
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Skull
         Rate: 1500
       - Item: Spectacles
@@ -9121,12 +9382,16 @@ Body:
         Rate: 4850
       - Item: Book_Of_Billows
         Rate: 4
+        RandomOptionGroup: Aeternox_1
       - Item: Book_Of_Mother_Earth
         Rate: 4
+        RandomOptionGroup: Aeternox_1
       - Item: Book_Of_Blazing_Sun
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Book_Of_Gust_Of_Wind
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Bookclip_In_Memory
         Rate: 300
       - Item: Old_Magic_Book
@@ -9171,6 +9436,7 @@ Body:
         Rate: 100
       - Item: Formal_Suit
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Red_Gemstone
         Rate: 600
       - Item: Rotten_Bandage
@@ -9218,6 +9484,7 @@ Body:
         Rate: 105
       - Item: Iron_Cane
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Red_Gemstone
         Rate: 600
       - Item: Rotten_Bandage
@@ -9263,8 +9530,10 @@ Body:
     Drops:
       - Item: Book_Of_The_Apocalypse
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Rosary
         Rate: 30
+        RandomOptionGroup: Aeternox_1
       - Item: Blue_Potion
         Rate: 100
       - Item: Red_Gemstone
@@ -9273,8 +9542,10 @@ Body:
         Rate: 50
       - Item: Glittering_Clothes
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Cursed_Dagger
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Dark_Priest_Card
         Rate: 1
         StealProtected: true
@@ -9321,6 +9592,7 @@ Body:
         Rate: 1100
       - Item: Hood_
         Rate: 15
+        RandomOptionGroup: Aeternox_1
       - Item: Punk_Card
         Rate: 1
         StealProtected: true
@@ -9358,18 +9630,23 @@ Body:
     Drops:
       - Item: Executioner's_Mitten
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: White_Herb
         Rate: 1800
       - Item: Rose_Quartz
         Rate: 1500
       - Item: Tights_
         Rate: 8
+        RandomOptionGroup: Aeternox_1
       - Item: Earring_
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Queen's_Whip
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Masquerade
         Rate: 3
+        RandomOptionGroup: Aeternox_1
       - Item: Zherlthsh_Card
         Rate: 1
         StealProtected: true
@@ -9462,6 +9739,7 @@ Body:
         Rate: 150
       - Item: Electric_Wire
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Phendark_Card
         Rate: 1
         StealProtected: true
@@ -9503,10 +9781,13 @@ Body:
         Rate: 1500
       - Item: Slayer_
         Rate: 70
+        RandomOptionGroup: Aeternox_1
       - Item: Bastard_Sword_
         Rate: 40
+        RandomOptionGroup: Aeternox_1
       - Item: Claymore
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Steel
         Rate: 120
       - Item: Oridecon
@@ -9555,8 +9836,10 @@ Body:
         Rate: 1500
       - Item: Dagger_
         Rate: 70
+        RandomOptionGroup: Aeternox_1
       - Item: Stiletto_
         Rate: 40
+        RandomOptionGroup: Aeternox_1
       - Item: Steel
         Rate: 120
       - Item: Oridecon
@@ -9602,10 +9885,13 @@ Body:
         Rate: 1500
       - Item: Lapier_
         Rate: 80
+        RandomOptionGroup: Aeternox_1
       - Item: Scimiter_
         Rate: 60
+        RandomOptionGroup: Aeternox_1
       - Item: Ring_Pommel_Saber_
         Rate: 40
+        RandomOptionGroup: Aeternox_1
       - Item: Steel
         Rate: 120
       - Item: Oridecon
@@ -9655,6 +9941,7 @@ Body:
         Rate: 5335
       - Item: Brooch_
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Oridecon
         Rate: 134
       - Item: Anolian_Card
@@ -9697,6 +9984,7 @@ Body:
         Rate: 1500
       - Item: Glove_
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Coal
         Rate: 130
       - Item: Great_Nature
@@ -9747,6 +10035,7 @@ Body:
         Rate: 1
       - Item: Hakujin_
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Centimental_Leaf
         Rate: 5
       - Item: Leaf_Of_Yggdrasil
@@ -9755,6 +10044,7 @@ Body:
         Rate: 217
       - Item: Muramasa
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Wander_Man_Card
         Rate: 1
         StealProtected: true
@@ -9843,6 +10133,7 @@ Body:
 #        Rate: 200
 #      - Item: Guisarme
 #        Rate: 40
+#        RandomOptionGroup: Aeternox_1
 #      - Item: Elunium_Stone
 #        Rate: 18
 #      - Item: White_Herb
@@ -9983,6 +10274,7 @@ Body:
         Rate: 2500
       - Item: Orcish_Axe
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Steel
         Rate: 90
       - Item: Orcish_Voucher
@@ -10080,12 +10372,14 @@ Body:
         Rate: 1800
       - Item: Jump_Rope
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Oridecon_Stone
         Rate: 115
       - Item: Great_Nature
         Rate: 5
       - Item: Glaive
         Rate: 20
+        RandomOptionGroup: Aeternox_1
       - Item: Seed_Of_Yggdrasil
         Rate: 45
       - Item: Stem_Worm_Card
@@ -10133,6 +10427,7 @@ Body:
         Rate: 15
       - Item: Katar_Of_Raging_Blaze
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Red_Gemstone
         Rate: 550
       - Item: Penomena_Card
@@ -10176,10 +10471,13 @@ Body:
         Rate: 5
       - Item: Clothes_Of_The_Lord
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Battle_Hook
         Rate: 25
+        RandomOptionGroup: Aeternox_1
       - Item: Broad_Sword_
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Elunium
         Rate: 369
       - Item: Oridecon
@@ -10218,10 +10516,12 @@ Body:
     Drops:
       - Item: Katar_
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Claw_Of_Desert_Wolf
         Rate: 5500
       - Item: Mink_Coat
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Meat
         Rate: 1200
       - Item: Claw_Of_Wolves
@@ -10269,6 +10569,7 @@ Body:
         Rate: 3
       - Item: Eagle_Eyes
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Anodyne
         Rate: 15
       - Item: Elunium_Stone
@@ -10309,6 +10610,7 @@ Body:
 #        Rate: 2500
 #      - Item: Orcish_Axe
 #        Rate: 10
+#        RandomOptionGroup: Aeternox_1
 #      - Item: Steel
 #        Rate: 120
 #      - Item: Orcish_Voucher
@@ -10359,12 +10661,16 @@ Body:
 #        Rate: 40
 #      - Item: Cigar
 #        Rate: 3
+#        RandomOptionGroup: Aeternox_1
 #      - Item: Battle_Axe_
 #        Rate: 10
+#        RandomOptionGroup: Aeternox_1
 #      - Item: Orcish_Axe
 #        Rate: 5
+#        RandomOptionGroup: Aeternox_1
 #      - Item: Axe
 #        Rate: 100
+#        RandomOptionGroup: Aeternox_1
 #      - Item: Orc_Warrior_Card
 #        Rate: 1
 #        StealProtected: true
@@ -10397,6 +10703,7 @@ Body:
 #        Rate: 8000
 #      - Item: Hat_
 #        Rate: 20
+#        RandomOptionGroup: Aeternox_1
 #      - Item: Green_Herb
 #        Rate: 650
 #      - Item: Blue_Herb
@@ -10445,6 +10752,7 @@ Body:
 #        Rate: 5000
 #      - Item: Mink_Coat
 #        Rate: 2
+#        RandomOptionGroup: Aeternox_1
 #      - Item: Banana_Juice
 #        Rate: 1000
 #      - Item: Yggdrasilberry
@@ -10491,8 +10799,10 @@ Body:
 #        Rate: 25
 #      - Item: Gladius_
 #        Rate: 2
+#        RandomOptionGroup: Aeternox_1
 #      - Item: Buckler_
 #        Rate: 5
+#        RandomOptionGroup: Aeternox_1
 #      - Item: Kobold_Card
 #        Rate: 1
 #        StealProtected: true
@@ -10533,10 +10843,13 @@ Body:
 #        Rate: 43
 #      - Item: Goblini_Mask
 #        Rate: 3
+#        RandomOptionGroup: Aeternox_1
 #      - Item: Dirk_
 #        Rate: 10
+#        RandomOptionGroup: Aeternox_1
 #      - Item: Buckler_
 #        Rate: 5
+#        RandomOptionGroup: Aeternox_1
 #      - Item: Red_Herb
 #        Rate: 800
 #      - Item: Goblin_Card
@@ -10620,6 +10933,7 @@ Body:
         Rate: 600
       - Item: Club_
         Rate: 80
+        RandomOptionGroup: Aeternox_1
       - Item: Azure_Jewel
         Rate: 8
       - Item: Green_Herb
@@ -10628,6 +10942,7 @@ Body:
         Rate: 1500
       - Item: Club
         Rate: 200
+        RandomOptionGroup: Aeternox_1
       - Item: Fabre_Card
         Rate: 1
         StealProtected: true
@@ -10666,6 +10981,7 @@ Body:
         Rate: 700
       - Item: Guard_
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Shell
         Rate: 1300
       - Item: Sticky_Mucus
@@ -10710,12 +11026,14 @@ Body:
         Rate: 6000
       - Item: Silk_Robe_
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Honey
         Rate: 180
       - Item: Wing_Of_Butterfly
         Rate: 200
       - Item: Fancy_Flower
         Rate: 4
+        RandomOptionGroup: Aeternox_1
       - Item: Flower
         Rate: 800
       - Item: Creamy_Card
@@ -10752,6 +11070,7 @@ Body:
         Rate: 1500
       - Item: Guard_
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Red_Herb
         Rate: 450
       - Item: Red_Herb
@@ -10794,12 +11113,14 @@ Body:
 #        Rate: 6000
 #      - Item: Sandals_
 #        Rate: 20
+#        RandomOptionGroup: Aeternox_1
 #      - Item: Yellow_Herb
 #        Rate: 55
 #      - Item: Red_Herb
 #        Rate: 950
 #      - Item: Wand
 #        Rate: 100
+#        RandomOptionGroup: Aeternox_1
 #      - Item: Orange
 #        Rate: 1000
 #      - Item: Pecopeco_Card
@@ -10888,12 +11209,16 @@ Body:
         Rate: 40
       - Item: Cigar
         Rate: 3
+        RandomOptionGroup: Aeternox_1
       - Item: Battle_Axe_
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Orcish_Axe
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Axe
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Orc_Warrior_Card
         Rate: 1
         StealProtected: true
@@ -11115,6 +11440,7 @@ Body:
         Rate: 850
       - Item: Cotton_Shirt_
         Rate: 150
+        RandomOptionGroup: Aeternox_1
       - Item: Red_Herb
         Rate: 650
       - Item: Milk
@@ -11159,6 +11485,7 @@ Body:
         Rate: 850
       - Item: Egg_Shell
         Rate: 7
+        RandomOptionGroup: Aeternox_1
       - Item: Red_Herb
         Rate: 750
       - Item: Milk
@@ -11211,6 +11538,7 @@ Body:
         Rate: 350
       - Item: Poring_Hat
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Marin_Card
         Rate: 1
         StealProtected: true
@@ -11252,6 +11580,7 @@ Body:
         Rate: 1000
       - Item: Panda_Cap
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Bear's_Foot
         Rate: 5000
       - Item: White_Jewel
@@ -11299,6 +11628,7 @@ Body:
         Rate: 31
       - Item: Tights_
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Gift_Box
         Rate: 20
       - Item: Packing_Paper
@@ -11348,10 +11678,13 @@ Body:
         Rate: 10
       - Item: Dirk_
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Buckler_
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Santa's_Hat
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Goblin_Card
         Rate: 1
         StealProtected: true
@@ -11392,6 +11725,7 @@ Body:
         Rate: 200
       - Item: Hood_
         Rate: 25
+        RandomOptionGroup: Aeternox_1
       - Item: Gift_Box
         Rate: 5
       - Item: Cold_Scroll_1_3
@@ -11447,6 +11781,7 @@ Body:
         Rate: 5500
       - Item: Santa's_Hat
         Rate: 250
+        RandomOptionGroup: Aeternox_1
       - Item: Antonio_Card
         Rate: 1
         StealProtected: true
@@ -11484,6 +11819,7 @@ Body:
         Rate: 900
       - Item: Holy_Bonnet
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Iron
         Rate: 320
       - Item: Rough_Wind
@@ -11492,6 +11828,7 @@ Body:
         Rate: 3500
       - Item: Branch
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Oridecon_Stone
         Rate: 87
       - Item: Cruiser_Card
@@ -11588,6 +11925,7 @@ Body:
         Rate: 1300
       - Item: Ragamuffin_Cape
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Chepet_Card
         Rate: 1
         StealProtected: true
@@ -11631,19 +11969,23 @@ Body:
         Rate: 4500
       - Item: Boots_
         Rate: 500
+        RandomOptionGroup: Aeternox_1
       - Item: Mistic_Frozen
         Rate: 3000
     Drops:
       - Item: Zephyrus
         Rate: 150
+        RandomOptionGroup: Aeternox_1
       - Item: Old_Blue_Box
         Rate: 3000
       - Item: Old_Violet_Box
         Rate: 4000
       - Item: Ring_
         Rate: 200
+        RandomOptionGroup: Aeternox_1
       - Item: Manteau_
         Rate: 500
+        RandomOptionGroup: Aeternox_1
       - Item: Elunium
         Rate: 4559
       - Item: Loard_Circlet
@@ -11698,10 +12040,13 @@ Body:
         Rate: 5500
       - Item: Ice_Falchon
         Rate: 150
+        RandomOptionGroup: Aeternox_1
       - Item: Katar_Of_Cold_Icicle
         Rate: 500
+        RandomOptionGroup: Aeternox_1
       - Item: Claw_Of_Garm
         Rate: 500
+        RandomOptionGroup: Aeternox_1
       - Item: Elunium
         Rate: 3977
       - Item: Oridecon
@@ -11748,6 +12093,7 @@ Body:
         Rate: 500
       - Item: Thimble_Of_Archer
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Silence_Arrow
         Rate: 2000
       - Item: Elunium_Stone
@@ -11797,6 +12143,7 @@ Body:
         Rate: 90
       - Item: Goggle_
         Rate: 7
+        RandomOptionGroup: Aeternox_1
       - Item: Oridecon_Stone
         Rate: 32
       - Item: Raggler_Card
@@ -11840,6 +12187,7 @@ Body:
         Rate: 230
       - Item: Whip_Of_Ice_Piece
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Grape
         Rate: 250
       - Item: Elunium_Stone
@@ -11930,12 +12278,15 @@ Body:
         Rate: 3500
       - Item: Padded_Armor_
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Plate_Armor
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Prohibition_Red_Candle
         Rate: 2
       - Item: Jamadhar_
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Injustice_Card
         Rate: 1
         StealProtected: true
@@ -11972,6 +12323,7 @@ Body:
     Drops:
       - Item: Goblini_Mask
         Rate: 3
+        RandomOptionGroup: Aeternox_1
       - Item: Iron
         Rate: 250
       - Item: Scell
@@ -11982,6 +12334,7 @@ Body:
         Rate: 600
       - Item: Composite_Bow_
         Rate: 25
+        RandomOptionGroup: Aeternox_1
       - Item: Grape
         Rate: 300
       - Item: Goblin_Archer_Card
@@ -12027,8 +12380,10 @@ Body:
         Rate: 120
       - Item: Guisarme_
         Rate: 1500
+        RandomOptionGroup: Aeternox_1
       - Item: Pole_Axe
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Oridecon
         Rate: 185
       - Item: Rough_Wind
@@ -12074,6 +12429,7 @@ Body:
         Rate: 1000
       - Item: Manteau
         Rate: 30
+        RandomOptionGroup: Aeternox_1
       - Item: Star_Crumb
         Rate: 80
       - Item: Crystal_Mirror
@@ -12125,6 +12481,7 @@ Body:
         Rate: 600
       - Item: Big_Sis'_Ribbon
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Wild_Rose_Card
         Rate: 1
         StealProtected: true
@@ -12219,10 +12576,12 @@ Body:
         Rate: 100
       - Item: Arc_Wand_
         Rate: 8
+        RandomOptionGroup: Aeternox_1
       - Item: Rough_Wind
         Rate: 100
       - Item: Bone_Wand
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Wind_Ghost_Card
         Rate: 1
         StealProtected: true
@@ -12269,6 +12628,7 @@ Body:
         Rate: 35
       - Item: Trident
         Rate: 3
+        RandomOptionGroup: Aeternox_1
       - Item: Oridecon_Stone
         Rate: 203
       - Item: Merman_Card
@@ -12313,6 +12673,7 @@ Body:
         Rate: 50
       - Item: Sandals_
         Rate: 30
+        RandomOptionGroup: Aeternox_1
       - Item: Holy_Scroll_1_3
         Rate: 100
       - Item: Candy
@@ -12401,8 +12762,10 @@ Body:
         Rate: 1000
       - Item: Spiky_Heel
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Joker_Jester
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: White_Herb
         Rate: 1450
       - Item: Carat_Card
@@ -12443,14 +12806,19 @@ Body:
         Rate: 4850
       - Item: Helm_
         Rate: 45
+        RandomOptionGroup: Aeternox_1
       - Item: Plate_Armor_
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Strong_Shield
         Rate: 62
+        RandomOptionGroup: Aeternox_1
       - Item: Katzbalger
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Pole_Axe
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Elunium
         Rate: 433
       - Item: Bloody_Knight_Card
@@ -12631,23 +12999,30 @@ Body:
         Rate: 6000
       - Item: Blue_Coif_
         Rate: 500
+        RandomOptionGroup: Aeternox_1
       - Item: Old_Violet_Box
         Rate: 2000
     Drops:
       - Item: Bone_Wand
         Rate: 800
+        RandomOptionGroup: Aeternox_1
       - Item: Kronos
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Grimtooth_
         Rate: 300
+        RandomOptionGroup: Aeternox_1
       - Item: Mage_Coat
         Rate: 300
+        RandomOptionGroup: Aeternox_1
       - Item: Cape_Of_Ancient_Lord
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Elunium
         Rate: 5141
       - Item: Bone_Helm_
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Dark_Lord_Card
         Rate: 1
         StealProtected: true
@@ -12690,8 +13065,10 @@ Body:
         Rate: 300
       - Item: Earring
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Wedding_Veil
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: High_end_Cooking_Kits
         Rate: 10
       - Item: Cookbook06
@@ -12782,6 +13159,7 @@ Body:
         Rate: 40
       - Item: Chrystal_Pumps
         Rate: 3
+        RandomOptionGroup: Aeternox_1
       - Item: Rouge
         Rate: 30
       - Item: Pair_Of_Red_Ribbon
@@ -12830,12 +13208,15 @@ Body:
         Rate: 4656
       - Item: Chain_Mail_
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Bow
         Rate: 150
+        RandomOptionGroup: Aeternox_1
       - Item: Incisive_Arrow
         Rate: 2000
       - Item: Arbalest_
         Rate: 3
+        RandomOptionGroup: Aeternox_1
       - Item: Elunium
         Rate: 106
       - Item: Raydric_Archer_Card
@@ -12877,10 +13258,12 @@ Body:
         Rate: 2000
       - Item: Club
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Inspector_Certificate
         Rate: 300
       - Item: Stop_Post
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Yellow_Herb
         Rate: 250
       - Item: Earth_Scroll_1_3
@@ -13027,6 +13410,7 @@ Body:
         Rate: 320
       - Item: The_Garrison
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Elunium_Stone
         Rate: 124
       - Item: Steam_Goblin_Card
@@ -13063,6 +13447,7 @@ Body:
     Drops:
       - Item: Librarian_Glove
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Worn_Out_Page
         Rate: 1000
       - Item: Earthworm_Peeling
@@ -13075,6 +13460,7 @@ Body:
         Rate: 100
       - Item: Ph.D_Hat
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Sageworm_Card
         Rate: 1
         StealProtected: true
@@ -13119,10 +13505,12 @@ Body:
         Rate: 4850
       - Item: Ear_Of_Puppy
         Rate: 50
+        RandomOptionGroup: Aeternox_1
       - Item: Poison_Arrow
         Rate: 2000
       - Item: CrossBow_
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Oridecon_Stone
         Rate: 79
       - Item: Kobold_Archer_Card
@@ -13167,10 +13555,12 @@ Body:
         Rate: 1000
       - Item: War_Axe
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Citrine
         Rate: 1500
       - Item: Great_Axe
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Oridecon
         Rate: 160
       - Item: Chimera_Card
@@ -13422,12 +13812,16 @@ Body:
         Rate: 800
       - Item: Gladius_
         Rate: 35
+        RandomOptionGroup: Aeternox_1
       - Item: Gladius
         Rate: 80
+        RandomOptionGroup: Aeternox_1
       - Item: Sandstorm
         Rate: 15
+        RandomOptionGroup: Aeternox_1
       - Item: Ghost_Bandana
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Skeleton_General_Card
         Rate: 1
         StealProtected: true
@@ -13466,8 +13860,10 @@ Body:
         Rate: 4413
       - Item: Wedding_Veil
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Manteau_
         Rate: 8
+        RandomOptionGroup: Aeternox_1
       - Item: Red_Gemstone
         Rate: 700
       - Item: Crystal_Jewel__
@@ -13518,6 +13914,7 @@ Body:
         Rate: 450
       - Item: Satanic_Chain
         Rate: 3
+        RandomOptionGroup: Aeternox_1
       - Item: Elunium_Stone
         Rate: 160
       - Item: Zargon
@@ -13526,6 +13923,7 @@ Body:
         Rate: 10
       - Item: Ahlspiess
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Mini_Demon_Card
         Rate: 1
         StealProtected: true
@@ -13566,12 +13964,14 @@ Body:
         Rate: 4550
       - Item: Silver_Robe_
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Honey
         Rate: 550
       - Item: Wing_Of_Butterfly
         Rate: 200
       - Item: Book
         Rate: 8
+        RandomOptionGroup: Aeternox_1
       - Item: Icarus_Wing
         Rate: 5
       - Item: Fruit_Of_Mastela
@@ -13624,8 +14024,10 @@ Body:
         Rate: 25
       - Item: Nail_Of_Loki
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Mirror_Shield_
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Killer_Mantis_Card
         Rate: 1
         StealProtected: true
@@ -13667,14 +14069,18 @@ Body:
         Rate: 2500
       - Item: Kakkung_
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Staff_Of_Soul
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Walking_Stick
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Wind_Scroll_1_5
         Rate: 100
       - Item: Magician_Hat
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Owl_Baron_Card
         Rate: 1
         StealProtected: true
@@ -13719,8 +14125,10 @@ Body:
         Rate: 1200
       - Item: Flail_
         Rate: 6
+        RandomOptionGroup: Aeternox_1
       - Item: Mighty_Staff
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Panacea
         Rate: 150
       - Item: Royal_Jelly
@@ -13765,8 +14173,10 @@ Body:
         Rate: 1800
       - Item: Glove_
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Silver_Ring
         Rate: 150
+        RandomOptionGroup: Aeternox_1
       - Item: Yellow_Herb
         Rate: 650
       - Item: Oridecon_Stone
@@ -13819,8 +14229,10 @@ Body:
         Rate: 100
       - Item: Ghoul_Leg
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Scapulare_
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Zombie_Master_Card
         Rate: 1
         StealProtected: true
@@ -13865,12 +14277,15 @@ Body:
         Rate: 120
       - Item: Goblin_Mask_04
         Rate: 50
+        RandomOptionGroup: Aeternox_1
       - Item: Shield_
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Yellow_Herb
         Rate: 650
       - Item: Angry_Mouth
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Goblin_Leader_Card
         Rate: 1
         StealProtected: true
@@ -13913,6 +14328,7 @@ Body:
         Rate: 5335
       - Item: Twilight_Desert
         Rate: 20
+        RandomOptionGroup: Aeternox_1
       - Item: Star_Crumb
         Rate: 100
       - Item: Great_Nature
@@ -13963,10 +14379,12 @@ Body:
         Rate: 250
       - Item: Sword_Mace_
         Rate: 3
+        RandomOptionGroup: Aeternox_1
       - Item: Gold
         Rate: 5
       - Item: Spirit_Chain
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Old_Card_Album
         Rate: 1
       - Item: Glass_Bead
@@ -14008,10 +14426,13 @@ Body:
     Drops:
       - Item: Bone_Wand
         Rate: 3
+        RandomOptionGroup: Aeternox_1
       - Item: Bone_Helm
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Ragamuffin_Cape
         Rate: 3
+        RandomOptionGroup: Aeternox_1
       - Item: Brigan
         Rate: 5335
       - Item: Fruit_Of_Mastela
@@ -14020,6 +14441,7 @@ Body:
         Rate: 1550
       - Item: Broad_Sword_
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Dark_Illusion_Card
         Rate: 1
         StealProtected: true
@@ -14066,10 +14488,12 @@ Body:
         Rate: 15
       - Item: Staff_
         Rate: 3
+        RandomOptionGroup: Aeternox_1
       - Item: Scarlet_Jewel
         Rate: 20
       - Item: Double_Bound
         Rate: 15
+        RandomOptionGroup: Aeternox_1
       - Item: Giant_Honet_Card
         Rate: 1
         StealProtected: true
@@ -14162,8 +14586,10 @@ Body:
         Rate: 2500
       - Item: Boots_
         Rate: 9
+        RandomOptionGroup: Aeternox_1
       - Item: Bowman_Scarf
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Round_Shell
         Rate: 680
       - Item: Sticky_Mucus
@@ -14208,6 +14634,7 @@ Body:
         Rate: 4550
       - Item: Poo_Poo_Hat
         Rate: 8
+        RandomOptionGroup: Aeternox_1
       - Item: Stuffed_Doll
         Rate: 120
       - Item: Honey
@@ -14255,6 +14682,7 @@ Body:
     Drops:
       - Item: Puppy_Love
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Silver_Knife_Of_Chaste
         Rate: 150
       - Item: Punisher
@@ -14313,6 +14741,7 @@ Body:
         Rate: 580
       - Item: Butcher
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Flame_Heart
         Rate: 160
       - Item: Panzer_Goblin_Card
@@ -14401,6 +14830,7 @@ Body:
         Rate: 4413
       - Item: Two_Handed_Axe_
         Rate: 4
+        RandomOptionGroup: Aeternox_1
       - Item: Lemon
         Rate: 300
       - Item: Oridecon
@@ -14409,6 +14839,7 @@ Body:
         Rate: 1850
       - Item: Silver_Ring
         Rate: 160
+        RandomOptionGroup: Aeternox_1
       - Item: Star_Crumb
         Rate: 250
       - Item: Majoruros_Card
@@ -14453,10 +14884,12 @@ Body:
         Rate: 6
       - Item: Eagle_Eyes
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Anodyne
         Rate: 15
       - Item: Belt
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Zargon
         Rate: 160
       - Item: Gullinbursti_Card
@@ -14508,14 +14941,17 @@ Body:
         Rate: 8
       - Item: War_Axe
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Cookbook09
         Rate: 200
       - Item: Pole_Axe
         Rate: 9
+        RandomOptionGroup: Aeternox_1
       - Item: Broken_Shell
         Rate: 5335
       - Item: Immaterial_Sword
         Rate: 80
+        RandomOptionGroup: Aeternox_1
       - Item: Union_Of_Tribe
         Rate: 1
       - Item: Turtle_General_Card
@@ -14554,10 +14990,12 @@ Body:
     Drops:
       - Item: Poison_Knife
         Rate: 3
+        RandomOptionGroup: Aeternox_1
       - Item: Blue_Jewel
         Rate: 4559
       - Item: Ring_
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Red_Gemstone
         Rate: 600
       - Item: Zargon
@@ -14662,6 +15100,7 @@ Body:
         Rate: 1240
       - Item: Huuma_Bird_Wing
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Old_Blue_Box
         Rate: 1
       - Item: Assulter_Card
@@ -14712,6 +15151,7 @@ Body:
         Rate: 850
       - Item: Chain
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Solider_Card
         Rate: 1
         StealProtected: true
@@ -14757,6 +15197,7 @@ Body:
         Rate: 1200
       - Item: Guisarme_
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Panacea
         Rate: 200
       - Item: Glass_Bead
@@ -14902,10 +15343,13 @@ Body:
         Rate: 1
       - Item: Guisarme
         Rate: 3
+        RandomOptionGroup: Aeternox_1
       - Item: Morning_Star
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Magician_Hat
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Owl_Duke_Card
         Rate: 1
         StealProtected: true
@@ -14950,8 +15394,10 @@ Body:
         Rate: 800
       - Item: Fancy_Flower
         Rate: 8
+        RandomOptionGroup: Aeternox_1
       - Item: Cap
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Wing_Of_Fly
         Rate: 300
       - Item: Wing_Of_Butterfly
@@ -16530,8 +16976,10 @@ Body:
         Rate: 5
       - Item: Destroyer_
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Manteau_
         Rate: 20
+        RandomOptionGroup: Aeternox_1
       - Item: Steel
         Rate: 2500
       - Item: Apocalips_Card
@@ -16575,12 +17023,15 @@ Body:
         Rate: 3686
       - Item: Plate_Armor_
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Plate_Armor
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: White_Herb
         Rate: 2500
       - Item: Magma_Fist
         Rate: 20
+        RandomOptionGroup: Aeternox_1
       - Item: Lava_Golem_Card
         Rate: 1
         StealProtected: true
@@ -16663,6 +17114,7 @@ Body:
         Rate: 30
       - Item: Fancy_Flower
         Rate: 50
+        RandomOptionGroup: Aeternox_1
       - Item: Holy_Scroll_1_5
         Rate: 100
       - Item: Geographer_Card
@@ -16747,14 +17199,17 @@ Body:
         Rate: 1500
       - Item: Chrystal_Pumps
         Rate: 3
+        RandomOptionGroup: Aeternox_1
       - Item: Boy's_Naivety
         Rate: 1
       - Item: Diamond_Ring
         Rate: 250
+        RandomOptionGroup: Aeternox_1
       - Item: Horn_Of_Succubus
         Rate: 1
       - Item: Staff_Of_Soul
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Blue_Potion
         Rate: 1000
       - Item: Succubus_Card
@@ -16801,6 +17256,7 @@ Body:
         Rate: 1000
       - Item: Carrot_Whip
         Rate: 20
+        RandomOptionGroup: Aeternox_1
       - Item: Fake_Angel_Card
         Rate: 1
         StealProtected: true
@@ -16897,16 +17353,21 @@ Body:
         Rate: 5335
       - Item: Pole_Axe
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: House_Auger
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Ring_
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Shine_Spear_Blade
         Rate: 10
       - Item: War_Axe
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Iron_Driver
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Lord_Of_Death_Card
         Rate: 1
         StealProtected: true
@@ -16950,10 +17411,13 @@ Body:
         Rate: 1
       - Item: Ring_
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Gold_Ring
         Rate: 500
+        RandomOptionGroup: Aeternox_1
       - Item: Diamond_Ring
         Rate: 150
+        RandomOptionGroup: Aeternox_1
       - Item: White_Herb
         Rate: 2200
       - Item: Incubus_Card
@@ -16999,6 +17463,7 @@ Body:
         Rate: 2000
       - Item: Kamaitachi
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: The_Paper_Card
         Rate: 1
         StealProtected: true
@@ -17046,6 +17511,7 @@ Body:
         Rate: 20
       - Item: Electric_Fist
         Rate: 20
+        RandomOptionGroup: Aeternox_1
       - Item: Harpy_Card
         Rate: 1
         StealProtected: true
@@ -17087,8 +17553,10 @@ Body:
         Rate: 1500
       - Item: Encyclopedia
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Wizardy_Staff
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Old_Card_Album
         Rate: 1
       - Item: Underground_Key
@@ -17175,8 +17643,10 @@ Body:
         Rate: 4947
       - Item: Rosary_
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Rosary
         Rate: 30
+        RandomOptionGroup: Aeternox_1
       - Item: Blue_Potion
         Rate: 50
       - Item: Blue_Herb
@@ -17185,6 +17655,7 @@ Body:
         Rate: 100
       - Item: Infiltrator
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Nightmare_Terror_Card
         Rate: 1
         StealProtected: true
@@ -17304,10 +17775,12 @@ Body:
         Rate: 4850
       - Item: Brooch
         Rate: 3
+        RandomOptionGroup: Aeternox_1
       - Item: Oridecon
         Rate: 20
       - Item: Unholy_Touch
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Diabolic_Card
         Rate: 1
         StealProtected: true
@@ -17476,8 +17949,10 @@ Body:
         Rate: 300
       - Item: Damascus_
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Hypnotist's_Staff_
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Fine_Sand
         Rate: 1200
       - Item: Sleeper_Card
@@ -17560,6 +18035,7 @@ Body:
     Drops:
       - Item: Satanic_Chain
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Leaf_Of_Yggdrasil
         Rate: 1800
       - Item: Seed_Of_Yggdrasil
@@ -17568,8 +18044,10 @@ Body:
         Rate: 1500
       - Item: Angelic_Chain
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Plate_Armor_
         Rate: 3
+        RandomOptionGroup: Aeternox_1
       - Item: Turquoise
         Rate: 1500
       - Item: Archangeling_Card
@@ -17620,14 +18098,19 @@ Body:
         Rate: 4700
       - Item: Wizardy_Staff
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Balistar
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Cape_Of_Ancient_Lord
         Rate: 15
+        RandomOptionGroup: Aeternox_1
       - Item: Ring_
         Rate: 4
+        RandomOptionGroup: Aeternox_1
       - Item: Book_Of_The_Apocalypse
         Rate: 4
+        RandomOptionGroup: Aeternox_1
       - Item: Dracula_Card
         Rate: 1
         StealProtected: true
@@ -17669,12 +18152,14 @@ Body:
         Rate: 1200
       - Item: Base_Guitar
         Rate: 50
+        RandomOptionGroup: Aeternox_1
       - Item: Royal_Jelly
         Rate: 1400
       - Item: Water_Of_Darkness
         Rate: 1000
       - Item: Violin_
         Rate: 500
+        RandomOptionGroup: Aeternox_1
       - Item: Violy_Card
         Rate: 1
         StealProtected: true
@@ -17720,6 +18205,7 @@ Body:
         Rate: 100
       - Item: Galapago_Cap
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Orange
         Rate: 1000
       - Item: Galapago_Card
@@ -17759,6 +18245,7 @@ Body:
         Rate: 500
       - Item: Padded_Armor
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Cyfar
         Rate: 1000
       - Item: Steel
@@ -17857,6 +18344,7 @@ Body:
         Rate: 4900
       - Item: Cone_Hat_
         Rate: 7000
+        RandomOptionGroup: Aeternox_1
       - Item: Banana_Juice
         Rate: 6500
       - Item: Chocolate
@@ -17896,6 +18384,7 @@ Body:
         Rate: 4900
       - Item: Cone_Hat_
         Rate: 7000
+        RandomOptionGroup: Aeternox_1
       - Item: Apple_Juice
         Rate: 6500
       - Item: Chocolate
@@ -17935,6 +18424,7 @@ Body:
         Rate: 4900
       - Item: Cone_Hat_
         Rate: 7000
+        RandomOptionGroup: Aeternox_1
       - Item: Carrot_Juice
         Rate: 6500
       - Item: Chocolate
@@ -17974,6 +18464,7 @@ Body:
         Rate: 4900
       - Item: Cone_Hat_
         Rate: 7000
+        RandomOptionGroup: Aeternox_1
       - Item: Grape_Juice
         Rate: 6500
       - Item: Chocolate
@@ -18024,20 +18515,28 @@ Body:
     Drops:
       - Item: Pole_Axe
         Rate: 550
+        RandomOptionGroup: Aeternox_1
       - Item: War_Axe
         Rate: 680
+        RandomOptionGroup: Aeternox_1
       - Item: Holy_Avenger
         Rate: 480
+        RandomOptionGroup: Aeternox_1
       - Item: Holy_Guard
         Rate: 640
+        RandomOptionGroup: Aeternox_1
       - Item: Holy_Robe
         Rate: 1500
+        RandomOptionGroup: Aeternox_1
       - Item: Herald_Of_GOD
         Rate: 500
+        RandomOptionGroup: Aeternox_1
       - Item: Ring_
         Rate: 1720
+        RandomOptionGroup: Aeternox_1
       - Item: Magestic_Goat
         Rate: 1550
+        RandomOptionGroup: Aeternox_1
         StealProtected: true
   - Id: 1400
     AegisName: KARAKASA
@@ -18083,6 +18582,7 @@ Body:
         Rate: 30
       - Item: Murasame
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Karakasa_Card
         Rate: 1
         StealProtected: true
@@ -18123,16 +18623,20 @@ Body:
         Rate: 5335
       - Item: Ninja_Suit
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Cyfar
         Rate: 2200
       - Item: Shinobi's_Sash
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Thief_Clothes_
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Black_Mask
         Rate: 2000
       - Item: Murasame_
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Shinobi_Card
         Rate: 1
         StealProtected: true
@@ -18173,6 +18677,7 @@ Body:
         Rate: 2400
       - Item: Gold_Ring
         Rate: 4
+        RandomOptionGroup: Aeternox_1
       - Item: Green_Herb
         Rate: 540
       - Item: Cardinal_Jewel_
@@ -18181,6 +18686,7 @@ Body:
         Rate: 2
       - Item: Cinquedea_
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Poison_Toad_Card
         Rate: 1
         StealProtected: true
@@ -18220,6 +18726,7 @@ Body:
         Rate: 5500
       - Item: Apple_Of_Archer
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Large_Jellopy
         Rate: 1400
       - Item: Yellow_Herb
@@ -18230,6 +18737,7 @@ Body:
         Rate: 250
       - Item: The_Cyclone_
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Antique_Firelock_Card
         Rate: 1
         StealProtected: true
@@ -18278,8 +18786,10 @@ Body:
         Rate: 10
       - Item: Hakujin
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Mandolin_
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Miyabi_Ningyo_Card
         Rate: 1
         StealProtected: true
@@ -18322,10 +18832,12 @@ Body:
         Rate: 5500
       - Item: Huuma_Giant_Wheel
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Fruit_Of_Mastela
         Rate: 150
       - Item: Huuma_Giant_Wheel_
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Imperial_Cooking_Kits
         Rate: 20
       - Item: Earth_Scroll_1_5
@@ -18369,14 +18881,17 @@ Body:
         Rate: 3500
       - Item: Huuma_Calm_Mind
         Rate: 20
+        RandomOptionGroup: Aeternox_1
       - Item: Leaflet_Of_Aloe
         Rate: 2300
       - Item: Ment
         Rate: 2
       - Item: Guitar_Of_Blue_Solo
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Jitte_
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Kapha_Card
         Rate: 1
         StealProtected: true
@@ -18430,8 +18945,10 @@ Body:
         Rate: 5500
       - Item: Waghnakh_
         Rate: 3
+        RandomOptionGroup: Aeternox_1
       - Item: Lariat
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Blood_Butterfly_Card
         Rate: 1
         StealProtected: true
@@ -18575,6 +19092,7 @@ Body:
         Rate: 6800
       - Item: Guitar_
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Elunium_Stone
         Rate: 150
       - Item: Wind_Scroll_1_5
@@ -18626,6 +19144,7 @@ Body:
         Rate: 4800
       - Item: Rope_
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Strawberry
         Rate: 1000
       - Item: Wild_Ginseng_Card
@@ -18679,6 +19198,7 @@ Body:
         Rate: 2000
       - Item: Dagger_
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Pet_Food
         Rate: 500
       - Item: Baby_Leopard_Card
@@ -18725,12 +19245,15 @@ Body:
         Rate: 10
       - Item: Mandolin_
         Rate: 4
+        RandomOptionGroup: Aeternox_1
       - Item: Lute_
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Holy_Scroll_1_5
         Rate: 100
       - Item: Oriental_Lute
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Wicked_Nymph_Card
         Rate: 1
         StealProtected: true
@@ -18826,10 +19349,13 @@ Body:
         Rate: 5100
       - Item: Hell_Fire
         Rate: 80
+        RandomOptionGroup: Aeternox_1
       - Item: Ph.D_Hat
         Rate: 80
+        RandomOptionGroup: Aeternox_1
       - Item: Gae_Bolg
         Rate: 500
+        RandomOptionGroup: Aeternox_1
       - Item: Pill
         Rate: 900
       - Item: Sway_Apron
@@ -20891,18 +21417,22 @@ Body:
     Drops:
       - Item: Masamune
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Elunium
         Rate: 3500
       - Item: Assassin_Mask_
         Rate: 500
+        RandomOptionGroup: Aeternox_1
       - Item: Yggdrasilberry
         Rate: 4500
       - Item: Steel
         Rate: 6305
       - Item: Huuma_Blaze
         Rate: 7500
+        RandomOptionGroup: Aeternox_1
       - Item: Azoth
         Rate: 80
+        RandomOptionGroup: Aeternox_1
       - Item: Incant_Samurai_Card
         Rate: 1
         StealProtected: true
@@ -20943,10 +21473,13 @@ Body:
         Rate: 3000
       - Item: Rope_
         Rate: 80
+        RandomOptionGroup: Aeternox_1
       - Item: Chemeti
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Centimental_Leaf
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Sharp_Leaf
         Rate: 3000
       - Item: Dryad_Card
@@ -20994,6 +21527,7 @@ Body:
         Rate: 500
       - Item: Guard_
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Kind_Of_Beetle_Card
         Rate: 1
         StealProtected: true
@@ -21089,6 +21623,7 @@ Body:
         Rate: 110
       - Item: Centimental_Leaf
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Branch_Of_Dead_Tree
         Rate: 100
       - Item: Log
@@ -21143,6 +21678,7 @@ Body:
         Rate: 100
       - Item: Banana_Hat
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Wootan_Shooter_Card
         Rate: 1
         StealProtected: true
@@ -21182,8 +21718,10 @@ Body:
         Rate: 4000
       - Item: Waghnakh
         Rate: 3
+        RandomOptionGroup: Aeternox_1
       - Item: Finger_
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Banana
         Rate: 1000
       - Item: Great_Leaf
@@ -21233,8 +21771,10 @@ Body:
         Rate: 500
       - Item: Rante_
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Bladed_Whip
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Shoot
         Rate: 500
       - Item: Parasite_Card
@@ -21289,17 +21829,22 @@ Body:
         Rate: 100
       - Item: Elven_Ears
         Rate: 200
+        RandomOptionGroup: Aeternox_1
     Drops:
       - Item: Poring_Hat
         Rate: 10000
       - Item: Flame_Sprits_Armor
         Rate: 2500
+        RandomOptionGroup: Aeternox_1
       - Item: Water_Sprits_Armor
         Rate: 2500
+        RandomOptionGroup: Aeternox_1
       - Item: Earth_Sprits_Armor
         Rate: 2500
+        RandomOptionGroup: Aeternox_1
       - Item: Wind_Sprits_Armor
         Rate: 2500
+        RandomOptionGroup: Aeternox_1
       - Item: Bloody_Iron_Ball
         Rate: 4000
       - Item: Large_Jellopy
@@ -21394,8 +21939,10 @@ Body:
         Rate: 1
       - Item: Manteau
         Rate: 13
+        RandomOptionGroup: Aeternox_1
       - Item: Manteau_
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Dullahan_Card
         Rate: 1
         StealProtected: true
@@ -21487,14 +22034,18 @@ Body:
         Rate: 3686
       - Item: Hood_
         Rate: 50
+        RandomOptionGroup: Aeternox_1
       - Item: Honey
         Rate: 100
       - Item: Ragamuffin_Cape
         Rate: 50
+        RandomOptionGroup: Aeternox_1
       - Item: Muffler_
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Rider_Insignia
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Disguise_Card
         Rate: 1
         StealProtected: true
@@ -21537,12 +22088,15 @@ Body:
         Rate: 2000
       - Item: Mr_Scream
         Rate: 50
+        RandomOptionGroup: Aeternox_1
       - Item: Oridecon
         Rate: 100
       - Item: Mama's_Knife
         Rate: 3
+        RandomOptionGroup: Aeternox_1
       - Item: Ginnungagap
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Bloody_Murderer_Card
         Rate: 1
         StealProtected: true
@@ -21629,6 +22183,7 @@ Body:
         Rate: 1000
       - Item: Spirit_Chain
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Elunium_Stone
         Rate: 10
       - Item: Holy_Scroll_1_3
@@ -21684,6 +22239,7 @@ Body:
         Rate: 10
       - Item: Angry_Mouth
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Hylozoist_Card
         Rate: 1
         StealProtected: true
@@ -21730,8 +22286,10 @@ Body:
     Drops:
       - Item: Spinx_Helm
         Rate: 150
+        RandomOptionGroup: Aeternox_1
       - Item: Safety_Ring
         Rate: 50
+        RandomOptionGroup: Aeternox_1
       - Item: Rojerta_Piece
         Rate: 7760
       - Item: Elunium
@@ -21740,6 +22298,7 @@ Body:
         Rate: 400
       - Item: Tablet
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Yggdrasilberry
         Rate: 3000
       - Item: Amon_Ra_Card
@@ -21785,6 +22344,7 @@ Body:
         Rate: 10
       - Item: Boots_
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Munak_Doll
         Rate: 300
       - Item: Hyegun_Card
@@ -22008,8 +22568,10 @@ Body:
         Rate: 400
       - Item: Club
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Spike
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Li_Me_Mang_Ryang_Card
         Rate: 1
         StealProtected: true
@@ -22059,6 +22621,7 @@ Body:
         Rate: 500
       - Item: Tiara
         Rate: 1
+        RandomOptionGroup: Aeternox_1
         StealProtected: true
   - Id: 1519
     AegisName: CHUNG_E
@@ -22098,6 +22661,7 @@ Body:
         Rate: 100
       - Item: Hora_
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Honey
         Rate: 500
       - Item: Tantanmen
@@ -23869,6 +24433,7 @@ Body:
         Rate: 4850
       - Item: Satanic_Chain
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Apple
         Rate: 5000
       - Item: Blade_Lost_In_Darkness
@@ -23929,12 +24494,14 @@ Body:
         Rate: 1000
       - Item: Binoculars
         Rate: 400
+        RandomOptionGroup: Aeternox_1
       - Item: White_Potion
         Rate: 3000
       - Item: Iron_Ore
         Rate: 1000
       - Item: Gemmed_Sallet_
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Tao_Gunka_Card
         Rate: 1
         StealProtected: true
@@ -23977,10 +24544,13 @@ Body:
         Rate: 3000
       - Item: Katana_
         Rate: 40
+        RandomOptionGroup: Aeternox_1
       - Item: Bastard_Sword_
         Rate: 8
+        RandomOptionGroup: Aeternox_1
       - Item: Chain_Mail_
         Rate: 3
+        RandomOptionGroup: Aeternox_1
       - Item: Tamruan_Card
         Rate: 1
         StealProtected: true
@@ -24018,6 +24588,7 @@ Body:
         Rate: 7000
       - Item: Knife_
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Sticky_Mucus
         Rate: 400
       - Item: Apple
@@ -24114,6 +24685,7 @@ Body:
         Rate: 1000
       - Item: Guard_
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Bamboo_Basket
         Rate: 4850
       - Item: Chilli
@@ -24163,6 +24735,7 @@ Body:
         Rate: 1600
       - Item: Battle_Axe_
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Gift_Box
         Rate: 15
       - Item: Packing_Ribbon
@@ -24289,6 +24862,7 @@ Body:
         Rate: 2000
       - Item: Cutter__
         Rate: 3000
+        RandomOptionGroup: Aeternox_1
       - Item: Empty_Bottle
         Rate: 1000
       - Item: Popped_Rice
@@ -24946,6 +25520,7 @@ Body:
         Rate: 200
       - Item: Crimson_Bolt_
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Jubilee
         Rate: 5000
       - Item: Metaling_Card
@@ -25042,6 +25617,7 @@ Body:
         Rate: 500
       - Item: Unholy_Touch
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Obsidian_Card
         Rate: 1
         StealProtected: true
@@ -25189,6 +25765,7 @@ Body:
         Rate: 1500
       - Item: Boots_
         Rate: 500
+        RandomOptionGroup: Aeternox_1
       - Item: Ungoliant_Card
         Rate: 1
         StealProtected: true
@@ -25228,6 +25805,7 @@ Body:
         Rate: 5000
       - Item: Main_Gauche_
         Rate: 25
+        RandomOptionGroup: Aeternox_1
       - Item: Insect_Feeler
         Rate: 1000
       - Item: Single_Cell
@@ -25363,8 +25941,10 @@ Body:
         Rate: 300
       - Item: Gold_Lux
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Angry_Mouth
         Rate: 50
+        RandomOptionGroup: Aeternox_1
       - Item: Cursed_Lucky_Brooch
         Rate: 10
       - Item: Elunium
@@ -25419,14 +25999,17 @@ Body:
         Rate: 6000
       - Item: House_Auger
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: House_Auger_
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Old_Violet_Box
         Rate: 1000
       - Item: Headlamp
         Rate: 5000
       - Item: Counter_Dagger
         Rate: 50
+        RandomOptionGroup: Aeternox_1
       - Item: Spanner
         Rate: 20
       - Item: Rsx_0806_Card
@@ -25610,8 +26193,10 @@ Body:
         Rate: 5000
       - Item: Super_Novice_Hat_
         Rate: 50
+        RandomOptionGroup: Aeternox_1
       - Item: Six_Shooter_
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Mole_Card
         Rate: 1
         StealProtected: true
@@ -25693,6 +26278,7 @@ Body:
         Rate: 5500
       - Item: Celestial_Robe
         Rate: 2000
+        RandomOptionGroup: Aeternox_1
       - Item: Old_Violet_Box
         Rate: 5000
     Drops:
@@ -25751,6 +26337,7 @@ Body:
         Rate: 100
       - Item: Hora_
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Honey
         Rate: 500
       - Item: Tantanmen
@@ -25801,8 +26388,10 @@ Body:
         Rate: 100
       - Item: Boots_
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Bloody_Roar
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Old_Blue_Box
         Rate: 2
       - Item: Gremlin_Card
@@ -25890,14 +26479,18 @@ Body:
         Rate: 3000
       - Item: Dragon_Killer
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Claymore
         Rate: 200
+        RandomOptionGroup: Aeternox_1
       - Item: Old_Blue_Box
         Rate: 30
       - Item: Helm_
         Rate: 12
+        RandomOptionGroup: Aeternox_1
       - Item: Plate_Armor_
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Ruber
         Rate: 1
       - Item: Seyren_Card
@@ -25941,16 +26534,21 @@ Body:
         Rate: 2000
       - Item: Krishna
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Pauldron
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Nail_Of_Loki
         Rate: 3
+        RandomOptionGroup: Aeternox_1
       - Item: Various_Jur
         Rate: 30
+        RandomOptionGroup: Aeternox_1
       - Item: Poison_Bottle
         Rate: 110
       - Item: Thief_Clothes_
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Eremes_Card
         Rate: 1
         StealProtected: true
@@ -25990,14 +26588,19 @@ Body:
         Rate: 3000
       - Item: Pauldron
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Vecer_Axe
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Two_Handed_Axe_
         Rate: 110
+        RandomOptionGroup: Aeternox_1
       - Item: Buckler_
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Clothes_Of_The_Lord
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Old_Blue_Box
         Rate: 50
       - Item: Harword_Card
@@ -26038,16 +26641,20 @@ Body:
         Rate: 2000
       - Item: Croce_Staff
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Rod_
         Rate: 200
+        RandomOptionGroup: Aeternox_1
       - Item: Hardback
         Rate: 10
       - Item: Holy_Robe
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Old_Blue_Box
         Rate: 50
       - Item: Muffler_
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Magaleta_Card
         Rate: 1
         StealProtected: true
@@ -26088,14 +26695,17 @@ Body:
         Rate: 110
       - Item: Tights_
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: CrossBow_
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Ori_Arrow_Container
         Rate: 150
       - Item: Old_Blue_Box
         Rate: 50
       - Item: Falken_Blitz
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Shecil_Card
         Rate: 1
         StealProtected: true
@@ -26136,14 +26746,19 @@ Body:
         Rate: 50
       - Item: La'cryma_Stick
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Survival_Rod2_
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Guard_
         Rate: 30
+        RandomOptionGroup: Aeternox_1
       - Item: Pair_Of_Red_Ribbon
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Shoes_
         Rate: 20
+        RandomOptionGroup: Aeternox_1
       - Item: Katrinn_Card
         Rate: 1
         StealProtected: true
@@ -26402,18 +27017,25 @@ Body:
     Drops:
       - Item: Edge
         Rate: 2500
+        RandomOptionGroup: Aeternox_1
       - Item: Full_Plate_Armor_
         Rate: 3500
+        RandomOptionGroup: Aeternox_1
       - Item: Grave_
         Rate: 9000
+        RandomOptionGroup: Aeternox_1
       - Item: Brionac
         Rate: 3500
+        RandomOptionGroup: Aeternox_1
       - Item: Longinus's_Spear
         Rate: 3000
+        RandomOptionGroup: Aeternox_1
       - Item: Dragon_Slayer
         Rate: 2500
+        RandomOptionGroup: Aeternox_1
       - Item: Skewer
         Rate: 1500
+        RandomOptionGroup: Aeternox_1
       - Item: B_Seyren_Card
         Rate: 1
         StealProtected: true
@@ -26461,18 +27083,25 @@ Body:
     Drops:
       - Item: Moonlight_Sword
         Rate: 1500
+        RandomOptionGroup: Aeternox_1
       - Item: House_Auger
         Rate: 1500
+        RandomOptionGroup: Aeternox_1
       - Item: Glittering_Clothes
         Rate: 9000
+        RandomOptionGroup: Aeternox_1
       - Item: Exercise
         Rate: 3500
+        RandomOptionGroup: Aeternox_1
       - Item: Assasin_Dagger
         Rate: 3500
+        RandomOptionGroup: Aeternox_1
       - Item: Bloody_Roar
         Rate: 3500
+        RandomOptionGroup: Aeternox_1
       - Item: Ginnungagap
         Rate: 3500
+        RandomOptionGroup: Aeternox_1
       - Item: B_Eremes_Card
         Rate: 1
         StealProtected: true
@@ -26521,18 +27150,25 @@ Body:
     Drops:
       - Item: Mysteltainn_
         Rate: 3500
+        RandomOptionGroup: Aeternox_1
       - Item: Byeorrun_Gum
         Rate: 2500
+        RandomOptionGroup: Aeternox_1
       - Item: Clothes_Of_The_Lord
         Rate: 9000
+        RandomOptionGroup: Aeternox_1
       - Item: Sabbath
         Rate: 3500
+        RandomOptionGroup: Aeternox_1
       - Item: Great_Axe
         Rate: 3500
+        RandomOptionGroup: Aeternox_1
       - Item: Guillotine
         Rate: 2500
+        RandomOptionGroup: Aeternox_1
       - Item: Tomahawk
         Rate: 3500
+        RandomOptionGroup: Aeternox_1
       - Item: B_Harword_Card
         Rate: 1
         StealProtected: true
@@ -26580,18 +27216,25 @@ Body:
     Drops:
       - Item: Berserk
         Rate: 3500
+        RandomOptionGroup: Aeternox_1
       - Item: Safety_Ring
         Rate: 2500
+        RandomOptionGroup: Aeternox_1
       - Item: Celestial_Robe
         Rate: 9000
+        RandomOptionGroup: Aeternox_1
       - Item: Book_Of_The_Apocalypse
         Rate: 3500
+        RandomOptionGroup: Aeternox_1
       - Item: Quadrille
         Rate: 3500
+        RandomOptionGroup: Aeternox_1
       - Item: Grand_Cross
         Rate: 2500
+        RandomOptionGroup: Aeternox_1
       - Item: Diary_Of_Great_Sage
         Rate: 3500
+        RandomOptionGroup: Aeternox_1
       - Item: B_Magaleta_Card
         Rate: 1
         StealProtected: true
@@ -26636,6 +27279,7 @@ Body:
         Rate: 5000
       - Item: Luna_Bow
         Rate: 2000
+        RandomOptionGroup: Aeternox_1
     Drops:
       - Item: Combat_Knife
         Rate: 3500
@@ -26698,18 +27342,25 @@ Body:
     Drops:
       - Item: Cursed_Dagger
         Rate: 3500
+        RandomOptionGroup: Aeternox_1
       - Item: Counter_Dagger
         Rate: 3500
+        RandomOptionGroup: Aeternox_1
       - Item: Critical_Ring
         Rate: 9000
+        RandomOptionGroup: Aeternox_1
       - Item: Robe_Of_Casting
         Rate: 2500
+        RandomOptionGroup: Aeternox_1
       - Item: Celestial_Robe
         Rate: 2500
+        RandomOptionGroup: Aeternox_1
       - Item: Survival_Rod_
         Rate: 3000
+        RandomOptionGroup: Aeternox_1
       - Item: Glittering_Clothes
         Rate: 3500
+        RandomOptionGroup: Aeternox_1
       - Item: B_Katrinn_Card
         Rate: 1
         StealProtected: true
@@ -26749,16 +27400,22 @@ Body:
         Rate: 1000
       - Item: Katzbalger
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Two_Hand_Sword_
         Rate: 20
+        RandomOptionGroup: Aeternox_1
       - Item: Saber_
         Rate: 20
+        RandomOptionGroup: Aeternox_1
       - Item: Padded_Armor_
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Slayer_
         Rate: 80
+        RandomOptionGroup: Aeternox_1
       - Item: Plate_Armor_
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Ygnizem_Card
         Rate: 1
         StealProtected: true
@@ -26797,16 +27454,22 @@ Body:
         Rate: 2000
       - Item: Forturn_Sword
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Adventurere's_Suit_
         Rate: 40
+        RandomOptionGroup: Aeternox_1
       - Item: Gladius_
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Chain_Mail_
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Ring_Of_Rogue
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Coward_
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Whikebain_Card
         Rate: 1
         StealProtected: true
@@ -26846,16 +27509,22 @@ Body:
         Rate: 1000
       - Item: Muffler_
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Buster_
         Rate: 50
+        RandomOptionGroup: Aeternox_1
       - Item: Battle_Axe_
         Rate: 40
+        RandomOptionGroup: Aeternox_1
       - Item: Mink_Coat
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Axe_
         Rate: 80
+        RandomOptionGroup: Aeternox_1
       - Item: Windhawk
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Armaia_Card
         Rate: 1
         StealProtected: true
@@ -26894,14 +27563,19 @@ Body:
         Rate: 500
       - Item: Biretta_
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Morning_Star_
         Rate: 50
+        RandomOptionGroup: Aeternox_1
       - Item: Sword_Mace_
         Rate: 20
+        RandomOptionGroup: Aeternox_1
       - Item: Saint_Robe_
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Scapulare_
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Spike
         Rate: 1
       - Item: Erend_Card
@@ -26943,16 +27617,21 @@ Body:
         Rate: 2000
       - Item: Kakkung_
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Steel_Arrow_Container
         Rate: 100
       - Item: Great_Bow_
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Mantle_
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Sandals_
         Rate: 30
+        RandomOptionGroup: Aeternox_1
       - Item: Shoes_
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Kavac_Card
         Rate: 1
         StealProtected: true
@@ -26991,16 +27670,22 @@ Body:
         Rate: 1000
       - Item: Staff_Of_Wing
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Guard_
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Staff_
         Rate: 50
+        RandomOptionGroup: Aeternox_1
       - Item: Silk_Robe_
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Silver_Robe_
         Rate: 30
+        RandomOptionGroup: Aeternox_1
       - Item: Clip
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Rawrel_Card
         Rate: 1
         StealProtected: true
@@ -27049,18 +27734,23 @@ Body:
     Drops:
       - Item: Broad_Sword_
         Rate: 1000
+        RandomOptionGroup: Aeternox_1
       - Item: Gift_Box
         Rate: 5000
       - Item: Old_Blue_Box
         Rate: 5000
       - Item: Schweizersabel
         Rate: 1000
+        RandomOptionGroup: Aeternox_1
       - Item: Formal_Suit
         Rate: 1000
+        RandomOptionGroup: Aeternox_1
       - Item: Boots_
         Rate: 1000
+        RandomOptionGroup: Aeternox_1
       - Item: Nagan
         Rate: 1000
+        RandomOptionGroup: Aeternox_1
       - Item: B_Ygnizem_Card
         Rate: 1
         StealProtected: true
@@ -27743,6 +28433,7 @@ Body:
         Rate: 300
       - Item: Drifter
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Elunium
         Rate: 10
       - Item: High_end_Cooking_Kits
@@ -27791,6 +28482,7 @@ Body:
         Rate: 300
       - Item: Long_Barrel_
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Elunium
         Rate: 10
       - Item: High_end_Cooking_Kits
@@ -27839,6 +28531,7 @@ Body:
         Rate: 300
       - Item: Hyper_Changer
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Elunium
         Rate: 10
       - Item: High_end_Cooking_Kits
@@ -27887,6 +28580,7 @@ Body:
         Rate: 300
       - Item: Hyper_Changer
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Elunium
         Rate: 10
       - Item: High_end_Cooking_Kits
@@ -28022,6 +28716,7 @@ Body:
         Rate: 5000
       - Item: Gas_Mask
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Nice_Sweet_Potato
         Rate: 500
       - Item: Detrimindexta
@@ -28138,12 +28833,16 @@ Body:
         Rate: 1000
       - Item: Vesper_Core01
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Vesper_Core02
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Vesper_Core03
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Vesper_Core04
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Apocalips_H_Card
         Rate: 1
         StealProtected: true
@@ -28184,6 +28883,7 @@ Body:
         Rate: 100
       - Item: Viking_Helm
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Milk
         Rate: 5000
       - Item: Milk_Bottle
@@ -28289,12 +28989,14 @@ Body:
         Rate: 1000
       - Item: Banana_Hat
         Rate: 1000
+        RandomOptionGroup: Aeternox_1
       - Item: Elunium
         Rate: 5000
       - Item: Old_Violet_Box
         Rate: 2000
       - Item: Kakkung_
         Rate: 6000
+        RandomOptionGroup: Aeternox_1
       - Item: Lady_Tanee_Card
         Rate: 1
         StealProtected: true
@@ -28444,10 +29146,12 @@ Body:
         Rate: 10
       - Item: Gust_Bow
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Branch_Of_Dead_Tree
         Rate: 10
       - Item: Centimental_Flower
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Rough_Wind
         Rate: 10
       - Item: Breeze_Card
@@ -28705,6 +29409,7 @@ Body:
         Rate: 500
       - Item: Vidar's_Boots
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Cookbook08
         Rate: 2
       - Item: Cookbook09
@@ -28751,12 +29456,16 @@ Body:
         Rate: 50
       - Item: Shoes_
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Manteau_
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Fricco_Shoes
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Gold_Ring
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Ancient_Mimic_Card
         Rate: 1
         StealProtected: true
@@ -28797,6 +29506,7 @@ Body:
         Rate: 500
       - Item: Ring_
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Cursed_Seal
         Rate: 100
       - Item: Golden_Jewel
@@ -28805,6 +29515,7 @@ Body:
         Rate: 100
       - Item: Hair_Band
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Golden_Bracelet
         Rate: 100
       - Item: Observation_Card
@@ -28895,14 +29606,17 @@ Body:
         Rate: 400
       - Item: Ring_
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Stone_Of_Intelligence_
         Rate: 50
       - Item: Cardinal_Jewel
         Rate: 1000
       - Item: Manteau_
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Two_Hand_Sword_
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Cursed_Seal
         Rate: 50
       - Item: Retribution_Card
@@ -28945,14 +29659,17 @@ Body:
         Rate: 200
       - Item: Ring_
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Stone_Of_Intelligence_
         Rate: 50
       - Item: Dark_Red_Jewel
         Rate: 1000
       - Item: Harp_
         Rate: 50
+        RandomOptionGroup: Aeternox_1
       - Item: Harp
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Cursed_Seal
         Rate: 50
       - Item: Solace_Card
@@ -29003,6 +29720,7 @@ Body:
         Rate: 10
       - Item: Goibne's_Shoulder_Arms
         Rate: 1000
+        RandomOptionGroup: Aeternox_1
       - Item: Tha_Odium_Card
         Rate: 1
         StealProtected: true
@@ -29051,6 +29769,7 @@ Body:
         Rate: 10
       - Item: Goibne's_Combat_Boots
         Rate: 1000
+        RandomOptionGroup: Aeternox_1
       - Item: Tha_Despero_Card
         Rate: 1
         StealProtected: true
@@ -29099,6 +29818,7 @@ Body:
         Rate: 10
       - Item: Goibne's_Armor
         Rate: 1000
+        RandomOptionGroup: Aeternox_1
       - Item: Tha_Maero_Card
         Rate: 1
         StealProtected: true
@@ -29147,6 +29867,7 @@ Body:
         Rate: 10
       - Item: Goibne's_Helmet
         Rate: 1000
+        RandomOptionGroup: Aeternox_1
       - Item: Tha_Dolor_Card
         Rate: 1
         StealProtected: true
@@ -29197,14 +29918,18 @@ Body:
         Rate: 1000
       - Item: Morrigane's_Manteau
         Rate: 1000
+        RandomOptionGroup: Aeternox_1
       - Item: Piece_Of_Bone_Armor
         Rate: 5000
       - Item: Full_Plate_Armor_
         Rate: 5000
+        RandomOptionGroup: Aeternox_1
       - Item: Grave_
         Rate: 5000
+        RandomOptionGroup: Aeternox_1
       - Item: Wing_Of_Eagle
         Rate: 1000
+        RandomOptionGroup: Aeternox_1
       - Item: Bloody_Iron_Ball
         Rate: 500
       - Item: Thanatos_Card
@@ -29410,6 +30135,7 @@ Body:
         Rate: 10
       - Item: Stone_Buckler
         Rate: 50
+        RandomOptionGroup: Aeternox_1
       - Item: Acidus_Card
         Rate: 1
         StealProtected: true
@@ -29457,6 +30183,7 @@ Body:
         Rate: 20
       - Item: Magni_Cap
         Rate: 50
+        RandomOptionGroup: Aeternox_1
       - Item: Ferus_Card
         Rate: 1
         StealProtected: true
@@ -29675,8 +30402,10 @@ Body:
     Drops:
       - Item: Morpheus's_Armlet
         Rate: 1000
+        RandomOptionGroup: Aeternox_1
       - Item: Morpheus's_Ring
         Rate: 1000
+        RandomOptionGroup: Aeternox_1
       - Item: Treasure_Box
         Rate: 5000
       - Item: Scale_Of_Red_Dragon
@@ -29685,8 +30414,10 @@ Body:
         Rate: 1000
       - Item: Pole_Axe
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Gemmed_Crown
         Rate: 500
+        RandomOptionGroup: Aeternox_1
       - Item: Detale_Card
         Rate: 1
         StealProtected: true
@@ -29730,12 +30461,15 @@ Body:
         Rate: 3880
       - Item: Morpheus's_Hood
         Rate: 500
+        RandomOptionGroup: Aeternox_1
       - Item: Morrigane's_Helm
         Rate: 500
+        RandomOptionGroup: Aeternox_1
       - Item: Vit_Dish10
         Rate: 300
       - Item: Fricca_Circlet
         Rate: 500
+        RandomOptionGroup: Aeternox_1
       - Item: Hydro_Card
         Rate: 1
         StealProtected: true
@@ -30165,14 +30899,19 @@ Body:
         Rate: 3000
       - Item: Morrigane's_Pendant
         Rate: 1000
+        RandomOptionGroup: Aeternox_1
       - Item: Glittering_Clothes
         Rate: 1000
+        RandomOptionGroup: Aeternox_1
       - Item: Survival_Rod_
         Rate: 500
+        RandomOptionGroup: Aeternox_1
       - Item: Counter_Dagger
         Rate: 500
+        RandomOptionGroup: Aeternox_1
       - Item: Morrigane's_Belt
         Rate: 1000
+        RandomOptionGroup: Aeternox_1
       - Item: Kiel_Card
         Rate: 1
         StealProtected: true
@@ -30219,10 +30958,12 @@ Body:
         Rate: 500
       - Item: Drill_Katar
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Elunium
         Rate: 10
       - Item: Vali's_Manteau
         Rate: 20
+        RandomOptionGroup: Aeternox_1
       - Item: Alicel_Card
         Rate: 1
         StealProtected: true
@@ -30265,14 +31006,17 @@ Body:
         Rate: 3000
       - Item: Falcon_Robe
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Screw
         Rate: 500
       - Item: Claw_
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Elunium
         Rate: 10
       - Item: Curved_Sword
         Rate: 15
+        RandomOptionGroup: Aeternox_1
       - Item: Aliot_Card
         Rate: 1
         StealProtected: true
@@ -30311,8 +31055,10 @@ Body:
         Rate: 4000
       - Item: Morpheus's_Shawl
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Rosary_
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Alice's_Apron
         Rate: 5
       - Item: Imperial_Cooking_Kits
@@ -30321,6 +31067,7 @@ Body:
         Rate: 1
       - Item: Orleans_Server
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Aliza_Card
         Rate: 1
         StealProtected: true
@@ -30762,12 +31509,16 @@ Body:
         Rate: 5000
       - Item: Valkyrie_Armor
         Rate: 1600
+        RandomOptionGroup: Aeternox_1
       - Item: Valkyrie_Manteau
         Rate: 3000
+        RandomOptionGroup: Aeternox_1
       - Item: Valkyrie_Shoes
         Rate: 3000
+        RandomOptionGroup: Aeternox_1
       - Item: Helm_
         Rate: 5000
+        RandomOptionGroup: Aeternox_1
       - Item: Bloody_Edge
         Rate: 2500
       - Item: Randgris_Card
@@ -30819,6 +31570,7 @@ Body:
         Rate: 500
       - Item: Blood_Tears
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Skogul_Card
         Rate: 1
         StealProtected: true
@@ -30862,8 +31614,10 @@ Body:
         Rate: 1000
       - Item: Earring_
         Rate: 3
+        RandomOptionGroup: Aeternox_1
       - Item: Mantle_
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Elunium_Stone
         Rate: 500
       - Item: Frus_Card
@@ -30905,16 +31659,20 @@ Body:
         Rate: 6000
       - Item: Angelic_Chain
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Soft_Feather
         Rate: 1000
       - Item: Divine_Cross
         Rate: 25
+        RandomOptionGroup: Aeternox_1
       - Item: Rune_Of_Darkness
         Rate: 1000
       - Item: Silk_Robe_
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Odin's_Blessing
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Skeggiold_Card
         Rate: 1
         StealProtected: true
@@ -30954,16 +31712,20 @@ Body:
         Rate: 6000
       - Item: Angelic_Chain
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Soft_Feather
         Rate: 1000
       - Item: Divine_Cross
         Rate: 25
+        RandomOptionGroup: Aeternox_1
       - Item: Rune_Of_Darkness
         Rate: 1000
       - Item: Silk_Robe_
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Odin's_Blessing
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Skeggiold_Card
         Rate: 1
         StealProtected: true
@@ -31270,6 +32032,7 @@ Body:
         Rate: 100
       - Item: Valkyrja's_Shield
         Rate: 500
+        RandomOptionGroup: Aeternox_1
   - Id: 1766
     AegisName: EM_ANGELING
     Name: Angeling
@@ -31392,10 +32155,12 @@ Body:
         Rate: 4000
       - Item: Old_Hilt
         Rate: 2000
+        RandomOptionGroup: Aeternox_1
       - Item: Old_Card_Album
         Rate: 5000
       - Item: Celestial_Robe
         Rate: 1000
+        RandomOptionGroup: Aeternox_1
       - Item: Hurricane_Fury
         Rate: 100
       - Item: Gloom_Under_Night_Card
@@ -31435,10 +32200,12 @@ Body:
         Rate: 2500
       - Item: High_Fashion_Sandals
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Bloody_Rune
         Rate: 4000
       - Item: Memorize_Book
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Holy_Arrow_Quiver
         Rate: 50
       - Item: Bloody_Rune
@@ -31491,6 +32258,7 @@ Body:
         Rate: 100
       - Item: Divine_Cloth
         Rate: 20
+        RandomOptionGroup: Aeternox_1
       - Item: Echio_Card
         Rate: 1
         StealProtected: true
@@ -31535,6 +32303,7 @@ Body:
         Rate: 10
       - Item: Scalpel
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Bloody_Rune
         Rate: 100
       - Item: Vanberk_Card
@@ -31574,12 +32343,15 @@ Body:
         Rate: 2500
       - Item: High_Fashion_Sandals
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Bloody_Rune
         Rate: 1000
       - Item: Gold_Ring
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Ring
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Bloody_Rune
         Rate: 100
       - Item: Isilla_Card
@@ -31624,6 +32396,7 @@ Body:
         Rate: 1000
       - Item: Boots_
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Sticky_Mucus
         Rate: 1000
       - Item: Bloody_Rune
@@ -31632,6 +32405,7 @@ Body:
         Rate: 2000
       - Item: Shadow_Walk
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Hodremlin_Card
         Rate: 1
         StealProtected: true
@@ -31678,6 +32452,7 @@ Body:
         Rate: 1000
       - Item: Berdysz
         Rate: 20
+        RandomOptionGroup: Aeternox_1
       - Item: Seeker_Card
         Rate: 1
         StealProtected: true
@@ -31724,6 +32499,7 @@ Body:
         Rate: 500
       - Item: Icicle_Fist
         Rate: 3
+        RandomOptionGroup: Aeternox_1
       - Item: Crystal_Blue
         Rate: 100
       - Item: Snowier_Card
@@ -31857,6 +32633,7 @@ Body:
         Rate: 20
       - Item: Frozen_Bow
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Gazeti_Card
         Rate: 1
         StealProtected: true
@@ -31908,8 +32685,10 @@ Body:
         Rate: 3000
       - Item: Clack_Of_Servival
         Rate: 3000
+        RandomOptionGroup: Aeternox_1
       - Item: Herald_Of_GOD
         Rate: 5000
+        RandomOptionGroup: Aeternox_1
       - Item: Old_Violet_Box
         Rate: 5000
       - Item: Yggdrasilberry
@@ -32045,6 +32824,7 @@ Body:
         Rate: 50
       - Item: Combo_Battle_Glove
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Roween_Card
         Rate: 1
         StealProtected: true
@@ -32088,6 +32868,7 @@ Body:
         Rate: 10
       - Item: Ulfhedinn
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Galion_Card
         Rate: 1
         StealProtected: true
@@ -32133,6 +32914,7 @@ Body:
         Rate: 10
       - Item: Seismic_Fist
         Rate: 3
+        RandomOptionGroup: Aeternox_1
       - Item: Stapo_Card
         Rate: 1
         StealProtected: true
@@ -32184,14 +32966,17 @@ Body:
         Rate: 1000
       - Item: Ring_
         Rate: 1000
+        RandomOptionGroup: Aeternox_1
       - Item: Old_Violet_Box
         Rate: 5000
       - Item: Yggdrasilberry
         Rate: 5000
       - Item: Ulle_Cap
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Altas_Weapon
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Atroce_Card
         Rate: 1
         StealProtected: true
@@ -32505,16 +33290,22 @@ Body:
     Drops:
       - Item: Pole_Axe
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Grave_
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Pauldron
         Rate: 200
+        RandomOptionGroup: Aeternox_1
       - Item: Full_Plate_Armor_
         Rate: 300
+        RandomOptionGroup: Aeternox_1
       - Item: Celestial_Robe
         Rate: 200
+        RandomOptionGroup: Aeternox_1
       - Item: Survival_Rod2_
         Rate: 200
+        RandomOptionGroup: Aeternox_1
       - Item: Old_Violet_Box
         Rate: 7000
       - Item: Anti_Spell_Bead
@@ -32554,6 +33345,7 @@ Body:
         Rate: 2500
       - Item: High_Fashion_Sandals
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Bloody_Rune
         Rate: 4000
       - Item: Memorize_Book
@@ -32564,6 +33356,7 @@ Body:
         Rate: 100
       - Item: Musika
         Rate: 5
+        RandomOptionGroup: Aeternox_1
   - Id: 1797
     AegisName: FANAT
     Name: Fanat
@@ -32596,12 +33389,15 @@ Body:
     Drops:
       - Item: Kandura
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: High_Fashion_Sandals
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Bloody_Rune
         Rate: 4000
       - Item: Memorize_Book
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Holy_Arrow_Quiver
         Rate: 50
       - Item: White_Mask
@@ -33064,6 +33860,7 @@ Body:
     Drops:
       - Item: Sunglasses
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Tiger_Skin_Panties
         Rate: 500
       - Item: Aloebera
@@ -33141,10 +33938,13 @@ Body:
         Rate: 10000
       - Item: Dragon_Killer
         Rate: 500
+        RandomOptionGroup: Aeternox_1
       - Item: Gemmed_Crown
         Rate: 500
+        RandomOptionGroup: Aeternox_1
       - Item: Pole_Axe
         Rate: 500
+        RandomOptionGroup: Aeternox_1
       - Item: Int_Dish10
         Rate: 1500
       - Item: Treasure_Box
@@ -33284,10 +34084,13 @@ Body:
         Rate: 10000
       - Item: Dragon_Wing
         Rate: 500
+        RandomOptionGroup: Aeternox_1
       - Item: Wizardy_Staff
         Rate: 500
+        RandomOptionGroup: Aeternox_1
       - Item: Bloody_Roar
         Rate: 500
+        RandomOptionGroup: Aeternox_1
       - Item: Int_Dish10
         Rate: 1500
       - Item: Luk_Dish10
@@ -33670,14 +34473,19 @@ Body:
         Rate: 3000
       - Item: Doom_Slayer
         Rate: 30
+        RandomOptionGroup: Aeternox_1
       - Item: Claymore
         Rate: 50
+        RandomOptionGroup: Aeternox_1
       - Item: Zweihander
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Platinum_Shield
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Muscle_Cutter
         Rate: 50
+        RandomOptionGroup: Aeternox_1
       - Item: Sword_Guardian_Card
         Rate: 1
         StealProtected: true
@@ -33717,12 +34525,16 @@ Body:
         Rate: 3000
       - Item: Luna_Bow
         Rate: 30
+        RandomOptionGroup: Aeternox_1
       - Item: Bow
         Rate: 50
+        RandomOptionGroup: Aeternox_1
       - Item: Sniping_Suit
         Rate: 20
+        RandomOptionGroup: Aeternox_1
       - Item: Orleans_Glove
         Rate: 4
+        RandomOptionGroup: Aeternox_1
       - Item: Bow_Guardian_Card
         Rate: 1
         StealProtected: true
@@ -33766,12 +34578,16 @@ Body:
         Rate: 100
       - Item: Lesser_Elemental_Ring
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Berserk_Guitar
         Rate: 50
+        RandomOptionGroup: Aeternox_1
       - Item: Ring_
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Meteo_Plate_Armor
         Rate: 20
+        RandomOptionGroup: Aeternox_1
       - Item: Salamander_Card
         Rate: 1
         StealProtected: true
@@ -33821,16 +34637,22 @@ Body:
         Rate: 10000
       - Item: Spiritual_Ring
         Rate: 3000
+        RandomOptionGroup: Aeternox_1
       - Item: Ring_Of_Flame_Lord
         Rate: 200
+        RandomOptionGroup: Aeternox_1
       - Item: Ring_Of_Resonance
         Rate: 200
+        RandomOptionGroup: Aeternox_1
       - Item: Hell_Fire
         Rate: 2000
+        RandomOptionGroup: Aeternox_1
       - Item: Fire_Brand
         Rate: 2000
+        RandomOptionGroup: Aeternox_1
       - Item: Flame_Sprits_Armor_
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Ifrit_Card
         Rate: 1
         StealProtected: true
@@ -33874,12 +34696,16 @@ Body:
         Rate: 30
       - Item: Lesser_Elemental_Ring
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Flame_Sprits_Armor
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Burning_Bow
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Piercing_Staff
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Kasa_Card
         Rate: 1
         StealProtected: true
@@ -34017,12 +34843,15 @@ Body:
         Rate: 3000
       - Item: Huuma_Blaze
         Rate: 3
+        RandomOptionGroup: Aeternox_1
       - Item: Live_Coal
         Rate: 2500
       - Item: Heart_Breaker
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Electric_Eel
         Rate: 25
+        RandomOptionGroup: Aeternox_1
       - Item: Flaming_Ice
         Rate: 20
       - Item: Imp_Card
@@ -34069,12 +34898,16 @@ Body:
         Rate: 5500
       - Item: Elven_Ears
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Ribbon
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Thorny_Buckler
         Rate: 3
+        RandomOptionGroup: Aeternox_1
       - Item: Earth_Bow
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Knocker_Card
         Rate: 1
         StealProtected: true
@@ -34112,16 +34945,20 @@ Body:
     Drops:
       - Item: Drill_Katar
         Rate: 50
+        RandomOptionGroup: Aeternox_1
       - Item: Assassin_Mask_
         Rate: 3
+        RandomOptionGroup: Aeternox_1
       - Item: Scalpel
         Rate: 150
+        RandomOptionGroup: Aeternox_1
       - Item: Agi_Dish07
         Rate: 500
       - Item: Old_Blue_Box
         Rate: 40
       - Item: Rider_Insignia_
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Vroken_Sword
         Rate: 4365
       - Item: Byorgue_Card
@@ -34173,6 +35010,7 @@ Body:
         Rate: 100
       - Item: Golden_Gear_
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: New_Year_Rice_Cake_1
         Rate: 3000
       - Item: New_Year_Rice_Cake_2
@@ -34657,6 +35495,7 @@ Body:
         Rate: 1000
       - Item: Guisarme
         Rate: 50
+        RandomOptionGroup: Aeternox_1
       - Item: Iron_Ore
         Rate: 250
       - Item: Muka_Card
@@ -34694,6 +35533,7 @@ Body:
         Rate: 9000
       - Item: Hat_
         Rate: 20
+        RandomOptionGroup: Aeternox_1
       - Item: Green_Herb
         Rate: 550
       - Item: Gulaman
@@ -34799,6 +35639,7 @@ Body:
         Rate: 350
       - Item: Poring_Hat
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Marin_Card
         Rate: 1
         StealProtected: true
@@ -34883,6 +35724,7 @@ Body:
         Rate: 9000
       - Item: Spear_
         Rate: 30
+        RandomOptionGroup: Aeternox_1
       - Item: Langka
         Rate: 350
       - Item: Shoot
@@ -34891,6 +35733,7 @@ Body:
         Rate: 3
       - Item: Whip_Of_Earth
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Mandragora_Card
         Rate: 1
         StealProtected: true
@@ -34927,6 +35770,7 @@ Body:
         Rate: 9000
       - Item: Hood_
         Rate: 20
+        RandomOptionGroup: Aeternox_1
       - Item: Fluff
         Rate: 3000
       - Item: Animal's_Skin
@@ -34935,6 +35779,7 @@ Body:
         Rate: 500
       - Item: Sandals_
         Rate: 25
+        RandomOptionGroup: Aeternox_1
       - Item: Sweet_Bean
         Rate: 600
       - Item: Coco_Card
@@ -35024,14 +35869,18 @@ Body:
         Rate: 500
       - Item: Jur_
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Goggle_
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Safety_Helmet
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Battered_Pot
         Rate: 10
       - Item: Goggle
         Rate: 15
+        RandomOptionGroup: Aeternox_1
       - Item: Martin_Card
         Rate: 1
         StealProtected: true
@@ -35103,6 +35952,7 @@ Body:
         Rate: 3000
       - Item: Platinum_Shotel
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Mementos
         Rate: 1500
       - Item: Broken_Farming_Utensil
@@ -35146,12 +35996,14 @@ Body:
         Rate: 3000
       - Item: Tidal_Shoes
         Rate: 15
+        RandomOptionGroup: Aeternox_1
       - Item: Mementos
         Rate: 1500
       - Item: Skel_Bone
         Rate: 4500
       - Item: Expert_Ring
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Wasteland_Outlaw
         Rate: 10
       - Item: Ragged_Zombie_Card
@@ -35194,8 +36046,10 @@ Body:
         Rate: 5000
       - Item: Tooth_Blade
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Wild_Beast_Claw
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Skel_Bone
         Rate: 4500
       - Item: Well_Dried_Bone
@@ -35242,10 +36096,13 @@ Body:
         Rate: 3000
       - Item: Orleans_Gown
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Scalpel
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Wool_Scarf
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Mementos
         Rate: 1500
       - Item: Brigan
@@ -35318,8 +36175,10 @@ Body:
         Rate: 5000
       - Item: Black_Leather_Boots
         Rate: 20
+        RandomOptionGroup: Aeternox_1
       - Item: Lever_Action_Rifle
         Rate: 20
+        RandomOptionGroup: Aeternox_1
       - Item: Horrendous_Mouth
         Rate: 6000
       - Item: Flame_Skull_Card
@@ -35358,10 +36217,12 @@ Body:
         Rate: 3000
       - Item: Lich_Bone_Wand
         Rate: 20
+        RandomOptionGroup: Aeternox_1
       - Item: Skel_Bone
         Rate: 4500
       - Item: Mithril_Magic_Cape
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Blue_Gemstone
         Rate: 100
       - Item: Amulet
@@ -35416,14 +36277,18 @@ Body:
         Rate: 10000
       - Item: Long_Horn
         Rate: 1000
+        RandomOptionGroup: Aeternox_1
       - Item: Spiritual_Ring
         Rate: 500
+        RandomOptionGroup: Aeternox_1
       - Item: Hunting_Spear
         Rate: 1000
+        RandomOptionGroup: Aeternox_1
       - Item: Elunium
         Rate: 5432
       - Item: Blessed_Wand
         Rate: 2000
+        RandomOptionGroup: Aeternox_1
       - Item: Fallen_Bishop_Card
         Rate: 1
         StealProtected: true
@@ -35531,12 +36396,16 @@ Body:
         Rate: 9000
       - Item: Variant_Shoes
         Rate: 2000
+        RandomOptionGroup: Aeternox_1
       - Item: Death_Note
         Rate: 2000
+        RandomOptionGroup: Aeternox_1
       - Item: Destruction_Rod
         Rate: 2000
+        RandomOptionGroup: Aeternox_1
       - Item: Bison_Horn
         Rate: 2000
+        RandomOptionGroup: Aeternox_1
       - Item: Elunium
         Rate: 5432
       - Item: Chonchon_Doll
@@ -35792,6 +36661,7 @@ Body:
         Rate: 2500
       - Item: Centimental_Leaf
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Leaflet_Of_Aloe
         Rate: 500
       - Item: Blue_Herb
@@ -35832,6 +36702,7 @@ Body:
         Rate: 5000
       - Item: Release_Of_Wish
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Pill
         Rate: 150
       - Item: Piece_Of_Cake
@@ -35916,6 +36787,7 @@ Body:
     Drops:
       - Item: Principles_Of_Magic
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Singing_Flower
         Rate: 300
       - Item: Singing_Plant
@@ -35974,12 +36846,15 @@ Body:
         Rate: 4000
       - Item: Ring_
         Rate: 200
+        RandomOptionGroup: Aeternox_1
       - Item: Int_Dish10
         Rate: 1000
       - Item: Ixion_Wing
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Pole_Axe
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Treasure_Box
         Rate: 5000
       - Item: Loard_Circlet
@@ -36873,12 +37748,16 @@ Body:
     Drops:
       - Item: Diabolus_Helmet
         Rate: 1000
+        RandomOptionGroup: Aeternox_1
       - Item: Diabolus_Robe
         Rate: 5000
+        RandomOptionGroup: Aeternox_1
       - Item: Diabolus_Armor
         Rate: 5000
+        RandomOptionGroup: Aeternox_1
       - Item: Diabolus_Boots
         Rate: 5000
+        RandomOptionGroup: Aeternox_1
       - Item: Dark_Crystal
         Rate: 9000
       - Item: Dark_Debris
@@ -36927,6 +37806,7 @@ Body:
         Rate: 4850
       - Item: Diabolus_Manteau
         Rate: 3
+        RandomOptionGroup: Aeternox_1
       - Item: Nemesis
         Rate: 20
   - Id: 1919
@@ -37007,6 +37887,7 @@ Body:
     Drops:
       - Item: Ragamuffin_Cape
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Dark_Crystal
         Rate: 1000
       - Item: Dark_Debris
@@ -37017,8 +37898,10 @@ Body:
         Rate: 4850
       - Item: Cursed_Hand
         Rate: 3
+        RandomOptionGroup: Aeternox_1
       - Item: Bloody_Eater
         Rate: 15
+        RandomOptionGroup: Aeternox_1
   - Id: 1921
     AegisName: MOROCC_4
     Name: Incarnation of Morocc
@@ -37053,6 +37936,7 @@ Body:
     Drops:
       - Item: Diabolus_Ring
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Dark_Crystal
         Rate: 1000
       - Item: Dark_Debris
@@ -37063,6 +37947,7 @@ Body:
         Rate: 3500
       - Item: Exorcism_Bible
         Rate: 20
+        RandomOptionGroup: Aeternox_1
   - Id: 1922
     AegisName: G_MOROCC_1
     Name: Incarnation of Morocc
@@ -37319,16 +38204,21 @@ Body:
         Rate: 500
       - Item: Pauldron
         Rate: 7000
+        RandomOptionGroup: Aeternox_1
       - Item: Tae_Goo_Lyeon
         Rate: 5000
+        RandomOptionGroup: Aeternox_1
       - Item: Bloody_Iron_Ball
         Rate: 100
       - Item: Celestial_Robe
         Rate: 7000
+        RandomOptionGroup: Aeternox_1
       - Item: Holy_Robe
         Rate: 7000
+        RandomOptionGroup: Aeternox_1
       - Item: Crescent_Scythe
         Rate: 9000
+        RandomOptionGroup: Aeternox_1
       - Item: Baphomet_Card
         Rate: 1
         StealProtected: true
@@ -38184,16 +39074,21 @@ Body:
     Drops:
       - Item: Twin_Edge_B
         Rate: 9000
+        RandomOptionGroup: Aeternox_1
       - Item: Twin_Edge_R
         Rate: 9000
+        RandomOptionGroup: Aeternox_1
       - Item: Flame_Manteau
         Rate: 9000
+        RandomOptionGroup: Aeternox_1
       - Item: Bone_Helm
         Rate: 9000
+        RandomOptionGroup: Aeternox_1
       - Item: Old_Card_Album
         Rate: 9000
       - Item: Pauldron
         Rate: 9000
+        RandomOptionGroup: Aeternox_1
       - Item: Turquoise
         Rate: 9000
   - Id: 1957
@@ -38228,16 +39123,21 @@ Body:
     Drops:
       - Item: Thorn_Staff
         Rate: 9000
+        RandomOptionGroup: Aeternox_1
       - Item: Holy_Stick
         Rate: 9000
+        RandomOptionGroup: Aeternox_1
       - Item: Celestial_Robe
         Rate: 9000
+        RandomOptionGroup: Aeternox_1
       - Item: Lich_Bone_Wand
         Rate: 9000
+        RandomOptionGroup: Aeternox_1
       - Item: Old_Card_Album
         Rate: 9000
       - Item: Survival_Rod_
         Rate: 9000
+        RandomOptionGroup: Aeternox_1
       - Item: Agate
         Rate: 9000
       - Item: Ant_Buyanne_Card
@@ -38561,6 +39461,7 @@ Body:
         Rate: 4
       - Item: Trident_
         Rate: 4
+        RandomOptionGroup: Aeternox_1
       - Item: Feather
         Rate: 3000
       - Item: Skyblue_Jewel
@@ -38650,8 +39551,10 @@ Body:
         Rate: 9000
       - Item: Fin_Helm
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Saint_Robe_
         Rate: 20
+        RandomOptionGroup: Aeternox_1
       - Item: Skyblue_Jewel
         Rate: 20
       - Item: Fin
@@ -38697,6 +39600,7 @@ Body:
         Rate: 3000
       - Item: Padded_Armor_
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Solid_Shell
         Rate: 100
       - Item: Elunium_Stone
@@ -38822,14 +39726,18 @@ Body:
         Rate: 3000
       - Item: Orleans_Gown
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Cursed_Star
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Wool_Scarf
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Mementos
         Rate: 1500
       - Item: Shadow_Guard
         Rate: 20
+        RandomOptionGroup: Aeternox_1
       - Item: Banshee_Master_Card
         Rate: 1
         StealProtected: true
@@ -38875,10 +39783,12 @@ Body:
         Rate: 10
       - Item: Chameleon_Armor
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Old_Blue_Box
         Rate: 2
       - Item: Linen_Glove
         Rate: 2
+        RandomOptionGroup: Aeternox_1
   - Id: 1976
     AegisName: COBALT_MINERAL
     Name: Cobalt Mineral
@@ -38916,6 +39826,7 @@ Body:
         Rate: 500
       - Item: Elemental_Sword
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Oridecon
         Rate: 80
       - Item: Emveretarcon
@@ -38970,6 +39881,7 @@ Body:
         Rate: 200
       - Item: Dagger_Of_Hunter
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Jubilee
         Rate: 5000
   - Id: 1978
@@ -39013,12 +39925,15 @@ Body:
         Rate: 2200
       - Item: Manteau_
         Rate: 20
+        RandomOptionGroup: Aeternox_1
       - Item: Elunium
         Rate: 5
       - Item: Life_Link
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Cardo
         Rate: 1
+        RandomOptionGroup: Aeternox_1
         StealProtected: true
   - Id: 1979
     AegisName: ZAKUDAM
@@ -39062,10 +39977,13 @@ Body:
         Rate: 200
       - Item: Gate_Keeper
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Gate_KeeperDD
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Improved_Tights
         Rate: 10
+        RandomOptionGroup: Aeternox_1
   - Id: 1980
     AegisName: KUBLIN
     Name: Kublin
@@ -39112,6 +40030,7 @@ Body:
         Rate: 43
       - Item: Goblini_Mask
         Rate: 3
+        RandomOptionGroup: Aeternox_1
       - Item: Red_Herb
         Rate: 1800
   - Id: 1981
@@ -39294,8 +40213,10 @@ Body:
     Drops:
       - Item: Lunakaligo
         Rate: 20
+        RandomOptionGroup: Aeternox_1
       - Item: Cello
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Fur
         Rate: 4000
       - Item: Peaked_Hat
@@ -39344,10 +40265,13 @@ Body:
     Drops:
       - Item: Cold_Heart
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Black_Cat
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Cursed_Lyre
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Short_Leg
         Rate: 5335
       - Item: Zargon
@@ -39394,12 +40318,16 @@ Body:
     Drops:
       - Item: Mandragora_Cap
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Stem_Of_Nepenthes
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Harp_Of_Nepenthes
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Nepenthes_Bow
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Strong_Bine
         Rate: 3000
       - Item: Yellow_Live
@@ -39441,14 +40369,17 @@ Body:
     Drops:
       - Item: Sprint_Shoes
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Horn_Of_Hilthrion
         Rate: 20
+        RandomOptionGroup: Aeternox_1
       - Item: Horn_Of_Hilsrion
         Rate: 3000
       - Item: Fur
         Rate: 2000
       - Item: Wild_Beast_Claw
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Soft_Feather
         Rate: 120
       - Item: Brigan
@@ -39491,16 +40422,21 @@ Body:
     Drops:
       - Item: Bone_Head
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Tournament_Shield
         Rate: 200
+        RandomOptionGroup: Aeternox_1
       - Item: Ivory_Lance
         Rate: 500
+        RandomOptionGroup: Aeternox_1
       - Item: Ivory_Knife
         Rate: 400
+        RandomOptionGroup: Aeternox_1
       - Item: Hard_Skin
         Rate: 9000
       - Item: Snowy_Horn
         Rate: 20
+        RandomOptionGroup: Aeternox_1
       - Item: Elunium
         Rate: 9000
   - Id: 1991
@@ -39539,10 +40475,13 @@ Body:
     Drops:
       - Item: Leather_Of_Tendrilion
         Rate: 500
+        RandomOptionGroup: Aeternox_1
       - Item: Death_Guidance
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Eraser
         Rate: 100
+        RandomOptionGroup: Aeternox_1
       - Item: Horn_Of_Tendrilion
         Rate: 9000
       - Item: Fur
@@ -39586,8 +40525,10 @@ Body:
     Drops:
       - Item: Sprint_Mail
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Angelic_Ring
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Mystic_Horn
         Rate: 4000
       - Item: Soft_Feather
@@ -39596,8 +40537,10 @@ Body:
         Rate: 6000
       - Item: Snowy_Horn
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Long_Horn
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Cornus_Card
         Rate: 1
         StealProtected: true
@@ -39636,10 +40579,13 @@ Body:
     Drops:
       - Item: Armor_Of_Naga
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Shield_Of_Naga
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Battle_Fork
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Scale_Of_Snakes
         Rate: 5000
       - Item: Scales_Shell
@@ -39648,6 +40594,7 @@ Body:
         Rate: 2000
       - Item: Pike_
         Rate: 20
+        RandomOptionGroup: Aeternox_1
   - Id: 1994
     AegisName: LUCIOLA_VESPA
     Name: Luciola Vespa
@@ -39685,6 +40632,7 @@ Body:
     Drops:
       - Item: Sprint_Ring
         Rate: 2
+        RandomOptionGroup: Aeternox_1
       - Item: Worm_Peelings
         Rate: 9000
       - Item: Bee_Sting
@@ -39735,10 +40683,13 @@ Body:
     Drops:
       - Item: Pinguicula_Corsage
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Whip_Of_Balance
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Centimental_Leaf
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Sharp_Leaf
         Rate: 5000
       - Item: Great_Leaf
@@ -39883,6 +40834,7 @@ Body:
     Drops:
       - Item: Boots_
         Rate: 9
+        RandomOptionGroup: Aeternox_1
       - Item: Crystal_Jewel__
         Rate: 50
       - Item: Short_Leg
@@ -40565,10 +41517,13 @@ Body:
         Rate: 500
       - Item: Eyes_Stone_Ring
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Veteran_Sword
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Veteran_Axe
         Rate: 100
+        RandomOptionGroup: Aeternox_1
   - Id: 2019
     AegisName: ANCIENT_TREE
     Name: Ancient Tree
@@ -40607,8 +41562,10 @@ Body:
         Rate: 5000
       - Item: Dead_Tree_Cane
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Vital_Tree_Shoes
         Rate: 30
+        RandomOptionGroup: Aeternox_1
   - Id: 2020
     AegisName: RHYNCHO
     Name: Rhyncho
@@ -40730,12 +41687,16 @@ Body:
         Rate: 5000
       - Item: Cardo
         Rate: 500
+        RandomOptionGroup: Aeternox_1
       - Item: Katzbalger
         Rate: 500
+        RandomOptionGroup: Aeternox_1
       - Item: Pole_Axe
         Rate: 500
+        RandomOptionGroup: Aeternox_1
       - Item: Piece_Of_Angent_Skin
         Rate: 2000
+        RandomOptionGroup: Aeternox_1
   - Id: 2023
     AegisName: DARK_SHADOW
     Name: Dark Shadow
@@ -40772,14 +41733,18 @@ Body:
         Rate: 5000
       - Item: Skul_Ring
         Rate: 1000
+        RandomOptionGroup: Aeternox_1
       - Item: Dagger_Of_Hunter
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Piece_Of_Darkness
         Rate: 1000
       - Item: Eyes_Stone_Ring
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Bradium_Stonehammer
         Rate: 10
+        RandomOptionGroup: Aeternox_1
       - Item: Dark_Shadow_Card
         Rate: 1
         StealProtected: true
@@ -40824,6 +41789,7 @@ Body:
         Rate: 500
       - Item: Bradium_Shield
         Rate: 10
+        RandomOptionGroup: Aeternox_1
 #  - Id: 2025
 #    AegisName: MYSTCASE_EVENT
 #    Name: Mystcase
@@ -42106,6 +43072,7 @@ Body:
         Rate: 10
       - Item: Mage_Coat
         Rate: 1
+        RandomOptionGroup: Aeternox_1
   - Id: 2070
     AegisName: PIRANHA
     Name: Piranha
@@ -42149,8 +43116,10 @@ Body:
         Rate: 500
       - Item: Scalpel
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Fisherman's_Dagger
         Rate: 5
+        RandomOptionGroup: Aeternox_1
   - Id: 2071
     AegisName: HEADLESS_MULE
     Name: Headless Mule
@@ -42188,16 +43157,20 @@ Body:
         Rate: 4000
       - Item: Plate_Armor_
         Rate: 5
+        RandomOptionGroup: Aeternox_1
       - Item: Burning_Heart
         Rate: 1000
       - Item: Hot_Hair
         Rate: 1000
       - Item: Inverse_Scale
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Plate_Armor_
         Rate: 1
+        RandomOptionGroup: Aeternox_1
       - Item: Jamadhar_
         Rate: 2
+        RandomOptionGroup: Aeternox_1
   - Id: 2072
     AegisName: JAGUAR
     Name: Jaguar
@@ -42280,6 +43253,7 @@ Body:
         Rate: 100
       - Item: Flower_Ring
         Rate: 200
+        RandomOptionGroup: Aeternox_1
   - Id: 2074
     AegisName: CURUPIRA
     Name: Curupira
@@ -42321,6 +43295,7 @@ Body:
         Rate: 500
       - Item: Mace_
         Rate: 100
+        RandomOptionGroup: Aeternox_1
 #  - Id: 2075
 #    AegisName: E_VADON_X
 #    Name: Vadon

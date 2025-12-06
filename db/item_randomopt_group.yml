@@ -48,7 +48,7 @@ Header:
 Body:
   - Id: 174
     Group: Aeternox_1
-    MaxRandom: 2
+    MaxRandom: 1
     Random:
       - Option: VAR_STRAMOUNT
         MinValue: 1
