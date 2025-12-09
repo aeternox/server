@@ -50,30 +50,178 @@ Body:
     Group: Aeternox_1
     MaxRandom: 1
     Random:
+      - Option: ADDEXPPERCENT_KILLRACE_NOTHING
+        MinValue: 5
+        MaxValue: 10
+        Chance: 2500
+      - Option: ADDEXPPERCENT_KILLRACE_UNDEAD
+        MinValue: 5
+        MaxValue: 10
+        Chance: 2500
+      - Option: ADDEXPPERCENT_KILLRACE_ANIMAL
+        MinValue: 5
+        MaxValue: 10
+        Chance: 2500
+      - Option: ADDEXPPERCENT_KILLRACE_PLANT
+        MinValue: 5
+        MaxValue: 10
+        Chance: 2500
+      - Option: ADDEXPPERCENT_KILLRACE_INSECT
+        MinValue: 5
+        MaxValue: 10
+        Chance: 2500
+      - Option: ADDEXPPERCENT_KILLRACE_FISHS
+        MinValue: 5
+        MaxValue: 10
+        Chance: 2500
+      - Option: ADDEXPPERCENT_KILLRACE_DEVIL
+        MinValue: 5
+        MaxValue: 10
+        Chance: 2500
+      - Option: ADDEXPPERCENT_KILLRACE_ANGEL
+        MinValue: 5
+        MaxValue: 10
+        Chance: 2500
+      - Option: ADDEXPPERCENT_KILLRACE_DRAGON
+        MinValue: 5
+        MaxValue: 10
+        Chance: 2500
+      - Option: ADDEXPPERCENT_KILLRACE_HUMAN
+        MinValue: 5
+        MaxValue: 10
+        Chance: 2500
+      - Option: RACE_DAMAGE_NOTHING
+        MinValue: 1
+        MaxValue: 5
+        Chance: 1000
+      - Option: RACE_DAMAGE_UNDEAD
+        MinValue: 1
+        MaxValue: 5
+        Chance: 1000
+      - Option: RACE_DAMAGE_ANIMAL
+        MinValue: 1
+        MaxValue: 5
+        Chance: 1000
+      - Option: RACE_DAMAGE_PLANT
+        MinValue: 1
+        MaxValue: 5
+        Chance: 1000
+      - Option: RACE_DAMAGE_INSECT
+        MinValue: 1
+        MaxValue: 5
+        Chance: 1000
+      - Option: RACE_DAMAGE_FISHS
+        MinValue: 1
+        MaxValue: 5
+        Chance: 1000
+      - Option: RACE_DAMAGE_DEVIL
+        MinValue: 1
+        MaxValue: 5
+        Chance: 1000
+      - Option: RACE_DAMAGE_ANGEL
+        MinValue: 1
+        MaxValue: 5
+        Chance: 1000
+      - Option: RACE_DAMAGE_DRAGON
+        MinValue: 1
+        MaxValue: 5
+        Chance: 1000
+      - Option: RACE_MDAMAGE_NOTHING
+        MinValue: 1
+        MaxValue: 5
+        Chance: 1000
+      - Option: RACE_MDAMAGE_UNDEAD
+        MinValue: 1
+        MaxValue: 5
+        Chance: 1000
+      - Option: RACE_MDAMAGE_ANIMAL
+        MinValue: 1
+        MaxValue: 5
+        Chance: 1000
+      - Option: RACE_MDAMAGE_PLANT
+        MinValue: 1
+        MaxValue: 5
+        Chance: 1000
+      - Option: RACE_MDAMAGE_INSECT
+        MinValue: 1
+        MaxValue: 5
+        Chance: 1000
+      - Option: RACE_MDAMAGE_FISHS
+        MinValue: 1
+        MaxValue: 5
+        Chance: 1000
+      - Option: RACE_MDAMAGE_DEVIL
+        MinValue: 1
+        MaxValue: 5
+        Chance: 1000
+      - Option: RACE_MDAMAGE_ANGEL
+        MinValue: 1
+        MaxValue: 5
+        Chance: 1000
+      - Option: RACE_MDAMAGE_DRAGON
+        MinValue: 1
+        MaxValue: 5
+        Chance: 1000
+      - Option: DAMAGE_SIZE_SMALL_TARGET
+        MinValue: 1
+        MaxValue: 5
+        Chance: 1000
+      - Option: MDAMAGE_SIZE_SMALL_TARGET
+        MinValue: 1
+        MaxValue: 5
+        Chance: 1000
+      - Option: ADDEXPPERCENT_KILLRACE_ALL
+        MinValue: 1
+        MaxValue: 5
+        Chance: 1000
       - Option: VAR_STRAMOUNT
         MinValue: 1
         MaxValue: 1
-        Chance: 2500
+        Chance: 500
       - Option: VAR_INTAMOUNT
         MinValue: 1
         MaxValue: 1
-        Chance: 2500
+        Chance: 500
       - Option: VAR_DEXAMOUNT
         MinValue: 1
         MaxValue: 1
-        Chance: 2500
+        Chance: 500
       - Option: VAR_AGIAMOUNT
         MinValue: 1
         MaxValue: 1
-        Chance: 2500
+        Chance: 500
       - Option: VAR_VITAMOUNT
         MinValue: 1
         MaxValue: 1
-        Chance: 2500
+        Chance: 500
       - Option: VAR_LUKAMOUNT
         MinValue: 1
         MaxValue: 1
-        Chance: 2500
+        Chance: 500
+      - Option: MDAMAGE_SIZE_MIDIUM_TARGET
+        MinValue: 1
+        MaxValue: 5
+        Chance: 10
+      - Option: MDAMAGE_SIZE_LARGE_TARGET
+        MinValue: 1
+        MaxValue: 5
+        Chance: 10
+      - Option: DAMAGE_SIZE_MIDIUM_TARGET
+        MinValue: 1
+        MaxValue: 5
+        Chance: 10
+      - Option: DAMAGE_SIZE_LARGE_TARGET
+        MinValue: 1
+        MaxValue: 5
+        Chance: 10
+      - Option: RACE_DAMAGE_HUMAN
+        MinValue: 1
+        MaxValue: 5
+        Chance: 1
+      - Option: RACE_MDAMAGE_HUMAN
+        MinValue: 1
+        MaxValue: 5
+        Chance: 1
 
 Footer:
   Imports:
