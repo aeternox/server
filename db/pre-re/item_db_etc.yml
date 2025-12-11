@@ -12930,16 +12930,43 @@ Body:
     Name: Free Ticket for Kafra Storage
     Type: Etc
     Buy: 1
+    Trade:
+      NoDrop: true
+      NoTrade: true
+      NoSell: true
+      NoCart: true
+      NoStorage: true
+      NoGuildStorage: true
+      NoMail: true
+      NoAuction: true
   - Id: 7060
     AegisName: Warp_Free_Ticket
     Name: Free Ticket for Kafra Transportation
     Type: Etc
     Buy: 1
+    Trade:
+      NoDrop: true
+      NoTrade: true
+      NoSell: true
+      NoCart: true
+      NoStorage: true
+      NoGuildStorage: true
+      NoMail: true
+      NoAuction: true
   - Id: 7061
     AegisName: Cart_Free_Ticket
     Name: Free Ticket for the Cart Service
     Type: Etc
     Buy: 1
+    Trade:
+      NoDrop: true
+      NoTrade: true
+      NoSell: true
+      NoCart: true
+      NoStorage: true
+      NoGuildStorage: true
+      NoMail: true
+      NoAuction: true
   - Id: 7062
     AegisName: Broken_Turtle_Shell
     Name: Broken Turtle Shell
