@@ -66,8 +66,6 @@ Body:
       refresh: true
       noask: true
       autotrade: true
-      who: true
-      whosells: true
       me: true
     Permissions:
       # without this basic permissions regular players could not trade or party
