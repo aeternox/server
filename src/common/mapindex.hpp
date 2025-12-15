@@ -54,6 +54,7 @@
 #define MAP_LASAGNA "lasagna"
 #define MAP_GLASTHEIM "glast_01"
 #define MAP_THANATOS "hu_fild01"
+#define MAP_AKASENZAI "akasenzai"
 
 const char* mapindex_getmapname(const char* string, char* output);
 const char* mapindex_getmapname_ext(const char* string, char* output);
