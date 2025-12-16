@@ -1,4 +1,4 @@
-akasenzai,120,13,0	warp	aka01	2,2,akasenzai2,188,41
+//akasenzai,120,13,0	warp	aka01	2,2,akasenzai2,188,41
 akasenzai2,188,37,0	warp	aka02	2,2,akasenzai,120,17
 
 akasenzai,119,142,0	script	akaexit	45,2,2,{

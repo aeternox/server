@@ -1,6 +1,7 @@
 akasenzai,1,1,1	script	aka_vending_square	-1,{
 OnInit:
 	setcell "akasenzai",1,1,250,250,cell_novending,1;
+	setcell "akasenzai",1,1,250,250,cell_nochat,0;
 	
 	// vending square top left
 	setcell "akasenzai",94,104,100,127,cell_novending,0;
@@ -21,19 +22,27 @@ OnInit:
 	end;
 }
 
-akasenzai,1,1,1	script	aka_pvp_area	-1,{
+akasenzai,1,1,1	script	aka_heal_square	-1,{
+	end;
 OnInit:
-	setcell "akasenzai",108,160,131,175,cell_pvp,1;
+OnTimer3000:
+	initnpctimer;
+	addrid(4,0,109,160,130,174);
+	if (Hp != 0 && (Hp != MaxHp || MaxSp != Sp)) {
+		areapercentheal "akasenzai",109,160,130,174,20,20;
+		specialeffect2 EF_HEAL2;
+	} 
+	detachrid();
 	end;
 }
 
-akasenzai,119,99,1	script	aka_heal_square	-1,{
+akasenzai,1,1,1	script	aka_heal_square2	-1,{
 	end;
 OnInit:
 OnTimer3000:
 	initnpctimer;
 	addrid(4,0,106,86,133,113);
-	if (Hp != MaxHp || MaxSp != Sp) {
+	if (Hp != 0 && (Hp != MaxHp || MaxSp != Sp)) {
 		areapercentheal "akasenzai",106,86,133,113,20,20;
 		specialeffect2 EF_HEAL2;
 	} 

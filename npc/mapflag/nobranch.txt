@@ -16,6 +16,7 @@
 //============================================================
 // Municipality (Cities/Towns/Villages)
 //============================================================
+akasenzai	mapflag	nobranch
 alberta	mapflag	nobranch
 aldebaran	mapflag	nobranch
 amatsu	mapflag	nobranch
