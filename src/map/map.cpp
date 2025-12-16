@@ -2142,6 +2142,12 @@ void map_reqnickdb(map_session_data * sd, int32 charid)
 
 	nullpo_retv(sd);
 
+	if (battle_config.reserved_costume_id && battle_config.reserved_costume_id == charid)
+	{
+		clif_solved_charname(sd->fd, charid, "Costume");
+		return;
+	}
+
 	tsd = map_charid2sd(charid);
 	if( tsd != nullptr )
 	{

@@ -656,6 +656,7 @@ struct Battle_Config
 	int32 exp_cost_redemptio_limit;
 	int32 mvp_exp_reward_message;
 	int32 can_damage_skill; //Which BL types can damage traps
+	int32 reserved_costume_id;
 	int32 atcommand_levelup_events;
 	int32 atcommand_disable_npc;
 	int32 block_account_in_same_party;

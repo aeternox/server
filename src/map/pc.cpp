@@ -1481,6 +1481,7 @@ int32 pc_equippoint_sub(map_session_data *sd,struct item_data* id){
 				return EQP_SHADOW_ARMS;
 		}
 	}
+
 	return ep;
 }
 
@@ -1492,7 +1493,18 @@ int32 pc_equippoint_sub(map_session_data *sd,struct item_data* id){
 int32 pc_equippoint(map_session_data *sd,int32 n){
 	nullpo_ret(sd);
 
-	return pc_equippoint_sub(sd,sd->inventory_data[n]);
+	int ep = pc_equippoint_sub(sd, sd->inventory_data[n]);
+
+	if (battle_config.reserved_costume_id &&
+		sd->inventory.u.items_inventory[n].card[0] == CARD0_CREATE &&
+		MakeDWord(sd->inventory.u.items_inventory[n].card[2], sd->inventory.u.items_inventory[n].card[3]) == battle_config.reserved_costume_id)
+	{ // Costume Item - Converted
+		if (ep&EQP_HEAD_TOP) { ep &= ~EQP_HEAD_TOP; ep |= EQP_COSTUME_HEAD_TOP; }
+		if (ep&EQP_HEAD_LOW) { ep &= ~EQP_HEAD_LOW; ep |= EQP_COSTUME_HEAD_LOW; }
+		if (ep&EQP_HEAD_MID) { ep &= ~EQP_HEAD_MID; ep |= EQP_COSTUME_HEAD_MID; }
+		if (ep&EQP_GARMENT) { ep &= ~EQP_GARMENT; ep |= EQP_COSTUME_GARMENT; }
+	}
+	return ep;
 }
 
 /**
