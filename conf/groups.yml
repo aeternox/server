@@ -67,26 +67,27 @@ Body:
       noask: true
       autotrade: true
       me: true
+      who2: true
     Permissions:
       # without this basic permissions regular players could not trade or party
       can_trade: true
       can_party: true
       attendance: true
   - Id: 10
-    Name: Tester
+    Name: League
     Inherit:
       Player: true
     Level: 0
   - Id: 20
     Name: Support
     Inherit:
-      Tester: true
+      League: true
     Level: 20
     LogCommands: true
     Permissions:
       attendance: false
   - Id: 99
-    Name: Admin
+    Name: Lead
     Level: 99
     Inherit:
       Support: true
