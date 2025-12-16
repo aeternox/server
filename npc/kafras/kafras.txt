@@ -27,7 +27,7 @@
 // Akasenzai
 //============================================================ 
 akasenzai,117,131,5	script	Kafra Employee::kaf_akasenzai	116,{
-	cutin "kafra_02",2;
+	cutin "aeternox_kafra_01",2;
 	callfunc "F_KafSet";
 	mes "[Kafra Employee]";
 	mes "Welcome to the";
