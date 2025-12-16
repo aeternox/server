@@ -30,12 +30,10 @@ akasenzai,117,131,5	script	Kafra Employee::kaf_akasenzai	116,{
 	cutin "aeternox_kafra_01",2;
 	callfunc "F_KafSet";
 	mes "[Kafra Employee]";
-	mes "Welcome to the";
-	mes "Kafra Corporation~";
-	mes "The Kafra Services are";
-	mes "always here to support";
-	mes "you. So how can I be";
-	mes "of service today?";
+	mes "The Kafra Corporation";
+	mes "is always working to provide";
+	mes "you with convenient services.";
+	mes "How may I be of assistance?";
 	callfunc "F_Kafra",5,9,1,40,800;
 	callfunc "F_KafEnd",0,1,"in the Akasenzai Palace";
 }

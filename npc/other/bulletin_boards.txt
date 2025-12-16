@@ -23,7 +23,8 @@
 akasenzai,122,131,3	script	Bulletin Board#29	837,{
 	mes "[Akasenzai]"; 
 	mes "Welcome to Aeternox community area.";
-	mes "Enjoy the healing fountain or set up a stall in the vending square.";
+	mes "The portal ahead takes you back.";
+	mes "You may also vend along the square.";
 	close;
 }
 
