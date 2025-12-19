@@ -1755,7 +1755,7 @@ REPLACE INTO `item_db` (`id`,`name_aegis`,`name_english`,`type`,`trade_nodrop`,`
 REPLACE INTO `item_db` (`id`,`name_aegis`,`name_english`,`type`,`trade_nodrop`,`trade_notrade`,`trade_nosell`,`trade_nocart`,`trade_nostorage`,`trade_noguildstorage`,`trade_nomail`,`trade_noauction`) VALUES (7536,'Photo_Album_03','Luoyang Completed Photo Album','Etc',true,true,true,true,true,true,true,true);
 REPLACE INTO `item_db` (`id`,`name_aegis`,`name_english`,`type`,`trade_nodrop`,`trade_notrade`,`trade_nosell`,`trade_nocart`,`trade_nostorage`,`trade_noguildstorage`,`trade_nomail`,`trade_noauction`) VALUES (7537,'Photo_Album_04','Ayothaya Completed Photo Album','Etc',true,true,true,true,true,true,true,true);
 REPLACE INTO `item_db` (`id`,`name_aegis`,`name_english`,`type`,`trade_nodrop`,`trade_notrade`,`trade_nocart`,`trade_nostorage`,`trade_noguildstorage`,`trade_nomail`,`trade_noauction`) VALUES (7538,'Sifted_Sand','Sand for Work','Etc',true,true,true,true,true,true,true);
-REPLACE INTO `item_db` (`id`,`name_aegis`,`name_english`,`type`,`trade_nodrop`,`trade_notrade`,`trade_nocart`,`trade_nostorage`,`trade_noguildstorage`,`trade_nomail`,`trade_noauction`) VALUES (7539,'Poring_Coin','Poring Coin','Etc',true,true,true,true,true,true,true);
+REPLACE INTO `item_db` (`id`,`name_aegis`,`name_english`,`type`) VALUES (7539,'Poring_Coin','Poring Coin','Etc');
 REPLACE INTO `item_db` (`id`,`name_aegis`,`name_english`,`type`,`weight`) VALUES (7540,'Lotto39','Lotto Ball 39','Etc',10);
 REPLACE INTO `item_db` (`id`,`name_aegis`,`name_english`,`type`,`weight`) VALUES (7541,'Lotto40','Lotto Ball 40','Etc',10);
 REPLACE INTO `item_db` (`id`,`name_aegis`,`name_english`,`type`,`weight`) VALUES (7542,'Lotto41','Lotto Ball 41','Etc',10);
