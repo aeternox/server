@@ -1492,7 +1492,19 @@ int32 pc_equippoint_sub(map_session_data *sd,struct item_data* id){
 int32 pc_equippoint(map_session_data *sd,int32 n){
 	nullpo_ret(sd);
 
-	return pc_equippoint_sub(sd,sd->inventory_data[n]);
+	// Start costume conversion logic (4)
+	int32 ep = pc_equippoint_sub(sd,sd->inventory_data[n]);
+	int32 char_id = 0;
+	if (battle_config.reserved_costume_id &&
+		sd->inventory.u.items_inventory[n].card[0] == CARD0_CREATE &&
+		(char_id = MakeDWord(sd->inventory.u.items_inventory[n].card[2],sd->inventory.u.items_inventory[n].card[3])) == battle_config.reserved_costume_id) {
+		if (ep&EQP_HEAD_TOP) { ep &= ~EQP_HEAD_TOP; ep |= EQP_COSTUME_HEAD_TOP; }
+		if (ep&EQP_HEAD_LOW) { ep &= ~EQP_HEAD_LOW; ep |= EQP_COSTUME_HEAD_LOW; }
+		if (ep&EQP_HEAD_MID) { ep &= ~EQP_HEAD_MID; ep |= EQP_COSTUME_HEAD_MID; }
+		if (ep&EQP_GARMENT) { ep &= ~EQP_GARMENT; ep |= EQP_COSTUME_GARMENT; }
+	}
+	return ep;
+	// End costume conversion logic (4)
 }
 
 /**
@@ -3443,7 +3455,7 @@ void pc_delautobonus(map_session_data &sd, std::vector<std::shared_ptr<s_autobon
 			uint32 equip_pos_idx = 0;
 
 			// Create a list of all equipped positions to see if all items needed for the autobonus are still present [Playtester]
-			for (uint8 j = 0; j < EQI_MAX; j++) {
+			for (uint8 j = 0; j < EQI_MAX_BONUS; j++) {
 				if (sd.equip_index[j] >= 0)
 					equip_pos_idx |= sd.inventory.u.items_inventory[sd.equip_index[j]].equip;
 			}
@@ -3480,7 +3492,7 @@ void pc_exeautobonus(map_session_data &sd, std::vector<std::shared_ptr<s_autobon
 		int32 j;
 		uint32 equip_pos_idx = 0;
 		//Create a list of all equipped positions to see if all items needed for the autobonus are still present [Playtester]
-		for(j = 0; j < EQI_MAX; j++) {
+		for(j = 0; j < EQI_MAX_BONUS; j++) {
 			if(sd.equip_index[j] >= 0)
 				equip_pos_idx |= sd.inventory.u.items_inventory[sd.equip_index[j]].equip;
 		}
@@ -12009,7 +12021,7 @@ int32 pc_load_combo(map_session_data *sd) {
  *------------------------------------------*/
 bool pc_equipitem(map_session_data *sd,int16 n,int32 req_pos,bool equipswitch)
 {
-	int32 i, pos, flag = 0, iflag;
+	int32 i, pos, flag = 0, iflag, char_id = 0;
 	struct item_data *id;
 	int16* equip_index;
 

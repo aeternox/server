@@ -1455,7 +1455,7 @@ ACMD_FUNC(healap)
 ACMD_FUNC(item)
 {
 	char item_name[100];
-	int32 number = 0, bound = BOUND_NONE;
+	int32 number = 0, bound = BOUND_NONE, costume = 0;
 	char flag = 0;
 	char *itemlist;
 
@@ -1500,6 +1500,27 @@ ACMD_FUNC(item)
 			return -1;
 		}
 
+		// Start costume conversion logic (1)
+		if(!strcmpi(command+1, "costumeitem")) {
+			if(!battle_config.reserved_costume_id) {
+				clif_displaymessage(fd, "Costume conversion is disabled. Set a value for reserved_costume_id in your battle.conf file.");
+				return -1;
+			}
+			if(!(item->equip&EQP_HEAD_LOW) &&
+				!(item->equip&EQP_HEAD_MID) &&
+				!(item->equip&EQP_HEAD_TOP) &&
+				!(item->equip&EQP_GARMENT) &&
+				!(item->equip&EQP_COSTUME_HEAD_LOW) &&
+				!(item->equip&EQP_COSTUME_HEAD_MID) &&
+				!(item->equip&EQP_COSTUME_HEAD_TOP) &&
+				!(item->equip&EQP_COSTUME_GARMENT)) {
+				clif_displaymessage(fd, "You cannot costume this item. Costumes only work for headgears and garments.");
+				return -1;
+			}
+			costume = 1;
+		}
+		// End costume conversion logic (1)
+
 		items.push_back( item );
 		itemlist = strtok(nullptr, ":"); //next itemline
 	}
@@ -1525,6 +1546,15 @@ ACMD_FUNC(item)
 				item_tmp.nameid = item_id;
 				item_tmp.identify = 1;
 				item_tmp.bound = bound;
+
+				// Start costume conversion logic (2)
+				if(costume == 1) {
+					item_tmp.card[0] = CARD0_CREATE;
+					item_tmp.card[2] = GetWord(battle_config.reserved_costume_id, 0);
+					item_tmp.card[3] = GetWord(battle_config.reserved_costume_id, 1);
+				}
+				// End costume conversion logic (2)
+
 				if ((flag = pc_additem(sd, &item_tmp, get_count, LOG_TYPE_COMMAND)))
 					clif_additem(sd, 0, 0, flag);
 			}

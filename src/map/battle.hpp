@@ -571,6 +571,7 @@ struct Battle_Config
 	int32 item_enabled_npc;
 	int32 item_onfloor; // Whether to drop an undroppable item on the map or destroy it if inventory is full.
 	int32 bowling_bash_area;
+	int32 reserved_costume_id; // Costume System
 	int32 drop_rateincrease;
 	int32 feature_auction;
 	int32 feature_banking;
