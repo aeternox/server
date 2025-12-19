@@ -17,6 +17,7 @@
 //============================================================
 // Municipality (Cities/Towns/Villages)
 //============================================================
+akasenzai	mapflag	noteleport
 ayo_in01	mapflag	noteleport
 ayo_in02	mapflag	noteleport
 alb_ship	mapflag	noteleport

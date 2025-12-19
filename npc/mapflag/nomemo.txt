@@ -17,6 +17,8 @@
 //============================================================
 // Municipality (Cities/Towns/Villages)
 //============================================================
+akasenzai	mapflag	nomemo
+akasenzai2	mapflag	nomemo
 ayo_in01	mapflag	nomemo
 ayo_in02	mapflag	nomemo
 alb_ship	mapflag	nomemo
