@@ -32,6 +32,22 @@ Header:
   Type: ITEM_CASH_DB
   Version: 1
 
+Body:
+  - Tab: Rental
+    Items:
+      - Item: Boarding_Halter_Box
+        Price: 299
+  - Tab: Consumables
+    Items:
+      - Item: Battle_Manual100
+        Price: 99
+      - Item: Bubble_Gum
+        Price: 99
+  - Tab: Other
+    Items:
+      - Item: Game_Ticket
+        Price: 999
+
 Footer:
   Imports:
     - Path: db/import/item_cash.yml

@@ -11078,3 +11078,12 @@ Body:
             Item: E_Giant_Fly_Wing
           - Index: 2
             Item: F_Giant_Fly_Wing
+  - Group: BOARDING_HALTER_BOX
+    SubGroups:
+      - SubGroup: 0
+        Algorithm: All
+        List:
+          - Index: 0
+            Item: Boarding_Halter
+            Duration: 10080
+            UniqueId: true
