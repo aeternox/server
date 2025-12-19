@@ -1,0 +1,36 @@
+//===== rAthena Script =======================================
+//= Reset NPC
+//===== Description: =========================================
+//= Resets skills, stats, or both.
+//===== Additional Comments: =================================
+//= 1.0 First Version
+//= 1.1 Optimized for the greater good. [Kisuka]
+//= 1.2 Cleaning [Euphy]
+//= 1.3 All statuses removed upon skill reset. [Euphy]
+//= 1.4 Compressed Script, Added limit use option [Stolao]
+//=	Changed set -> setarray, Improved text with F_InsertPlural
+//= 1.5 Added sc_end_class to reset related status changes [sader1992]
+//============================================================
+akasenzai,167,143,5	script	Reset Girl	124,{
+	if (countitem(7859) < 1) {
+		mes "[Reset Girl]";
+		mes "I can reset your stats or skills for a <ITEM>Game Ticket<INFO>7859</INFO></ITEM>.";
+		close;
+	}
+
+	mes "[Reset Girl]";
+	mes "What would you like me to reset for a <ITEM>Game Ticket<INFO>7859</INFO></ITEM>?";
+
+	set .@i,(select("Nothing:^FF3355Stats:Skills^000000"));
+	if(.@i <= 1) close;
+	
+	delitem 7859,1;
+	if (.@i == 2) {
+		ResetStatus;
+	} else if (.@i == 3) {
+		ResetSkill;
+	}
+
+	mes "Done!";
+	close;
+}
