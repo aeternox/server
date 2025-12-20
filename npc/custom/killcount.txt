@@ -1,0 +1,35 @@
+// Credits to Emistry
+-	script	killcount	-1,{
+OnInit:
+	bindatcmd "killcount", strnpcinfo(3) + "::OnAtcommand";
+	end;
+
+OnAtcommand:
+	if (compare(.@atcmd_parameters$, "reset")) {
+		killcount_mob_id = 0;
+		killcount_amount = 0;
+		dispbottom .@atcmd_command$+" reset successfully.";
+	}
+	else if (getmonsterinfo(atoi(.@atcmd_parameters$), MOB_NAME) != "null") {
+		.@killcount_mob_id = atoi(.@atcmd_parameters$);
+		if (.@killcount_mob_id != killcount_mob_id) {
+			killcount_mob_id = .@killcount_mob_id;
+			killcount_amount = 0;
+			dispbottom .@atcmd_command$+" will start count "+getmonsterinfo(killcount_mob_id, MOB_NAME)+".";
+		}
+	}
+	else if (killcount_mob_id) {
+		dispbottom getmonsterinfo(killcount_mob_id, MOB_NAME)+" Kill: "+F_InsertComma(killcount_amount);
+	}
+	else {
+		dispbottom .@atcmd_command$+" failed. Usage: "+.@atcmd_command$+" <mob_id/reset>";
+	}
+	end;
+
+OnNPCKillEvent:
+	if (killedrid == killcount_mob_id) {
+		killcount_amount++;
+		dispbottom getmonsterinfo(killcount_mob_id, MOB_NAME)+" Kill: "+F_InsertComma(killcount_amount);
+	}
+	end;
+}
