@@ -36,13 +36,7 @@ Body:
   - Tab: Rental
     Items:
       - Item: Boarding_Halter_Box
-        Price: 299
-  - Tab: Consumables
-    Items:
-      - Item: Battle_Manual100
-        Price: 99
-      - Item: Bubble_Gum
-        Price: 99
+        Price: 199
   - Tab: Other
     Items:
       - Item: Game_Ticket
