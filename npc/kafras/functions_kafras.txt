@@ -611,7 +611,7 @@ function	script	F_EntKafCode	{
 //===================================================
 function	script	F_KafSet	{
 
-	.@aka_warp_enabled = 0;
+	.@aka_warp_enabled = 1;
 	.@aka_warp_cost = 0;
 
 	deletearray @wrpC$[0], getarraysize(@wrpC$);
