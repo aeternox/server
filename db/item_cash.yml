@@ -33,6 +33,26 @@ Header:
   Version: 1
 
 Body:
+  - Tab: New
+    Items:
+      - Item: Dog_Officer
+        Price: 499
+      - Item: Bell_Ribbon
+        Price: 499
+      - Item: King_Frog_Hat
+        Price: 499
+      - Item: Headset_OST
+        Price: 499
+      - Item: Hunting_Cap
+        Price: 499
+      - Item: Romantic_White_Flower
+        Price: 499
+      - Item: Black_Glasses
+        Price: 499
+      - Item: Electric_Sunglass
+        Price: 499
+      - Item: Ribbon_Piamat_K
+        Price: 499
   - Tab: Rental
     Items:
       - Item: Boarding_Halter_Box

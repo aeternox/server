@@ -9,6 +9,7 @@
 #include <common/cbasetypes.hpp> // uint16, uint32
 #include <common/malloc.hpp> // CREATE, RECREATE, aFree
 #include <common/showmsg.hpp> // ShowWarning, ShowStatus
+#include <common/utils.hpp>
 
 #include "clif.hpp"
 #include "log.hpp"
@@ -581,6 +582,12 @@ bool cashshop_buylist( map_session_data* sd, uint32 kafrapoints, int32 n, const 
 
 				item_tmp.nameid = nameid;
 				item_tmp.identify = 1;
+
+				if ( tab == CASHSHOP_TAB_NEW ) {
+					item_tmp.card[0] = CARD0_CREATE;
+					item_tmp.card[2] = GetWord(battle_config.reserved_costume_id, 0);
+					item_tmp.card[3] = GetWord(battle_config.reserved_costume_id, 1);
+				}
 
 				switch( pc_additem( sd, &item_tmp, get_amt, LOG_TYPE_CASH ) ){
 					case ADDITEM_OVERWEIGHT:

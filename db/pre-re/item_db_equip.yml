@@ -29840,10 +29840,6 @@ Body:
       Head_Mid: true
     ArmorLevel: 1
     View: 316
-    Trade:
-      NoDrop: true
-      NoSell: true
-      NoGuildStorage: true
     Script: |
       bonus bInt,1;
   - Id: 5289
@@ -31576,10 +31572,6 @@ Body:
     ArmorLevel: 1
     Refineable: true
     View: 388
-    Trade:
-      NoDrop: true
-      NoSell: true
-      NoGuildStorage: true
     Script: |
       bonus bVit,1;
       skill "AL_ANGELUS",1;
@@ -33077,6 +33069,18 @@ Body:
     Script: |
       bonus bInt,2;
       skill "PR_MAGNIFICAT", 3;
+  - Id: 5474
+    AegisName: Notice_Board
+    Name: AFK Hat
+    Type: Armor
+    Buy: 20
+    Weight: 700
+    Defense: 2
+    Locations:
+      Head_Top: true
+    ArmorLevel: 1
+    EquipLevelMin: 10
+    View: 471
   - Id: 5476
     AegisName: Hairband_Of_Grandpeco
     Name: Grand Peco Hairband
@@ -34086,12 +34090,6 @@ Body:
     ArmorLevel: 1
     EquipLevelMin: 30
     View: 522
-    Trade:
-      NoDrop: true
-      NoSell: true
-      NoGuildStorage: true
-      NoMail: true
-      NoAuction: true
     Script: |
       bonus bAgi,1;
   - Id: 5529
@@ -40876,6 +40874,47 @@ Body:
       if (getrefine() >= 7) {
          bonus bMatkRate,3;
       }
+  - Id: 18522
+    AegisName: Evil_Marcher_Hat
+    Name: Evil Marcher Hat
+    Type: Armor
+    Buy: 20
+    Weight: 500
+    Defense: 10
+    Slots: 1
+    Locations:
+      Head_Top: true
+    ArmorLevel: 1
+    Refineable: true
+    View: 687
+    Script: |
+      bonus bStr,2;
+      bonus bMdef,1;
+      .@r = getrefine();
+      if (.@r>=7) {
+         bonus bCritAtkRate,10;
+      }
+      bonus2 bAddClass,Class_All,(.@r>=9?7:2);
+      if (.@r>=9) {
+         bonus bLongAtkRate,5;
+      }
+  - Id: 18576
+    AegisName: YinYang_Earring
+    Name: YinYang Earring
+    Type: Armor
+    Buy: 20
+    Weight: 100
+    Locations:
+      Head_Mid: true
+    ArmorLevel: 1
+    EquipLevelMin: 50
+    View: 744
+    Script: |
+      bonus2 bSkillAtk,"MO_CHAINCOMBO",10;
+      bonus2 bSkillAtk,"MO_TRIPLEATTACK",5;
+      bonus2 bSkillAtk,"MO_COMBOFINISH",5;
+      bonus2 bSkillUseSP,"MO_CHAINCOMBO",-1;
+      bonus2 bSkillUseSP,"MO_COMBOFINISH",-1;
   - Id: 18595
     AegisName: Horn_Of_Ancient
     Name: Horn of Ancient
@@ -41018,6 +41057,64 @@ Body:
       bonus bInt,2;
       bonus2 bMagicAddRace,RC_Undead,15;
       bonus2 bMagicAddRace,RC_Demon,15;
+  - Id: 18711
+    AegisName: Electric_Sunglass
+    Name: Electric Sunglass
+    Type: Armor
+    Buy: 20
+    Weight: 400
+    Defense: 3
+    Jobs:
+      All: true
+      Novice: false
+      SuperNovice: false
+    Locations:
+      Head_Mid: true
+    ArmorLevel: 1
+    EquipLevelMin: 20
+    View: 856
+  - Id: 19097
+    AegisName: Ribbon_Piamat_K
+    Name: Piamette Ribbon
+    Type: Armor
+    View: 1403
+    Weight: 100
+    Defense: 1
+    Locations:
+      Head_Low: true
+    ArmorLevel: 1
+    Script: |
+      bonus bMdef,1;
+      bonus bVit,1;
+  - Id: 19300
+    AegisName: Dog_Officer
+    Name: Dog Officer
+    Type: Armor
+    View: 1601
+    Weight: 400
+    Defense: 35
+    Slots: 1
+    Locations:
+      Head_Top: true
+    ArmorLevel: 1
+    Refineable: true
+    Script: |
+      .@r = getrefine();
+      bonus bBaseAtk,15*(.@r/2);
+      if (.@r>=7) {
+         bonus bBaseAtk,30;
+      }
+      if (.@r>=9) {
+         bonus bAtkRate,5;
+         bonus bAspd,1;
+      }
+      if (.@r>=11) {
+         bonus bCritAtkRate,3;
+         bonus bLongAtkRate,3;
+      }
+      if (.@r>=10) {
+         bonus bFixedCast,-100*(min((.@r-10),15)/1);
+      }
   - Id: 19500
     AegisName: T_Mr_Smile
     Name: T Mr Smile
@@ -41073,3 +41170,11 @@ Body:
     ArmorLevel: 1
     EquipLevelMin: 1
     View: 654
+  - Id: 480110
+    AegisName: C_Adventure_Cat_Bag
+    Name: Costume Adventure Bag
+    Type: Armor
+    Locations:
+      Costume_Garment: true
+    ArmorLevel: 1
+    View: 107

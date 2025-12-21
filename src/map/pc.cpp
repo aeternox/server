@@ -1863,10 +1863,13 @@ static bool pc_isItemClass (map_session_data *sd, struct item_data* item) {
  *------------------------------------------------*/
 uint8 pc_isequip(map_session_data *sd,int32 n)
 {
+	struct item equip;
 	struct item_data *item;
+	int32 char_id = 0;
 
 	nullpo_retr(ITEM_EQUIP_ACK_FAIL, sd);
 
+	equip = sd->inventory.u.items_inventory[n];
 	item = sd->inventory_data[n];
 
 	if(pc_has_permission(sd, PC_PERM_USE_ALL_EQUIPMENT))
@@ -1874,6 +1877,13 @@ uint8 pc_isequip(map_session_data *sd,int32 n)
 
 	if(item == nullptr)
 		return ITEM_EQUIP_ACK_FAIL;
+
+	// Allow all class to equip costumes
+	if( equip.card[0] == CARD0_CREATE ){
+		char_id = MakeDWord(equip.card[2],equip.card[3]);
+		if( battle_config.reserved_costume_id && char_id == battle_config.reserved_costume_id)
+			return ITEM_EQUIP_ACK_OK;
+	}
 
 	if (sd->sc.getSCE(SC_SPIRIT) && sd->sc.getSCE(SC_SPIRIT)->val2 == SL_SUPERNOVICE) {
 		//Spirit of Super Novice equip bonuses. [Skotlex]
