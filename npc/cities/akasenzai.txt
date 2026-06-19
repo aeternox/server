@@ -1,23 +1,32 @@
 akasenzai,1,1,1	script	aka_vending_square	-1,{
 OnInit:
 	setcell "akasenzai",1,1,250,250,cell_novending,1;
+	setcell "akasenzai",1,1,250,250,cell_nobuyingstore,1;
 	setcell "akasenzai",1,1,250,250,cell_nochat,0;
 	
 	// vending square top left
 	setcell "akasenzai",94,104,100,127,cell_novending,0;
 	setcell "akasenzai",101,119,115,127,cell_novending,0;
+	setcell "akasenzai",94,104,100,127,cell_nobuyingstore,0;
+	setcell "akasenzai",101,119,115,127,cell_nobuyingstore,0;
 
 	// vending square top right
 	setcell "akasenzai",124,119,138,127,cell_novending,0;
 	setcell "akasenzai",139,104,145,127,cell_novending,0;
+	setcell "akasenzai",124,119,138,127,cell_nobuyingstore,0;
+	setcell "akasenzai",139,104,145,127,cell_nobuyingstore,0;
 
 	// vending square bottom left
 	setcell "akasenzai",94,72,100,95,cell_novending,0;
 	setcell "akasenzai",101,72,115,80,cell_novending,0;
+	setcell "akasenzai",94,72,100,95,cell_nobuyingstore,0;
+	setcell "akasenzai",101,72,115,80,cell_nobuyingstore,0;
 
 	// vending square bottom right
 	setcell "akasenzai",124,72,138,80,cell_novending,0;
 	setcell "akasenzai",139,72,145,95,cell_novending,0;
+	setcell "akasenzai",124,72,138,80,cell_nobuyingstore,0;
+	setcell "akasenzai",139,72,145,95,cell_nobuyingstore,0;
 
 	end;
 }
